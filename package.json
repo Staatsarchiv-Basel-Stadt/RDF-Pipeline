@@ -1,0 +1,24 @@
+{
+  "name": "staatsarchiv-ld",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard && jest",
+    "start": "mkdir -p target source; barnard59 run --format text/turtle pipelines/staatsarchiv.ttl",
+    "clean-nt": "rm -f target/everything.nt && cat target/*.nt | sed '/_:/d' | sed '/<file/d' | sed '/#(No/d' | sed '/NULL/d'  > target/everything.nt",
+    "pipeline": "npm start -- --pipeline"
+  },
+  "author": "Adrian Gschwend",
+  "license": "MIT",
+  "dependencies": {
+    "barnard59-core": "git+https://github.com/zazuko/barnard59-core.git",
+    "barnard59-main": "git+https://github.com/zazuko/barnard59-main.git#master",
+    "barnard59-formats": "git+https://github.com/zazuko/barnard59-formats.git",
+    "rdf-parser-csvw": "git+https://github.com/rdf-ext/rdf-parser-csvw.git#develop",
+    "unzipper": "^0.9.10"
+  },
+  "devDependencies": {
+    "standard": "^12.0.1"
+  }
+}

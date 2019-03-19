@@ -1,0 +1,52 @@
+BASE <http://http://data.staatsarchiv-bs.ch/> 
+PREFIX void: <http://rdfs.org/ns/void#> 
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
+PREFIX wv: <http://vocab.org/waiver/terms/norms>       
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#> 
+PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+PREFIX schema: <http://schema.org/>
+PREFIX time: <http://www.w3.org/2006/time#>
+PREFIX doap: <http://usefulinc.com/ns/doap#> 
+PREFIX duv: <http://www.w3.org/ns/duv#> 
+
+<datasets> a void:DatasetDescription;
+    dcterms:title "Description of Staatsarchiv Basel-Stadt datasets"@en;
+    dcterms:creator <org/Staatsarchiv-BS>;
+    foaf:topic <dataset/Archivkatalog> .
+##
+## Organizations
+##
+
+<org/Zazuko> a foaf:Organization, schema:Corporation;
+    rdfs:label "Zazuko GmbH";
+    foaf:homepage <http://www.zazuko.com/>
+    .
+
+<org/Staatsarchiv-BS> a foaf:Organization, schema:GovernmentOrganization;
+    rdfs:label "Staatsarchiv Basel-Stadt"@de;
+    foaf:homepage <http://www.staatsarchiv.bs.ch/>
+#    rdfs:seeAlso <http://www.wikidata.org/entity/Q285453> 
+    .
+
+##
+## Datasets
+##
+
+<dataset/Archivkatalog> a void:Dataset, dcat:Dataset ;
+    foaf:homepage <http://data.admin.ch/>;
+    dcterms:title "Archivkatalog der Stadt Basel"@de;
+    dcterms:description "Dieser Datensatz enthält den öffentlichen Archivkatalog der Stadt Basel in RDF"@de;
+    dcterms:publisher <org/Staatsarchiv-BS>;
+    dcterms:creator <org/Staatsarchiv-BS> ;
+    dcterms:contributor <org/Zazuko> ;
+    dcterms:issued "%%DATEISSUED%%"^^xsd:date; # date of publication of the source
+#    dcterms:created "%%DATECREATED%%"^^xsd:date;
+#    dcterms:modified "%%DATEMODIFIED%%"^^xsd:date;
+    void:sparqlEndpoint <https://lindas-data.ch/sparql>;
+#    duv:hasUsage <dataset/meta-usage> ;
+.
