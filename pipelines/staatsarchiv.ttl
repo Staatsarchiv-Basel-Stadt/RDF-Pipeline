@@ -14,6 +14,16 @@
       a p:Variable;
       p:name "empty";
       p:value "empty.ttl";
+    ];
+    p:variable [
+      a p:Variable;
+      p:name "source";
+      p:value "http://localhost:5820/test";
+    ];
+    p:variable [
+      a p:Variable;
+      p:name "sink";
+      p:value "http://localhost:5820/test-sink";
     ]
   ];
   p:steps [
@@ -69,11 +79,11 @@
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
-  code:arguments ("curl" "-s" "--noproxy"  "localhost" "-n" "-G" "-H" "Accept: application/n-triples" "http://localhost:5820/test" "--data-urlencode" "graph=default") .
+  code:arguments ("curl" "-s" "--noproxy"  "localhost" "-n" "-G" "-H" "Accept: application/n-triples" "source"^^p:VariableName "--data-urlencode" "graph=default") .
 
 <graph-store-put> a p:Step;
   code:implementedBy [
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
-  code:arguments ("curl" "-s" "-n" "-X" "PUT" "-H" "Content-Type:text/turtle" "-T" "-" "-G" "http://localhost:5820/test-sink" "--data-urlencode" "graph=https://linked.opendata.swiss/graph/bs/staatsarchiv") .
+  code:arguments ("curl" "-s" "-n" "-X" "PUT" "-H" "Content-Type: application/n-triples" "-T" "-" "-G" "sink"^^p:VariableName "--data-urlencode" "graph=https://linked.opendata.swiss/graph/bs/staatsarchiv") .
