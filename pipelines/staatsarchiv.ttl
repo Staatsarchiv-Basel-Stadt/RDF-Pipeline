@@ -12,7 +12,8 @@
     ]
   ];
   p:steps [
-    p:stepList (<readFile> <parse> <gYear> <serializeNTriples>)
+#    p:stepList (<readFile> <parse> <gYear> <serializeNTriples>)
+    p:stepList (<grap-store-fetch>)
   ].
 
 <readFile> a p:Step;
@@ -51,9 +52,9 @@
 		code:link <node:barnard59-formats#ntriples.serialize>
 ].
 
-<sed> a p:Step;
+<grap-store-fetch> a p:Step;
   code:implementedBy [
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
-  code:arguments ("echo").
+  code:arguments ('curl --noproxy localhost -n -G -H "Accept: application/n-triples" -o test.nt http://localhost:5820/test --data-urlencode graph=default') .
