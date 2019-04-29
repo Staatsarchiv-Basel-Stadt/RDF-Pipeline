@@ -27,21 +27,8 @@ RUN apt-get update && apt-get install -y \
   && rm -rf /var/lib/apt/lists/*
 
 # Clone the initial repo & set git proxy
-
 RUN git clone https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git /opt/StABS-scope2RDF.git
+COPY credentials/gitconfig /root/.gitconfig
 
-#COPY credentials/gitconfig /root/.gitconfig
-
-# cron setup
-#RUN crontab -l | cat - config/crontab-docker | crontab -
-#RUN cp /usr/share/zoneinfo/UTC /etc/localtime
-
-# logs
-#RUN touch /var/log/cron.log
-#RUN touch /var/log/mch-cosmo.log
-
-# Run the command on container startup
-#CMD cron && tail -f /var/log/cron.log
-
-CMD [ "pm2-runtime", "start", "ecosystem.config.js" ]
+CMD [ "pm2-runtime", "start", "--no-auto-exit", "ecosystem.config.js" ]
 
