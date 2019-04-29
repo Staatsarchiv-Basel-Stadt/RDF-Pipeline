@@ -4,18 +4,24 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "standard && jest",
     "start": "mkdir -p target source; barnard59 run --format text/turtle pipelines/staatsarchiv.ttl",
     "clean-nt": "rm -f target/everything.nt && cat target/*.nt | sed '/_:/d' | sed '/<file/d' | sed '/#(No/d' | sed '/NULL/d'  > target/everything.nt",
-    "pipeline": "npm start -- --pipeline"
+    "pipeline": "npm start -- --pipeline",
+    "gitUpdate": "node shell/git-pull.js"
   },
   "author": "Adrian Gschwend",
   "license": "MIT",
   "dependencies": {
     "barnard59-core": "git+https://github.com/zazuko/barnard59-core.git",
-    "barnard59-main": "git+https://github.com/zazuko/barnard59-main.git#master",
     "barnard59-formats": "git+https://github.com/zazuko/barnard59-formats.git",
+    "barnard59-main": "git+https://github.com/zazuko/barnard59-main.git#master",
+    "node-fetch": "^2.4.1",
     "rdf-parser-csvw": "git+https://github.com/rdf-ext/rdf-parser-csvw.git#develop",
+    "scp2": "^0.5.0",
+    "shelljs": "^0.8.3",
+    "shelljs-plugin-ssh": "^1.2.1",
+    "simple-git": "^1.110.0",
+    "ssh2": "^0.8.2",
     "unzipper": "^0.9.10"
   },
   "devDependencies": {
