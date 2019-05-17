@@ -35,8 +35,8 @@ simpleGit.exec(() => console.log('Starting pull...'))
     }
   })
   .exec(async () => {
-    await fetch(`http://${stardogUser}:${stardogPassword}@${stardogEndpoint}:${stardogPort}/${stardogDb}/update?query=CLEAR default`)
-      .then(checkStatus)
+    //   await fetch(`http://${stardogUser}:${stardogPassword}@${stardogEndpoint}:${stardogPort}/${stardogDb}/update?query=CLEAR default`)
+    //     .then(checkStatus)
     console.log('pull done.')
   })
 
@@ -53,8 +53,8 @@ function gitUpdate () {
   } else {
     shell.exec(`ssh pdstavs13 '${stardogOracleRemove}'`)
     shell.exec(`ssh pdstavs13 '${stardogOracleAdd}'`)
-    //shell.echo(stardogOracleRemove)
-    //shell.echo(stardogOracleAdd)
+    // shell.echo(stardogOracleRemove)
+    // shell.echo(stardogOracleAdd)
   }
 }
 
@@ -66,4 +66,3 @@ function checkStatus (res) {
     console.log(`Could not clear graph, got ${res.status}: ${res.statusText}`)
   }
 }
-
