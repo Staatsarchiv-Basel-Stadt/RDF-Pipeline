@@ -10,8 +10,8 @@ function checkStatus (res) {
   }
 }
 
-fetch('http://admin:admin@pdstavs13:5820/test/update?query=CLEAR default')
+fetch('http://admin:admin@pdstavs13:5820/scope/update?query=CLEAR default')
   .then(checkStatus)
-  .then(() => fetch('http://admin:admin@pdstavs13:5820/test/update?query=ADD <virtual://scope-virtual> TO <http://example.org/scope>'))
+  .then(() => fetch('http://admin:admin@pdstavs13:5820/scope/update?query=ADD <virtual://scope-virtual> TO <http://example.org/scope>'))
   .then(checkStatus)
   .catch((err) => console.error(err))
