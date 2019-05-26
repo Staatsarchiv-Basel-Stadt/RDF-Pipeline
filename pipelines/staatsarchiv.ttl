@@ -18,17 +18,17 @@
     p:variable [
       a p:Variable;
       p:name "source";
-      p:value "http://localhost:5820/bundesbudget";
+      p:value "http://pdstavs13:5820/scope";
     ];
     p:variable [
       a p:Variable;
       p:name "sink";
-      p:value "http://localhost:5820/test-sink";
+      p:value "https://test.lindas-data.ch:8443/lindas";
     ];
     p:variable [
       a p:Variable;
       p:name "sourceGraph";
-      p:value "default";
+      p:value "http://data.alod.ch/graph/bs";
     ];
     p:variable [
       a p:Variable;
