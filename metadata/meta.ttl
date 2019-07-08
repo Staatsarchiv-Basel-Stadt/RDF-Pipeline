@@ -17,8 +17,8 @@ PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
     ] ;
     dct:relation <http://www.gesetzessammlung.bs.ch/frontend/versions/3497> ;
     dct:temporal [
-        schema:endDate "2018-12-31T00:00:00+00:00"^^xsd:date ;
-        schema:startDate "1098-12-05T00:00:00+00:00"^^xsd:date ;
+        schema:endDate "2018-12-31T00:00:00+00:00"^^xsd:dateTime ;
+        schema:startDate "1098-12-05T00:00:00+00:00"^^xsd:dateTime ;
         a dct:PeriodOfTime
     ] ;
     dct:title "Linked Data-Archivkatalog"@de ;
