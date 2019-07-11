@@ -108,7 +108,7 @@
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
-  code:arguments ("curl" "-n" "-s" "-G" "-H" "Accept: application/n-triples" "source"^^p:VariableName "--data-urlencode" "graph=${sourceGraph}"^^code:EcmaScriptTemplateLiteral) .
+  code:arguments ("curl" "-n" "-s" "-G" "--noproxy" "'*''" "-H" "Accept: application/n-triples" "source"^^p:VariableName "--data-urlencode" "graph=${sourceGraph}"^^code:EcmaScriptTemplateLiteral) .
 
 <graph-store-put> a p:Step;
   code:implementedBy [
