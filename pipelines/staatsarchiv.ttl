@@ -19,14 +19,12 @@
       a p:Variable;
       p:name "source";
       p:value "http://pdstavs13:5820/scope";
-#      p:value "http://localhost:5820/scope";
-
     ];
     p:variable [
       a p:Variable;
       p:name "sink";
-#      p:value "https://test.lindas-data.ch:8443/lindas";
-      p:value "http://data.zazuko.com:80/lindas";
+      p:value "https://test.lindas-data.ch:8443/lindas";
+#      p:value "http://data.zazuko.com:80/lindas";
     ];
     p:variable [
       a p:Variable;
