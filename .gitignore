@@ -2,3 +2,4 @@ node_modules
 package-lock.json
 credentials
 .DS_Store
+docker-compose.yml
