@@ -1,4 +1,4 @@
-FROM keymetrics/pm2:latest-stretch
+FROM node:12-buster
 
 # Node ENV 
 RUN mkdir -p /usr/src/app
@@ -11,6 +11,13 @@ COPY credentials/scope-virtual.properties /usr/src/app/credentials/scope-virtual
 COPY credentials/ssh-config /root/.ssh/config
 COPY credentials/id_rsa* /root/.ssh/
 COPY credentials/netrc /root/.netrc
+
+# copy cron jobs
+RUN mkdir -p /usr/src/app/cron
+COPY cron/crontab-docker /usr/src/app/cron
+COPY cron/cron-mappingUpdate.sh /usr/src/app/cron
+COPY cron/cron-materialize.sh /usr/src/app/cron
+COPY cron/cron-publish.sh /usr/src/app/cron
 
 # copy node scripts
 RUN  mkdir -p /usr/src/app/pipelines
@@ -28,11 +35,19 @@ RUN apt-get update && apt-get install -y \
   vim-tiny \
   git \
   bash \
+  cron \
   && rm -rf /var/lib/apt/lists/*
 
 # Clone the initial repo & set git proxy
 RUN git clone https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git /opt/StABS-scope2RDF.git
 COPY credentials/gitconfig /root/.gitconfig
 
-CMD [ "pm2-runtime", "start", "--no-auto-exit", "ecosystem.config.js" ]
+# cron setup. Note that time is set to UTC!
+RUN crontab -l | cat - cron/crontab-docker | crontab -
+#RUN cp /usr/share/zoneinfo/UTC /etc/localtime
 
+# logs
+#RUN touch /var/log/cron.log
+
+# cron will log to stdout, as well as the crontjobs itself so no local logs that fill up
+CMD cron && tail -f 
