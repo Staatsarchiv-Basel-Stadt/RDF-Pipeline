@@ -59,7 +59,7 @@
 
 <parse> a p:Step ;
   code:implementedBy [
-    code:link <node:barnard59-formats/lib/n3.js#parse> ;
+    code:link <node:barnard59-formats/n3.js#parse> ;
     a code:EcmaScript
 ] .
 
