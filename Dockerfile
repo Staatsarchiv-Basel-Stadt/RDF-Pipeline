@@ -23,7 +23,7 @@ COPY cron/cron-publish.sh /usr/src/app/cron
 RUN  mkdir -p /usr/src/app/pipelines
 RUN  mkdir -p /usr/src/app/metadata
 COPY shell /usr/src/app/shell
-COPY ecosystem.config.js /usr/src/app/
+#COPY ecosystem.config.js /usr/src/app/
 COPY package.json /usr/src/app/
 COPY pipelines/staatsarchiv.ttl /usr/src/app/pipelines/
 COPY metadata/* /usr/src/app/metadata/
