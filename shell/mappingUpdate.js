@@ -8,8 +8,8 @@ const simpleGit = require('simple-git')(gitRepo)
 // configuration
 const stardogHome = '/opt/stardog_home'
 const stardogMappingDir = '/opt/stardog-scope'
-const mappingSource = 'src-gen/stabs-mapping.r2rml.ttl'
-const mappingDest = 'stabs-mapping.r2rml.ttl'
+const mappingSource = 'src-gen/mapping-stabs.r2rml.ttl'
+const mappingDest = 'mapping-stabs.r2rml.ttl'
 const propertiesSource = `${process.cwd()}/credentials/scope-virtual.properties`
 const propertiesDest = 'scope-virtual.properties'
 const stardogUser = process.env.stardog_user
