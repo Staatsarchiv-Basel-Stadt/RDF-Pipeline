@@ -1,6 +1,6 @@
 // this repo should live in the docker container
 // const gitRepo = '/Users/ktk/tmp/automation-test-repo'
-const gitRepo = '/opt/StABS-scope2RDF.git'
+const gitRepo = '/opt/StABS-scope2RDF'
 const fetch = require('node-fetch')
 
 const simpleGit = require('simple-git')(gitRepo)
@@ -25,7 +25,7 @@ const stardogOracleMaterialize = `${stardogJava} virtual import  --format r2rml 
 const shell = require('shelljs')
 
 simpleGit.exec(() => console.log('Starting pull...'))
-  .pull((_err, update) => {
+  .pull('origin', 'master', (_err, update) => {
     if (update && update.summary.changes) {
       //      require('child_process').exec('echo bla')
       console.log('Repository was updated')

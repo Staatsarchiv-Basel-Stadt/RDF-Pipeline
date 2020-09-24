@@ -14,10 +14,10 @@ COPY credentials/netrc /root/.netrc
 
 # copy cron jobs
 RUN mkdir -p /usr/src/app/cron
-COPY cron/crontab-docker /usr/src/app/cron
-COPY cron/cron-mappingUpdate.sh /usr/src/app/cron
-COPY cron/cron-materialize.sh /usr/src/app/cron
-COPY cron/cron-publish.sh /usr/src/app/cron
+COPY cron/crontab-docker /usr/src/app/cron/
+COPY cron/cron-mappingUpdate.sh /usr/src/app/cron/
+COPY cron/cron-materialize.sh /usr/src/app/cron/
+COPY cron/cron-publish.sh /usr/src/app/cron/
 
 # copy node scripts
 RUN  mkdir -p /usr/src/app/pipelines
@@ -33,21 +33,23 @@ RUN npm install
 # add nice to have
 RUN apt-get update && apt-get install -y \
   vim-tiny \
+  less \
   git \
   bash \
   cron \
   && rm -rf /var/lib/apt/lists/*
 
-# Clone the initial repo & set git proxy
-RUN git clone https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git /opt/StABS-scope2RDF.git
+# Inititialise repo with remote
+WORKDIR /opt/StABS-scope2RDF
+RUN git init && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git
 COPY credentials/gitconfig /root/.gitconfig
 
 # cron setup. Note that time is set to UTC!
-RUN crontab -l | cat - cron/crontab-docker | crontab -
+RUN crontab /usr/src/app/cron/crontab-docker
 #RUN cp /usr/share/zoneinfo/UTC /etc/localtime
 
 # logs
 #RUN touch /var/log/cron.log
 
-# cron will log to stdout, as well as the crontjobs itself so no local logs that fill up
+# cron will log to stdout, as well as the cronjobs itself so no local logs that fill up
 CMD cron && tail -f 
