@@ -39,7 +39,7 @@ RUN apt-get update && apt-get install -y \
   cron \
   && rm -rf /var/lib/apt/lists/*
 
-# Inititialise repo with remote
+# Init repo and add remote, set proxy
 WORKDIR /opt/StABS-scope2RDF
 RUN git init && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git
 COPY credentials/gitconfig /root/.gitconfig
