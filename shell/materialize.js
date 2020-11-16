@@ -14,7 +14,7 @@ INSERT  { GRAPH <http://data.alod.ch/graph/bs> {
 
 function checkStatus (res) {
   if (res.ok) { // res.status >= 200 && res.status < 300
-    console.log('Request successfully executed')
+    console.log(`Request successfully executed, got ${res.status}: ${res.statusText}`)
     return res
   } else {
     console.log(`Could not execute request, got ${res.status}: ${res.statusText}`)
