@@ -4,7 +4,15 @@ services:
   - docker:dind
 
 stages:
+  - test
   - build
+
+before_script:
+    - npm install --unsafe-perm
+
+test:
+  script:
+    - ./node_modules/mocha/bin/mocha
 
 build:
   stage: build

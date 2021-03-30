@@ -38,9 +38,7 @@
     ]
   ];
   p:steps [
-#    p:stepList (<readFile> <parse> <gYear> <serializeNTriples>)
-#     p:stepList (<readFile> <graph-store-get> <parse> <serializeNTriples>)
-    p:stepList (<readFile> <graph-store-get> <parse> <serializeNTriples> <graph-store-put>)
+    p:stepList (<readFile> <graph-store-get> <parse> <transformQuads> <flatten> <serializeNTriples> <graph-store-put>)
   ].
 
 <readFile> a p:Step;
@@ -63,39 +61,6 @@
     a code:EcmaScript
 ] .
 
-<gYear> a p:Step ;
-  code:implementedBy [
-    code:link <node:barnard59-base#map> ;
-    a code:EcmaScript
-  ];
-  code:arguments ("""
-    quad => {
-      const rdf = require('rdf-ext')
-      const gYear = RegExp(/^\\d{4}$/)
-
-      if (quad.predicate.equals(rdf.namedNode('http://www.w3.org/2004/02/skos/core#prefLabel')) && gYear.test(quad.object.value)) {
-        return rdf.quad(quad.subject, rdf.namedNode('https://finance.ld.admin.ch/bundesbudget/dimension/year'), rdf.literal(quad.object.value, rdf.namedNode('http://www.w3.org/2001/XMLSchema#gYear')))
-      }
-  
-      return quad
-    }
-  """^^code:EcmaScript) .
-
-<#fixQuads> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
-    ];
-    code:arguments ("""quad => {
-        const rdf = require('rdf-ext')
-        const moment = require('moment')
-        if (rdf.namedNode('http://schema.org/birthDate').equals(quad.predicate)) {
-            const date = moment.utc(quad.object.value, 'DDMMMYYYY:HH:mm:ss')
-            const object = rdf.literal(date.toISOString(), rdf.namedNode('http://www.w3.org/2001/XMLSchema#dateTime'))
-			      return rdf.quad(quad.subject, quad.predicate, object)
-        }
-        return quad
-    }"""^^code:EcmaScript).  
-
 <serializeNTriples> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
 		code:link <node:barnard59-formats#ntriples.serialize>
@@ -108,10 +73,22 @@
   ];
   code:arguments ("curl" "-n" "-s" "-G" "--noproxy" "pdstavs13" "-H" "Accept:application/n-triples" "source"^^p:VariableName "--data-urlencode" "graph=${sourceGraph}"^^code:EcmaScriptTemplateLiteral) .
 
+<transformQuads> a :Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-base#map>
+ ];
+ code:arguments ( [ a code:EcmaScript ;
+                    code:link <file:../lib/quads#transformQuads>
+                  ] ).
+
+<flatten> a :Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-base#flatten>;
+  ].
+
 <graph-store-put> a p:Step;
   code:implementedBy [
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
   code:arguments ("curl" "-s" "-n" "-X" "PUT" "-H" "Content-Type:application/n-triples" "-T" "-" "-G" "sink"^^p:VariableName "--data-urlencode" "graph=${sinkGraph}"^^code:EcmaScriptTemplateLiteral) .
-  
