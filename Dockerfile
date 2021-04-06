@@ -21,13 +21,15 @@ COPY cron/cron-materialize.sh /usr/src/app/cron/
 COPY cron/cron-publish.sh /usr/src/app/cron/
 
 # Copy Node Scripts
-RUN  mkdir -p /usr/src/app/pipelines
-RUN  mkdir -p /usr/src/app/metadata
+RUN mkdir -p /usr/src/app/pipelines
+RUN mkdir -p /usr/src/app/metadata
+RUN mkdir -p /usr/src/app/lib
 COPY shell /usr/src/app/shell
 #COPY ecosystem.config.js /usr/src/app/
 COPY package.json /usr/src/app/
 COPY pipelines/staatsarchiv.ttl /usr/src/app/pipelines/
 COPY metadata/* /usr/src/app/metadata/
+COPY lib/* /usr/src/app/lib/
 
 RUN npm install 
 

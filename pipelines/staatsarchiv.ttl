@@ -73,7 +73,7 @@
   ];
   code:arguments ("curl" "-n" "-s" "-G" "--noproxy" "pdstavs13" "-H" "Accept:application/n-triples" "source"^^p:VariableName "--data-urlencode" "graph=${sourceGraph}"^^code:EcmaScriptTemplateLiteral) .
 
-<transformQuads> a :Step;
+<transformQuads> a p:Step;
   code:implementedBy [ a code:EcmaScript;
     code:link <node:barnard59-base#map>
  ];
@@ -81,7 +81,7 @@
                     code:link <file:../lib/quads#transformQuads>
                   ] ).
 
-<flatten> a :Step;
+<flatten> a p:Step;
   code:implementedBy [ a code:EcmaScript;
     code:link <node:barnard59-base#flatten>;
   ].
