@@ -1,4 +1,4 @@
-BASE <http://http://data.staatsarchiv-bs.ch/> 
+BASE <http://ld.staatsarchiv.bs.ch/> 
 PREFIX void: <http://rdfs.org/ns/void#> 
 PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
@@ -30,7 +30,7 @@ PREFIX duv: <http://www.w3.org/ns/duv#>
 <org/Staatsarchiv-BS> a foaf:Organization, schema:GovernmentOrganization;
     rdfs:label "Staatsarchiv Basel-Stadt"@de;
     foaf:homepage <http://www.staatsarchiv.bs.ch/>
-#    rdfs:seeAlso <http://www.wikidata.org/entity/Q285453> 
+    rdfs:seeAlso <https://www.wikidata.org/wiki/Q56219654> 
     .
 
 ##
