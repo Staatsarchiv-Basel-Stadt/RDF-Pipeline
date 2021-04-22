@@ -1,4 +1,4 @@
-BASE <http://http://data.staatsarchiv-bs.ch/> 
+BASE <http://ld.staatsarchiv.bs.ch/> 
 PREFIX dct: <http://purl.org/dc/terms/>
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
@@ -8,7 +8,7 @@ PREFIX vcard: <http://www.w3.org/2006/vcard/ns#>
 
 <http://staatsarchiv-kanton-basel-stadt/OGD_2>
     dct:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
-    dct:description "Öffentlich zugängliche Metadaten des Archivguts im Staatsarchiv Basel-Stadt im RDF-Format. Per 31.12.2017 sind die Metadaten zu 473'429 Verzeichnungseinheiten online zugänglich. Die Daten des Archivinformationssystem werden laufend ergänzt."@de ;
+    dct:description "Öffentlich zugängliche beschreibende Metadaten des Archivguts im Staatsarchiv Basel-Stadt.."@de ;
     dct:identifier "OGD_2@staatsarchiv-kanton-basel-stadt" ;
     dct:issued "2019-01-01T00:00:00+00:00"^^xsd:dateTime ;
     dct:language "de" ;
