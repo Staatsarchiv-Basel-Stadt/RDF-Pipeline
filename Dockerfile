@@ -32,7 +32,7 @@ COPY metadata/* /usr/src/app/metadata/
 RUN npm install 
 
 # Add Things Nice To Have
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && DEBIAN_FRONTEND=noninteractive apt-get install -y \
   vim-tiny \
   less \
   git \
