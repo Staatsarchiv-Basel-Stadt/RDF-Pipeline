@@ -1,18 +1,56 @@
-image: docker:latest
-
-services:
-  - docker:dind
+default:
+  image: registry.zazuko.com/docker/deploy-image:v1.4
+  tags:
+    - kubernetes
 
 stages:
   - build
+  - push
 
+# build Docker image
 build:
   stage: build
+
+  artifacts:
+    paths:
+      - image.tar
+
   script:
-    - docker login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" $CI_REGISTRY
-    - docker build --pull -t "$CI_REGISTRY_IMAGE" -f Dockerfile .
-    - docker push "$CI_REGISTRY_IMAGE"
-    - docker tag "$CI_REGISTRY_IMAGE" "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
-    - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_NAME"
-  only:
-    - tags
+    # import all credentials
+    - mkdir -p credentials
+    - cp "${FILE_SCOPE_VIRTUAL_PROPERTIES}" credentials/scope-virtual.properties
+    - cp "${FILE_SSH_CONFIG}" credentials/ssh-config
+    - cp "${FILE_ID_RSA}" credentials/id_rsa
+    - cp "${FILE_ID_RSA_PUB}" credentials/id_rsa.pub
+    - cp "${FILE_NETRC}" credentials/netrc
+    - cp "${FILE_ENVIRONMENT}" credentials/environment
+
+    # login to the registry
+    - crane auth login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+
+    # build Docker image
+    - |
+      executor \
+        --context="$CI_PROJECT_DIR" \
+        --dockerfile=Dockerfile \
+        --destination="$CI_REGISTRY_IMAGE" \
+        --build-arg="BUILD_DATE=$(date -u +'%Y-%m-%dT%H:%M:%SZ')" \
+        --build-arg="COMMIT=$CI_COMMIT_SHA" \
+        --build-arg="VERSION=$CI_COMMIT_REF_SLUG" \
+        --no-push \
+        --tarPath="$CI_PROJECT_DIR/image.tar"
+
+# push Docker image
+push:
+  stage: push
+
+  needs:
+    - job: build
+      artifacts: true
+
+  variables: # We don't need the sources for that
+    GIT_STRATEGY: none
+
+  script:
+    - crane auth login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+    - gitlab-docker-push image.tar "$CI_REGISTRY_IMAGE"
