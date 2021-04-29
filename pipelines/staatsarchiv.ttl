@@ -1,67 +1,171 @@
-@base <http://example.org/pipeline/> .
-@prefix code: <https://code.described.at/> .
-@prefix p: <https://pipeline.described.at/> .
-@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@base <urn:pipeline:stabs/>.
+@prefix p: <https://pipeline.described.at/>.
+@prefix code: <https://code.described.at/>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
 
-<this> a p:Pipeline, p:ReadableObjectMode;
-  p:variables [
-    p:variable [
-      a p:Variable;
-      p:name "filename";
-      p:value "metadata/void.ttl";
-    ];
-    p:variable [
-      a p:Variable;
-      p:name "empty";
-      p:value "empty.ttl";
-    ];
-    p:variable [
-      a p:Variable;
-      p:name "source";
-      p:value "http://pdstavs13:5820/scope";
-    ];
-    p:variable [
-      a p:Variable;
-      p:name "sink";
-      p:value "https://test.lindas-data.ch:8443/lindas";
-#      p:value "http://data.zazuko.com:80/lindas";
-    ];
-    p:variable [
-      a p:Variable;
-      p:name "sourceGraph";
-      p:value "http://data.alod.ch/graph/bs";
-    ];
-    p:variable [
-      a p:Variable;
-      p:name "sinkGraph";
-      p:value "https://linked.opendata.swiss/graph/bs/staatsarchiv-bs";
-    ]
-  ];
-  p:steps [
-#    p:stepList (<readFile> <parse> <gYear> <serializeNTriples>)
-#     p:stepList (<readFile> <graph-store-get> <parse> <serializeNTriples>)
-    p:stepList (<readFile> <graph-store-get> <parse> <serializeNTriples> <graph-store-put>)
+<defaultVars>
+  p:variable [ a p:Variable;
+    p:name "SINK_ENDPOINT_URL";
+    p:value "http://localhost:5820/scope"
+  ], [ a p:Variable;
+    p:name "SOURCE_ENDPOINT_URL";
+    p:value "http://pdstavs13:5820/scope"
+  #  p:value "http://localhost:5820/scope"
+  ], [ a p:Variable;
+    p:name "ENDPOINT_USER";
+    p:value "admin"
+  ], [ a p:Variable;
+    p:name "ENDPOINT_PASSWORD";
+    p:value "admin"
+  ], [ a p:Variable;
+    p:name "inputFilePattern";
+    p:value "metadata/*.ttl"
+  ], [ a p:Variable;
+    p:name "sourceGraph";
+    p:value "http://data.alod.ch/graph/bs"
+  ], [ a p:Variable;
+    p:name "sinkGraph";
+    p:value "http://ld.staatsarchiv.bs.ch/graph/ais-metadata"
   ].
 
-<readFile> a p:Step;
-  code:implementedBy [
-    code:link <node:fs#createReadStream>;
-    a code:EcmaScript
+<main> a p:Pipeline, p:Readable;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <mergeInputs>
+      <gYear>
+      <serialize>
+    )
+  ].
+
+<mainStore> a p:Pipeline, p:Readable;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <mergeInputs>
+      <gYear>
+      <setGraph>
+      <graph-store-put>
+    )
+  ].
+
+<static> a p:Pipeline, p:ReadableObjectMode;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <listTurtleFiles>
+      <forEachTurtleFile>
+    )
+  ].
+
+<getStore> a p:Pipeline, p:ReadableObjectMode;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <graph-store-get>
+    )
+  ].
+
+<store> a p:Pipeline;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <listTurtleFiles>
+      <forEachTurtleFile>
+      <graph-store-put>
+    )
+  ].
+
+<listTurtleFiles> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-base#glob>
+  ];
+  code:arguments [
+    code:name "pattern";
+    code:value "inputFilePattern"^^p:VariableName
+  ].
+
+<forEachTurtleFile> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-core#forEach>
+  ];
+  code:arguments (<readTurtle> "filename").
+
+<readTurtle> a p:Pipeline, p:ReadableObjectMode;
+  p:steps [
+    p:stepList (
+      <readTurtle>
+      <parseTurtle>
+      <setSinkGraph>
+    )
+  ].
+
+<readTurtle> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:fs#createReadStream>
   ];
   code:arguments ("filename"^^p:VariableName).
 
-<empty> a p:Step;
-  code:implementedBy [
-    code:link <node:fs#createReadStream>;
-    a code:EcmaScript
+<parseTurtle> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-formats/n3.js#parse>
   ];
-  code:arguments ("empty"^^p:VariableName).
+  code:arguments (<parseMetadata>).
 
-<parse> a p:Step ;
-  code:implementedBy [
-    code:link <node:barnard59-formats/n3.js#parse> ;
-    a code:EcmaScript
-] .
+<serialize> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-formats/ntriples.js#serialize>
+  ].
+
+<mergeInputs> a p:Step ;
+  code:implementedBy [ a code:EcmaScript ;
+  code:link <node:barnard59-base#concat.object> ] ;
+  code:arguments     ( 
+    <static>
+    <getStore>
+  ) .
+
+<setSinkGraph> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-rdf/setGraph.js>
+  ];
+  code:arguments ("${sinkGraph}"^^code:EcmaScriptTemplateLiteral).
+
+<setSourceGraph> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-rdf/setGraph.js>
+  ];
+  code:arguments ("${sourceGraph}"^^code:EcmaScriptTemplateLiteral).
+
+<graph-store-put> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-graph-store#put>
+  ];
+  code:arguments [
+    code:name "endpoint";
+    code:value "SINK_ENDPOINT_URL"^^p:VariableName
+  ], [
+    code:name "user";
+    code:value "ENDPOINT_USER"^^p:VariableName
+  ], [
+    code:name "password";
+    code:value "ENDPOINT_PASSWORD"^^p:VariableName
+  ].
+
+<graph-store-get> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-graph-store#get>
+  ];
+  code:arguments [
+    code:name "endpoint";
+    code:value "SOURCE_ENDPOINT_URL"^^p:VariableName
+  ], [
+    code:name "user";
+    code:value "ENDPOINT_USER"^^p:VariableName
+  ], [
+    code:name "password";
+    code:value "ENDPOINT_PASSWORD"^^p:VariableName
+  ].
 
 <gYear> a p:Step ;
   code:implementedBy [
@@ -81,7 +185,7 @@
     }
   """^^code:EcmaScript) .
 
-<#fixQuads> a p:Step;
+<fixQuads> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
         code:link <node:barnard59-base#map>
     ];
@@ -94,24 +198,11 @@
 			      return rdf.quad(quad.subject, quad.predicate, object)
         }
         return quad
-    }"""^^code:EcmaScript).  
+    }"""^^code:EcmaScript).
 
-<serializeNTriples> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-		code:link <node:barnard59-formats#ntriples.serialize>
-].
-
-<graph-store-get> a p:Step;
-  code:implementedBy [
-    code:link <node:barnard59-shell>;
-    a code:EcmaScript
-  ];
-  code:arguments ("curl" "-n" "-s" "-G" "--noproxy" "pdstavs13" "-H" "Accept:application/n-triples" "source"^^p:VariableName "--data-urlencode" "graph=${sourceGraph}"^^code:EcmaScriptTemplateLiteral) .
-
-<graph-store-put> a p:Step;
+<graph-store-put-curl> a p:Step;
   code:implementedBy [
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
   code:arguments ("curl" "-s" "-n" "-X" "PUT" "-H" "Content-Type:application/n-triples" "-T" "-" "-G" "sink"^^p:VariableName "--data-urlencode" "graph=${sinkGraph}"^^code:EcmaScriptTemplateLiteral) .
-  
