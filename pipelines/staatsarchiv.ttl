@@ -9,8 +9,7 @@
     p:value "http://localhost:5820/scope"
   ], [ a p:Variable;
     p:name "SOURCE_ENDPOINT_URL";
-    p:value "http://pdstavs13:5820/scope"
-  #  p:value "http://localhost:5820/scope"
+    p:value "http://localhost:5820/scope"
   ], [ a p:Variable;
     p:name "SOURCE_ENDPOINT_USER";
     p:value "admin"
