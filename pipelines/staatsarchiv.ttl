@@ -12,10 +12,16 @@
     p:value "http://pdstavs13:5820/scope"
   #  p:value "http://localhost:5820/scope"
   ], [ a p:Variable;
-    p:name "ENDPOINT_USER";
+    p:name "SOURCE_ENDPOINT_USER";
     p:value "admin"
   ], [ a p:Variable;
-    p:name "ENDPOINT_PASSWORD";
+    p:name "SOURCE_ENDPOINT_PASSWORD";
+    p:value "admin"
+  ], [ a p:Variable;
+    p:name "SINK_ENDPOINT_USER";
+    p:value "admin"
+  ], [ a p:Variable;
+    p:name "SINK_ENDPOINT_PASSWORD";
     p:value "admin"
   ], [ a p:Variable;
     p:name "inputFilePattern";
@@ -146,10 +152,10 @@
     code:value "SINK_ENDPOINT_URL"^^p:VariableName
   ], [
     code:name "user";
-    code:value "ENDPOINT_USER"^^p:VariableName
+    code:value "SINK_ENDPOINT_USER"^^p:VariableName
   ], [
     code:name "password";
-    code:value "ENDPOINT_PASSWORD"^^p:VariableName
+    code:value "SINK_ENDPOINT_PASSWORD"^^p:VariableName
   ].
 
 <graph-store-get> a p:Step;
@@ -161,10 +167,10 @@
     code:value "SOURCE_ENDPOINT_URL"^^p:VariableName
   ], [
     code:name "user";
-    code:value "ENDPOINT_USER"^^p:VariableName
+    code:value "SOURCE_ENDPOINT_USER"^^p:VariableName
   ], [
     code:name "password";
-    code:value "ENDPOINT_PASSWORD"^^p:VariableName
+    code:value "SOURCE_ENDPOINT_PASSWORD"^^p:VariableName
   ].
 
 <gYear> a p:Step ;
