@@ -29,7 +29,7 @@ PREFIX duv: <http://www.w3.org/ns/duv#>
 
 <org/Staatsarchiv-BS> a foaf:Organization, schema:GovernmentOrganization;
     rdfs:label "Staatsarchiv Basel-Stadt"@de;
-    foaf:homepage <http://www.staatsarchiv.bs.ch/>
+    foaf:homepage <http://www.staatsarchiv.bs.ch/>;
     rdfs:seeAlso <https://www.wikidata.org/wiki/Q56219654> 
     .
 
