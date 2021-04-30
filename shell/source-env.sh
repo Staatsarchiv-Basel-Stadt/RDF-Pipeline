@@ -1,0 +1,1 @@
+for line in $( cat /etc/environment ) ; do export $line ; done
