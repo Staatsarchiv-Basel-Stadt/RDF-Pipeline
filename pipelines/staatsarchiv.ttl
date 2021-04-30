@@ -30,7 +30,7 @@
     p:value "http://data.alod.ch/graph/bs"
   ], [ a p:Variable;
     p:name "sinkGraph";
-    p:value "cat "
+    p:value "http://ld.staatsarchiv.bs.ch/graph/ais-metadata"
   ].
 
 <main> a p:Pipeline, p:Readable;
@@ -187,7 +187,7 @@
     code:value "sourceGraph"^^p:VariableName
   ] .
 
-<save> a :Step;
+<save> a p:Step;
   code:implementedBy
     [
       code:link <node:fs#createWriteStream>;
