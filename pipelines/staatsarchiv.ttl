@@ -30,7 +30,7 @@
     p:value "http://data.alod.ch/graph/bs"
   ], [ a p:Variable;
     p:name "sinkGraph";
-    p:value "http://ld.staatsarchiv.bs.ch/graph/ais-metadata"
+    p:value "cat "
   ].
 
 <main> a p:Pipeline, p:Readable;
@@ -52,6 +52,17 @@
 #      <setGraph>
       <serialize>
       <graph-store-put-curl>
+    )
+  ].
+
+<mainFile> a p:Pipeline, p:Readable;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <mergeInputs>
+      <gYear>
+      <serialize>
+      <save>
     )
   ].
 
@@ -175,6 +186,14 @@
     code:name "graph";
     code:value "sourceGraph"^^p:VariableName
   ] .
+
+<save> a :Step;
+  code:implementedBy
+    [
+      code:link <node:fs#createWriteStream>;
+      a code:EcmaScript
+    ];
+  code:arguments ("scope-dump.nt"^^code:EcmaScriptTemplateLiteral).
 
 <gYear> a p:Step ;
   code:implementedBy [
