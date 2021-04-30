@@ -44,7 +44,7 @@ PREFIX duv: <http://www.w3.org/ns/duv#>
     dcterms:publisher <org/Staatsarchiv-BS>;
     dcterms:creator <org/Staatsarchiv-BS> ;
     dcterms:contributor <org/Zazuko> ;
-    dcterms:issued "%%DATEISSUED%%"^^xsd:date; # date of publication of the source
+#    dcterms:issued "%%DATEISSUED%%"^^xsd:date; # date of publication of the source
 #    dcterms:created "%%DATECREATED%%"^^xsd:date;
 #    dcterms:modified "%%DATEMODIFIED%%"^^xsd:date;
     void:sparqlEndpoint <https://lindas-data.ch/sparql>;
