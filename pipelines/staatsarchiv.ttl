@@ -55,7 +55,7 @@
     )
   ].
 
-<mainFile> a p:Pipeline, p:Readable;
+<mainFile> a p:Pipeline;
   p:variables <defaultVars>;
   p:steps [
     p:stepList (
