@@ -49,7 +49,6 @@
     p:stepList (
       <mergeInputs>
       <gYear>
-#      <setGraph>
       <serialize>
       <graph-store-put-curl>
     )
@@ -113,7 +112,6 @@
     p:stepList (
       <readTurtle>
       <parseTurtle>
-      <setSinkGraph>
     )
   ].
 
