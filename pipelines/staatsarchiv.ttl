@@ -170,7 +170,10 @@
   ], [
     code:name "password";
     code:value "SOURCE_ENDPOINT_PASSWORD"^^p:VariableName
-  ].
+  ], [
+    code:name "graph";
+    code:value "sourceGraph"^^p:VariableName
+  ] .
 
 <gYear> a p:Step ;
   code:implementedBy [
