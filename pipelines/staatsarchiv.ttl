@@ -49,8 +49,9 @@
     p:stepList (
       <mergeInputs>
       <gYear>
-      <setGraph>
-      <graph-store-put>
+#      <setGraph>
+      <serialize>
+      <graph-store-put-curl>
     )
   ].
 
@@ -213,4 +214,4 @@
     code:link <node:barnard59-shell>;
     a code:EcmaScript
   ];
-  code:arguments ("curl" "-s" "-n" "-X" "PUT" "-H" "Content-Type:application/n-triples" "-T" "-" "-G" "sink"^^p:VariableName "--data-urlencode" "graph=${sinkGraph}"^^code:EcmaScriptTemplateLiteral) .
+  code:arguments ("curl" "-s" "-n" "-X" "PUT" "-H" "Content-Type:application/n-triples" "-T" "-" "-G" "SINK_ENDPOINT_URL"^^p:VariableName "--data-urlencode" "graph=${sinkGraph}"^^code:EcmaScriptTemplateLiteral) .
