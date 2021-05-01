@@ -139,7 +139,7 @@
   code:link <node:barnard59-base#concat.object> ] ;
   code:arguments     ( 
     <static>
- #   <getStore>
+    <getStore>
   ) .
 
 <setSinkGraph> a p:Step;
