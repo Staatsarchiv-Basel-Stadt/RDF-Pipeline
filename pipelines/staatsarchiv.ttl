@@ -79,6 +79,7 @@
   p:steps [
     p:stepList (
       <graph-store-get>
+      <forceTriple>
     )
   ].
 
@@ -224,6 +225,15 @@
 			      return rdf.quad(quad.subject, quad.predicate, object)
         }
         return quad
+    }"""^^code:EcmaScript).
+
+<forceTriple> a p:Step;
+	code:implementedBy [ a code:EcmaScript;
+        code:link <node:barnard59-base#map>
+    ];
+    code:arguments ("""quad => {
+        const rdf = require('rdf-ext')
+        return rdf.quad(quad.subject, quad.predicate, quad.object, rdf.defaultGraph)
     }"""^^code:EcmaScript).
 
 <graph-store-put-curl> a p:Step;
