@@ -1,1 +1,6 @@
-cat metadata/void.ttl | curl -s -n -X PUT -H "Content-Type:application/n-triples" -T - -G $SINK_ENDPOINT_URL --data-urlencode graph=http://ld.staatsarchiv.bs.ch/graph/ais-metadata
+ curl -X PUT \
+     -n \
+     -H Content-Type:text/turtle \
+     -T  metadata/meta.ttl \
+     -G $SINK_ENDPOINT_URL \
+     --data-urlencode graph=https://ld.staatsarchiv.bs.ch/graph/ais-metadata
