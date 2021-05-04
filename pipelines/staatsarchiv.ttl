@@ -30,7 +30,7 @@
     p:value "http://data.alod.ch/graph/bs"
   ], [ a p:Variable;
     p:name "sinkGraph";
-    p:value "http://ld.staatsarchiv.bs.ch/graph/ais-metadata"
+    p:value "https://ld.staatsarchiv.bs.ch/graph/ais-metadata"
   ].
 
 <main> a p:Pipeline, p:Readable;
