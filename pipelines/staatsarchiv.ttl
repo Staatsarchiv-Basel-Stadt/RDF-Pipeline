@@ -193,7 +193,7 @@
       code:link <node:fs#createWriteStream>;
       a code:EcmaScript
     ];
-  code:arguments ("scope-dump.nt"^^code:EcmaScriptTemplateLiteral).
+  code:arguments ("scope.nt"^^code:EcmaScriptTemplateLiteral).
 
 <gYear> a p:Step ;
   code:implementedBy [
