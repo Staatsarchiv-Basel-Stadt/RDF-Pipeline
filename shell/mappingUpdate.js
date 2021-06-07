@@ -25,7 +25,7 @@ const stardogOracleMaterialize = `${stardogJava} virtual import  --format r2rml 
 const shell = require('shelljs')
 
 simpleGit.exec(() => console.log('Starting pull...'))
-  .pull('origin', 'master', (_err, update) => {
+  .pull('origin', 'main', (_err, update) => {
     if (update && update.summary.changes) {
       //      require('child_process').exec('echo bla')
       console.log('Repository was updated')
