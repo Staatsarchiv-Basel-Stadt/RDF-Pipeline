@@ -49,6 +49,9 @@ RUN git init && git config http.proxyAuthMethod 'basic' && git remote add origin
 RUN crontab /usr/src/app/cron/crontab-docker
 #RUN cp /usr/share/zoneinfo/UTC /etc/localtime
 
+# Install tmux so we can debug without disconnects
+RUN apt-get update && apt-get install tmux
+
 # Logs
 #RUN touch /var/log/cron.log
 # cron will log to stdout, as well as the cronjobs itself so no local logs that fill up
