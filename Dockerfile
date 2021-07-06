@@ -43,7 +43,7 @@ RUN rm -f /etc/vim/vimrc && apt-get update && apt-get install -y \
 
 # Do GIT and Repository
 WORKDIR /opt/StABS-scope2RDF
-RUN git init && git config http.proxyAuthMethod 'basic' && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git && git pull origin master
+RUN git init && git config http.proxyAuthMethod 'basic' && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git && git pull origin main
 
 # Set Cron (Note that time is set to UTC!)
 RUN crontab /usr/src/app/cron/crontab-docker
