@@ -33,7 +33,9 @@ COPY metadata/* /usr/src/app/metadata/
 RUN npm install 
 
 # Add Things Nice To Have
-RUN rm -f /etc/vim/vimrc && apt-get update && apt-get install -y \
+RUN rm -f /etc/vim/vimrc \
+  && apt-get update \
+  && apt-get install -y \
   vim-tiny \
   less \
   git \
@@ -43,13 +45,17 @@ RUN rm -f /etc/vim/vimrc && apt-get update && apt-get install -y \
 
 # Do GIT and Repository
 WORKDIR /opt/StABS-scope2RDF
-RUN git init && git config http.proxyAuthMethod 'basic' && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git && git pull origin main
+RUN git init \
+  && git config http.proxyAuthMethod 'basic' \
+  && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git \
+  && git pull origin main
 
 # Set Cron (Note that time is set to UTC!)
-RUN crontab /usr/src/app/cron/crontab-docker
 #RUN cp /usr/share/zoneinfo/UTC /etc/localtime
 
 # Logs
 #RUN touch /var/log/cron.log
 # cron will log to stdout, as well as the cronjobs itself so no local logs that fill up
-CMD cron && tail -f 
+CMD crontab /usr/src/app/cron/crontab-docker \
+  && cron \
+  && tail -f 
