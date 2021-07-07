@@ -41,6 +41,8 @@ RUN rm -f /etc/vim/vimrc \
   git \
   bash \
   cron \
+  tmux \
+  netcat-traditional \
   && rm -rf /var/lib/apt/lists/*
 
 # Do GIT and Repository
@@ -52,9 +54,6 @@ RUN git init \
 
 # Set Cron (Note that time is set to UTC!)
 #RUN cp /usr/share/zoneinfo/UTC /etc/localtime
-
-# Install tmux so we can debug without disconnects
-RUN apt-get update && apt-get install tmux netcat-traditional
 
 # Logs
 #RUN touch /var/log/cron.log
