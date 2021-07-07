@@ -42,7 +42,7 @@ RUN rm -f /etc/vim/vimrc \
   bash \
   cron \
   tmux \
-  netcat-traditional \
+  netcat-openbsd \
   && rm -rf /var/lib/apt/lists/*
 
 # Do GIT and Repository
