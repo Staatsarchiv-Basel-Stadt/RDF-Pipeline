@@ -1,10 +1,12 @@
 #!/bin/bash
 
+set -ueo pipefail
+
 FIRST=true
 
 mkdir input
 cd input
-split -l 100000 --additional-suffix=.nt ../scope.nt
+split -l 50000 --additional-suffix=.nt ../scope.nt
 cd ..
 
 for file in ./input/*
@@ -16,6 +18,7 @@ do
     echo "PUTing to "$SINK_ENDPOINT_URL
     FIRST=false
     curl -X PUT \
+      --fail \
       -n \
       -H Content-Type:application/n-triples \
       -T $file \
@@ -24,6 +27,7 @@ do
   else
     echo "POSTing to "$SINK_ENDPOINT_URL
     curl -X POST \
+      --fail \
       -n \
       -H Content-Type:application/n-triples \
       -T $file \
@@ -33,5 +37,5 @@ do
 
 done;
 
-rm -rf input
+#rm -rf input
 
