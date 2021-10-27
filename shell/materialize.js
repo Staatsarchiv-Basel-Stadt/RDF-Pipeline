@@ -1,8 +1,8 @@
 
 const fetch = require('node-fetch')
 
-const stardogUser = process.env.stardog_user
-const stardogPassword = process.env.stardog_password
+const stardogUser = process.env.SOURCE_ENDPOINT_USER
+const stardogPassword = process.env.SOURCE_ENDPOINT_PASSWORD
 
 const metadata = `
 INSERT  { GRAPH <http://data.alod.ch/graph/bs> {
