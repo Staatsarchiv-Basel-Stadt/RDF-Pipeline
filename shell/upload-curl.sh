@@ -4,7 +4,7 @@ set -ueo pipefail
 
 FIRST=true
 
-mkdir input
+mkdir -p input
 cd input
 split -l 50000 --additional-suffix=.nt ../scope.nt
 cd ..
