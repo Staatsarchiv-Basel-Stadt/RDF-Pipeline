@@ -5,15 +5,14 @@ const gitRepo = '/opt/StABS-scope2RDF'
 const fs = require('fs')
 const propertiesReader = require('properties-reader')
 const simpleGit = require('simple-git')(gitRepo)
-const { Connection, query, virtualGraphs } = require('stardog')
+const { Connection, virtualGraphs } = require('stardog')
 
 // all the configuration
 const config = {
   stardog: {
     user: process.env.stardog_user || 'admin',
     password: process.env.stardog_password || 'admin',
-    endpoint: process.env.stardog_endpoint || 'http://pdstavs13:5820',
-    database: process.env.stardog_database || 'test'
+    endpoint: process.env.stardog_endpoint || 'http://pdstavs13:5820'
   }
 }
 
