@@ -1,13 +1,13 @@
 FROM node:14-buster
 
-# Node ENV 
+# Node ENV
 RUN mkdir -p /usr/src/app
 RUN mkdir -p /root/.ssh
 RUN chmod 700 /root/.ssh
 WORKDIR /usr/src/app
 
 # Copy Configuration Files (from /credentials to whatever needed)
-COPY credentials/scope-virtual.properties /usr/src/app/credentials/scope-virtual.properties 
+COPY credentials/scope-virtual.properties /usr/src/app/credentials/scope-virtual.properties
 COPY credentials/ssh-config /root/.ssh/config
 COPY credentials/id_rsa* /root/.ssh/
 COPY credentials/netrc /root/.netrc
@@ -24,13 +24,12 @@ COPY cron/cron-publish.sh /usr/src/app/cron/
 # Copy Node Scripts
 RUN  mkdir -p /usr/src/app/pipelines
 RUN  mkdir -p /usr/src/app/metadata
-COPY shell /usr/src/app/shell
 #COPY ecosystem.config.js /usr/src/app/
-COPY package.json /usr/src/app/
+COPY package.json package-lock.json /usr/src/app/
+RUN npm ci
 COPY pipelines/staatsarchiv.ttl /usr/src/app/pipelines/
 COPY metadata/* /usr/src/app/metadata/
-
-RUN npm install 
+COPY shell /usr/src/app/shell
 
 # Add Things Nice To Have
 RUN rm -f /etc/vim/vimrc \
@@ -60,4 +59,4 @@ RUN git init \
 # cron will log to stdout, as well as the cronjobs itself so no local logs that fill up
 CMD crontab /usr/src/app/cron/crontab-docker \
   && cron \
-  && tail -f 
+  && tail -f
