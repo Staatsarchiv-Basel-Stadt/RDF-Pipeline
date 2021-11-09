@@ -1,68 +1,61 @@
 // this repo should live in the docker container
-// const gitRepo = '/Users/ktk/tmp/automation-test-repo'
 const gitRepo = '/opt/StABS-scope2RDF'
-const fetch = require('node-fetch')
 
+// all required imports
+const fs = require('fs')
+const propertiesReader = require('properties-reader')
 const simpleGit = require('simple-git')(gitRepo)
+const { Connection, query, virtualGraphs } = require('stardog')
 
-// configuration
-const stardogHome = '/opt/stardog_home'
-const stardogMappingDir = '/opt/stardog-scope'
-const mappingSource = 'src-gen/mapping-stabs.r2rml.ttl'
-const mappingDest = 'mapping-stabs.r2rml.ttl'
-const propertiesSource = `${process.cwd()}/credentials/scope-virtual.properties`
-const propertiesDest = 'scope-virtual.properties'
-const stardogUser = process.env.stardog_user
-const stardogPassword = process.env.stardog_password
-const stardogEndpoint = 'pdstavs13'
-const stardogPort = '5820'
-const stardogDb = 'test'
-const stardogJava = `cd ${stardogMappingDir} && java -Doracle.jdbc.Trace=true -Dstardog.home=${stardogHome} -XX:SoftRefLRUPolicyMSPerMB=1 -XX:+UseParallelOldGC -XX:+UseCompressedOops -Djavax.xml.datatype.DatatypeFactory=org.apache.xerces.jaxp.datatype.DatatypeFactoryImpl -Dapple.awt.UIElement=true -Dfile.encoding=UTF-8 -Dlog4j.configurationFile=/opt/stardog/bin/../server/dbms/log4j2.xml -Dstardog.install.location=/opt/stardog/bin/.. -server -classpath '/opt/stardog/bin/../client/ext/*:/opt/stardog/bin/../client/api/*:/opt/stardog/bin/../client/cli/*:/opt/stardog/bin/../client/http/*:/opt/stardog/bin/../client/snarl/*:/opt/stardog/bin/../client/pack/*:/opt/stardog/bin/../server/ext/*:/opt/stardog/bin/../server/dbms/*:/opt/stardog/bin/../server/http/*:/opt/stardog/bin/../server/snarl/*:/opt/stardog/bin/../server/pack/*:/*' com.complexible.stardog.cli.admin.CLI`
-const stardogOracleAdd = `${stardogJava} virtual add --format r2rml ${propertiesDest} ${mappingDest}`
-const stardogOracleRemove = `${stardogJava} virtual remove scope-virtual`
-const stardogOracleMaterialize = `${stardogJava} virtual import  --format r2rml scope ${propertiesDest} ${mappingDest}`
+// all the configuration
+const config = {
+  stardog: {
+    user: process.env.stardog_user || 'admin',
+    password: process.env.stardog_password || 'admin',
+    endpoint: process.env.stardog_endpoint || 'http://pdstavs13:5820',
+    database: process.env.stardog_database || 'test'
+  }
+}
 
-const shell = require('shelljs')
+// read virtual graph properties
+const virtualGraphPropertiesReader = propertiesReader(`${process.cwd()}/credentials/scope-virtual.properties`)
+const virtualGraphProperties = virtualGraphPropertiesReader.getAllProperties();
 
-simpleGit.exec(() => console.log('Starting pull...'))
-  .pull('origin', 'main', (_err, update) => {
+// try to read mapping file content
+const mappingsData = fs.readFileSync(`${gitRepo}/src-gen/mapping-stabs.r2rml.ttl`, 'utf8')
+
+// create connection to Stardog
+const conn = new Connection({
+  username: config.stardog.user,
+  password: config.stardog.password,
+  endpoint: config.stardog.endpoint
+})
+
+// update virtual graph using Stardog API
+const gitUpdate = async () => {
+  console.log('  - Removing scope-virtual virtual graph using Stardog API…')
+  const removeAnswser = await virtualGraphs.remove(conn, 'scope-virtual')
+  if (removeAnswser.statusText && removeAnswser.status) {
+    console.log(`    => ${removeAnswser.statusText} (${removeAnswser.status})`)
+  }
+
+  console.log('  - Add scope-virtual virtual graph using Stardog API…')
+  const addAnswer = await virtualGraphs.add(conn, 'scope-virtual', mappingsData, virtualGraphProperties)
+  if (addAnswer.statusText && addAnswer.status) {
+    console.log(`    => ${addAnswer.statusText} (${addAnswer.status})`)
+  }
+}
+
+// check if there are some changes in the Git repository containing the mappings
+simpleGit.exec(() => console.log('Starting pull…'))
+  .pull('origin', 'main', async (_err, update) => {
     if (update && update.summary.changes) {
-      //      require('child_process').exec('echo bla')
-      console.log('Repository was updated')
-      gitUpdate()
+      console.log('  - Status: repository was updated')
+      await gitUpdate()
     } else {
-      console.log('No change in repository')
+      console.log('  - Status: no change in repository')
+
+      // uncomment the following line to force the update of the virtual mapping
+      await gitUpdate()
     }
   })
-  .exec(async () => {
-    //   await fetch(`http://${stardogUser}:${stardogPassword}@${stardogEndpoint}:${stardogPort}/${stardogDb}/update?query=CLEAR default`)
-    //     .then(checkStatus)
-    console.log('pull done.')
-  })
-
-function gitUpdate () {
-  shell.exec(`ssh pdstavs13 'mkdir -p ${stardogMappingDir}'`)
-
-  shell.echo('Copying SCOPE mapping files...')
-  if (shell.exec(`scp ${gitRepo}/${mappingSource} pdstavs13:${stardogMappingDir}`).code !== 0) {
-    shell.echo('Error: Copying R2RML mapping failed')
-    shell.exit(1)
-  } else if (shell.exec(`scp ${propertiesSource} pdstavs13:${stardogMappingDir}/${propertiesDest}`).code !== 0) {
-    shell.echo('Error: Copying Oracle properties file failed')
-    shell.exit(1)
-  } else {
-    shell.exec(`ssh pdstavs13 '${stardogOracleRemove}'`)
-    shell.exec(`ssh pdstavs13 '${stardogOracleAdd}'`)
-    // shell.echo(stardogOracleRemove)
-    // shell.echo(stardogOracleAdd)
-  }
-}
-
-function checkStatus (res) {
-  if (res.ok) { // res.status >= 200 && res.status < 300
-    console.log('Successfully cleared graph')
-    return res
-  } else {
-    console.log(`Could not clear graph, got ${res.status}: ${res.statusText}`)
-  }
-}
