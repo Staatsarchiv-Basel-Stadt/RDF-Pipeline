@@ -18,7 +18,7 @@ const config = {
 
 // read virtual graph properties
 const virtualGraphPropertiesReader = propertiesReader(`${process.cwd()}/credentials/scope-virtual.properties`)
-const virtualGraphProperties = virtualGraphPropertiesReader.getAllProperties();
+const virtualGraphProperties = virtualGraphPropertiesReader.getAllProperties()
 
 // try to read mapping file content
 const mappingsData = fs.readFileSync(`${gitRepo}/src-gen/mapping-stabs.r2rml.ttl`, 'utf8')
@@ -36,17 +36,21 @@ const gitUpdate = async () => {
   const removeAnswser = await virtualGraphs.remove(conn, 'scope-virtual')
   if (removeAnswser.statusText && removeAnswser.status) {
     console.log(`    => ${removeAnswser.statusText} (${removeAnswser.status})`)
+    console.log(JSON.stringify(removeAnswser.body, null, 2))
   }
 
   console.log('  - Add scope-virtual virtual graph using Stardog API…')
   const addAnswer = await virtualGraphs.add(conn, 'scope-virtual', mappingsData, virtualGraphProperties)
   if (addAnswer.statusText && addAnswer.status) {
     console.log(`    => ${addAnswer.statusText} (${addAnswer.status})`)
+    console.log(JSON.stringify(addAnswer.body, null, 2))
   }
 }
 
+const date = new Date()
+
 // check if there are some changes in the Git repository containing the mappings
-simpleGit.exec(() => console.log('Starting pull…'))
+simpleGit.exec(() => console.log(`[${date}] Starting pull…`))
   .pull('origin', 'main', async (_err, update) => {
     if (update && update.summary.changes) {
       console.log('  - Status: repository was updated')
@@ -55,6 +59,6 @@ simpleGit.exec(() => console.log('Starting pull…'))
       console.log('  - Status: no change in repository')
 
       // uncomment the following line to force the update of the virtual mapping
-      await gitUpdate()
+      // await gitUpdate()
     }
   })
