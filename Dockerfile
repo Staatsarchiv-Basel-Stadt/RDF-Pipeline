@@ -5,6 +5,9 @@ RUN mkdir -p /usr/src/app
 RUN mkdir -p /root/.ssh
 RUN chmod 700 /root/.ssh
 
+# Configuration
+ARG git_branch="development"
+
 # Add Things Nice To Have
 RUN rm -f /etc/vim/vimrc \
   && apt-get update \
@@ -23,7 +26,7 @@ WORKDIR /opt/StABS-scope2RDF
 RUN git init \
   && git config http.proxyAuthMethod 'basic' \
   && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git \
-  && git pull origin main
+  && git pull origin "${git_branch}"
 
 WORKDIR /usr/src/app
 

@@ -13,6 +13,10 @@ const config = {
     user: process.env.stardog_user || 'admin',
     password: process.env.stardog_password || 'admin',
     endpoint: process.env.stardog_endpoint || 'http://pdstavs13:5820'
+  },
+  git: {
+    remote: process.env.git_remote || 'origin',
+    branch: process.env.git_branch || 'development'
   }
 }
 
@@ -51,7 +55,7 @@ const date = new Date()
 
 // check if there are some changes in the Git repository containing the mappings
 simpleGit.exec(() => console.log(`[${date}] Starting pull…`))
-  .pull('origin', 'main', async (_err, update) => {
+  .pull(config.git.remote, config.git.branch, async (_err, update) => {
     if (update && update.summary.changes) {
       console.log('  - Status: repository was updated')
       await gitUpdate()
