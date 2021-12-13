@@ -10,9 +10,9 @@ const { Connection, virtualGraphs } = require('stardog')
 // all the configuration
 const config = {
   stardog: {
-    user: process.env.stardog_user || 'admin',
-    password: process.env.stardog_password || 'admin',
-    endpoint: process.env.stardog_endpoint || 'http://pdstavs13:5820'
+    user: process.env.SOURCE_ENDPOINT_USER || 'admin',
+    password: process.env.SOURCE_ENDPOINT_PASSWORD || 'admin',
+    endpoint: process.env.SOURCE_ENDPOINT_URL || 'http://localhost:5820'
   },
   git: {
     remote: process.env.git_remote || 'origin',
