@@ -1,4 +1,4 @@
-FROM node:14-buster
+FROM node:16-buster
 
 # Fix deb install
 ENV DEBIAN_FRONTEND noninteractive
@@ -25,7 +25,6 @@ RUN rm -f /etc/vim/vimrc \
   tmux \
   netcat-openbsd \
   curl \
-  software-properties-common \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Stardog
