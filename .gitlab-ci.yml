@@ -3,16 +3,10 @@ default:
 
 stages:
   - build
-  - push
 
 # build Docker image
 build:
   stage: build
-
-  artifacts:
-    paths:
-      - image.tar
-
   script:
     # import all credentials
     - mkdir -p credentials
@@ -38,17 +32,5 @@ build:
         --no-push \
         --tarPath="$CI_PROJECT_DIR/image.tar"
 
-# push Docker image
-push:
-  stage: push
-
-  needs:
-    - job: build
-      artifacts: true
-
-  variables: # We don't need the sources for that
-    GIT_STRATEGY: none
-
-  script:
-    - crane auth login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
+    # push Docker image
     - gitlab-docker-push image.tar "$CI_REGISTRY_IMAGE"
