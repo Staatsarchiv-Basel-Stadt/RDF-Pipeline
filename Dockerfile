@@ -29,8 +29,8 @@ RUN rm -f /etc/vim/vimrc \
 
 # Install Stardog
 RUN curl http://packages.stardog.com/stardog.gpg.pub | apt-key add
-RUN apt-add-repository "deb http://security.debian.org/debian-security stretch/updates main"
-RUN apt-add-repository "deb http://packages.stardog.com/deb/ stable main"
+RUN echo "deb http://security.debian.org/debian-security stretch/updates main" >> /etc/apt/sources.list
+RUN echo "deb http://packages.stardog.com/deb/ stable main" >> /etc/apt/sources.list
 RUN apt-get update && apt-get install -y openjdk-8-jdk "stardog=${STARDOG_VERSION}"
 
 # Do GIT and Repository
