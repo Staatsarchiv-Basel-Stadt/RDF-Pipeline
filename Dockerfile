@@ -1,5 +1,9 @@
 FROM node:16-buster
 
+# Fix deb install
+ENV DEBIAN_FRONTEND noninteractive
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
+
 # Node ENV
 RUN mkdir -p /usr/src/app
 RUN mkdir -p /root/.ssh
@@ -22,14 +26,12 @@ RUN rm -f /etc/vim/vimrc \
   netcat-openbsd \
   curl \
   software-properties-common \
-  dialog \
-  apt-utils \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Stardog
-RUN apt-add-repository 'deb http://security.debian.org/debian-security stretch/updates main'
 RUN curl http://packages.stardog.com/stardog.gpg.pub | apt-key add
-RUN echo "deb http://packages.stardog.com/deb/ stable main" >> /etc/apt/sources.list
+RUN apt-add-repository "deb http://security.debian.org/debian-security stretch/updates main"
+RUN apt-add-repository "deb http://packages.stardog.com/deb/ stable main"
 RUN apt-get update && apt-get install -y openjdk-8-jdk "stardog=${STARDOG_VERSION}"
 
 # Do GIT and Repository
