@@ -1,4 +1,4 @@
-FROM node:14-buster
+FROM node:16-buster
 
 # Node ENV
 RUN mkdir -p /usr/src/app
@@ -7,6 +7,7 @@ RUN chmod 700 /root/.ssh
 
 # Configuration
 ARG git_branch="development"
+ARG STARDOG_VERSION="7.8.2"
 
 # Add Things Nice To Have
 RUN rm -f /etc/vim/vimrc \
@@ -19,7 +20,15 @@ RUN rm -f /etc/vim/vimrc \
   cron \
   tmux \
   netcat-openbsd \
+  curl \
+  software-properties-common \
   && rm -rf /var/lib/apt/lists/*
+
+# Install Stardog
+RUN apt-add-repository 'deb http://security.debian.org/debian-security stretch/updates main'
+RUN curl http://packages.stardog.com/stardog.gpg.pub | apt-key add
+RUN echo "deb http://packages.stardog.com/deb/ stable main" >> /etc/apt/sources.list
+RUN apt-get update && apt-get install -y openjdk-8-jdk "stardog=${STARDOG_VERSION}"
 
 # Do GIT and Repository
 WORKDIR /opt/StABS-scope2RDF
