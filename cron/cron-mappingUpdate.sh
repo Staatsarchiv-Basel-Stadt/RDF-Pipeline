@@ -29,6 +29,7 @@ echo "Replacing virtual mapping…"
   --server "${SOURCE_CONNECTIONSTRING}" \
   virtual add \
   --name scope-virtual \
+  --format r2rml \
   --overwrite \
   --passwd "${SOURCE_ENDPOINT_PASSWORD}" \
   --username "${SOURCE_ENDPOINT_USER}" \
