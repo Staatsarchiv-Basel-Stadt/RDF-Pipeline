@@ -22,6 +22,8 @@ RUN rm -f /etc/vim/vimrc \
   netcat-openbsd \
   curl \
   software-properties-common \
+  dialog \
+  apt-utils \
   && rm -rf /var/lib/apt/lists/*
 
 # Install Stardog
