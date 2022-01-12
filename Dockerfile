@@ -44,8 +44,6 @@ WORKDIR /usr/src/app
 
 # Copy Configuration Files (from /credentials to whatever needed)
 COPY credentials/scope-virtual.properties ./credentials/scope-virtual.properties
-COPY credentials/ssh-config /root/.ssh/config
-COPY credentials/id_rsa* /root/.ssh/
 COPY credentials/netrc /root/.netrc
 COPY credentials/environment /etc/environment
 RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $line ; done }' >> /root/.bashrc
