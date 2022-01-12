@@ -27,7 +27,7 @@
     p:value "metadata/*.ttl"
   ], [ a p:Variable;
     p:name "sourceGraph";
-    p:value "http://data.alod.ch/graph/bs"
+    p:value "https://ld.staatsarchiv.bs.ch/graph/source"
   ], [ a p:Variable;
     p:name "sinkGraph";
     p:value "https://ld.staatsarchiv.bs.ch/graph/ais-metadata"

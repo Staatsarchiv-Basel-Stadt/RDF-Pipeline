@@ -3,6 +3,8 @@ const fetch = require('node-fetch')
 
 const stardogUser = process.env.SOURCE_ENDPOINT_USER
 const stardogPassword = process.env.SOURCE_ENDPOINT_PASSWORD
+const database = process.env.SOURCE_ENDPOINT_DATABASE
+
 
 const metadata = `
 INSERT  { GRAPH <http://data.alod.ch/graph/bs> {
@@ -21,8 +23,8 @@ function checkStatus (res) {
   }
 }
 
-fetch(`http://${stardogUser}:${stardogPassword}@pdstavs13:5820/scope/update?query=COPY <virtual://scope-virtual> TO <http://data.alod.ch/graph/bs>`)
+fetch(`http://${stardogUser}:${stardogPassword}@/pdstasvogdp:8081/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
   .then(checkStatus)
-  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@pdstavs13:5820/scope/update?query=${metadata}`))
+  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@/pdstasvogdp:8081/scope/update?query=${metadata}`))
   .then(checkStatus)
   .catch((err) => console.error(err))
