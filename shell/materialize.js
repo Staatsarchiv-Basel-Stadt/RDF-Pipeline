@@ -25,6 +25,6 @@ function checkStatus (res) {
 
 fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
   .then(checkStatus)
-  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/scope/update?query=${metadata}`))
+  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=${metadata}`))
   .then(checkStatus)
   .catch((err) => console.error(err))
