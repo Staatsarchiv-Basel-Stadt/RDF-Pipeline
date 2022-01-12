@@ -11,9 +11,6 @@ build:
     # import all credentials
     - mkdir -p credentials
     - cp "${FILE_SCOPE_VIRTUAL_PROPERTIES}" credentials/scope-virtual.properties
-    - cp "${FILE_SSH_CONFIG}" credentials/ssh-config
-    - cp "${FILE_ID_RSA}" credentials/id_rsa
-    - cp "${FILE_ID_RSA_PUB}" credentials/id_rsa.pub
     - cp "${FILE_NETRC}" credentials/netrc
     - cp "${FILE_ENVIRONMENT}" credentials/environment
 
