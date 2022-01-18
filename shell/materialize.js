@@ -23,7 +23,7 @@ function checkStatus (res) {
   }
 }
 
-// TODO: We need to delete the graph first as well
+// According to UPDATE spec: The COPY operation is a shortcut for inserting all data from an input graph into a destination graph. Data from the input graph is not affected, but data from the destination graph, if any, is removed before insertion.
 fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
   .then(checkStatus)
   .then(() => fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=${metadata}`))
