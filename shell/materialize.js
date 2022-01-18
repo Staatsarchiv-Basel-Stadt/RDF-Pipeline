@@ -7,7 +7,7 @@ const database = process.env.SOURCE_ENDPOINT_DATABASE
 
 
 const metadata = `
-INSERT  { GRAPH <http://data.alod.ch/graph/bs> {
+INSERT  { GRAPH <https://ld.staatsarchiv.bs.ch/graph/source> {
   <http://data.staatsarchiv-bs.ch/dataset/Archivkatalog> <http://purl.org/dc/terms/modified> ?modified .
 }}  WHERE {
   BIND( NOW() as ?modified)
@@ -23,6 +23,7 @@ function checkStatus (res) {
   }
 }
 
+// TODO: We need to delete the graph first as well
 fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
   .then(checkStatus)
   .then(() => fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=${metadata}`))
