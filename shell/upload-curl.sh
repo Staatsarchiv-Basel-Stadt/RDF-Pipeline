@@ -6,7 +6,7 @@ FIRST=true
 
 mkdir -p input
 cd input
-split -l 50000 --additional-suffix=.nt ../scope.nt
+split -l 40000 --additional-suffix=.nt ../scope.nt
 cd ..
 
 for file in ./input/*
