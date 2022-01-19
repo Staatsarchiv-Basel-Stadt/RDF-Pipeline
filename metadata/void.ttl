@@ -31,14 +31,13 @@ PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 <org/zazuko> a schema:Corporation ;
     schema:name "Zazuko GmbH" ;
     rdfs:seeAlso wd:Q93230157 ;
-    schema:url <https://zazuko.com/>
+    schema:url <https://zazuko.com>
     .
 
-<org/StABS> a foaf:Organization, schema:GovernmentOrganization ;
+<org/StABS> a schema:GovernmentOrganization ;
     rdfs:label "Staatsarchiv Basel-Stadt"@de ;
     schema:name "Staatsarchiv Basel-Stadt" ;
-    foaf:homepage <https://www.staatsarchiv.bs.ch/>;
-    schema:url <https:www.staatsarchiv.bs.ch/> ;
+    schema:url <https://www.staatsarchiv.bs.ch> ;
     rdfs:seeAlso wd:Q56219654
     .
 
