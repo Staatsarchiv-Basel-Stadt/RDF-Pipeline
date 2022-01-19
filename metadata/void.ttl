@@ -24,16 +24,20 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ##
 
 <https://ld.bs.ch/.well-known/void> a void:DatasetDescription;
+    foaf:topic <catalog/basel/archival-catalog> ;
     schema:hasPart <catalog/basel/archival-catalog> 
     .
 
 <.well-known/void> a void:DatasetDescription ;
     rdfs:label "Datensätze des Staatsarchivs Basel-Stadt"@de ;
     rdfs:label "Datasets of the State Archives of Basel-Stadt"@en ;
+    schema:name "Datensätze des Staatsarchivs Basel-Stadt"@de ;    
     schema:name "Datasets of the State Archives of Basel-Stadt"@en ;
-    schema:name "Datensätze des Staatsarchivs Basel-Stadt"@de ;
+    dcterms:title "Datensätze des Staatsarchivs Basel-Stadt"@de ;
+    dcterms:title "Datasets of the State Archives of Basel-Stadt"@en ;
     dcterms:creator <org/StABS> ;
-    schema:hasPart <catalog/basel/archival-catalog> 
+    schema:hasPart <catalog/basel/archival-catalog> ;
+    foaf:primaryTopic <catalog/basel/archival-catalog> ;
     .
 
 ##
