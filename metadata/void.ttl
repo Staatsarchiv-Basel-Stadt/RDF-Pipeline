@@ -90,7 +90,13 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     dcterms:publisher <org/StABS> ;
     dcterms:source <sys/scopeArchiv> ;
     dcterms:licence <https://creativecommons.org/publicdomain/zero/1.0/> ;
-    dcterms:issued "%%DATEISSUED%%"^^xsd:date; # date of publication of the source
+    dcterms:created "1999"^^xsd:gYear ;
+    dcterms:issued "%%DATEISSUED%%"^^xsd:date ; # date of issuance, i.e. publication
+    dcterms:temporal [
+        a dcterms:PeriodOfTime ;
+        schema:startDate "1098"^^xsd:gYear ;
+        schema:endDate "2022"^^xsd:gYear
+    ] ;
     dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
     dcterms:subject dbr:Records_in_Contexts ;
     dcterms:subject dbr:Finding_aid ;

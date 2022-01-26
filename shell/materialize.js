@@ -8,9 +8,9 @@ const database = process.env.SOURCE_ENDPOINT_DATABASE
 
 const metadata = `
 INSERT  { GRAPH <https://ld.staatsarchiv.bs.ch/graph/source> {
-  <http://data.staatsarchiv-bs.ch/dataset/Archivkatalog> <http://purl.org/dc/terms/modified> ?modified .
+  <https://ld.staatsarchiv.bs.ch/catalog/basel/archival-catalog> <http://purl.org/dc/terms/issued> ?issued .
 }}  WHERE {
-  BIND( NOW() as ?modified)
+  BIND( NOW() as ?issued)
 }
 `
 
