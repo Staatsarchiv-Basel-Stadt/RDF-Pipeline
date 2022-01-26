@@ -18,6 +18,7 @@ do
     echo "PUTing to "$SINK_ENDPOINT_URL
     FIRST=false
     curl -X PUT \
+      --noproxy "pdstasvogdp" \
       --fail \
       -n \
       -H Content-Type:application/n-triples \
@@ -27,6 +28,7 @@ do
   else
     echo "POSTing to "$SINK_ENDPOINT_URL
     curl -X POST \
+      --noproxy "pdstasvogdp" \
       --fail \
       -n \
       -H Content-Type:application/n-triples \
