@@ -13,6 +13,7 @@ build-prod:
     - cp "${FILE_SCOPE_VIRTUAL_PROPERTIES}" credentials/scope-virtual.properties
     - cp "${FILE_NETRC}" credentials/netrc
     - cp "${FILE_ENVIRONMENT}" credentials/environment
+    - cp "${FILE_CRONTAB}" cron/crontab-docker
 
     # login to the registry
     - crane auth login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
@@ -45,6 +46,7 @@ build-dev:
     - cp "${FILE_SCOPE_VIRTUAL_PROPERTIES}" credentials/scope-virtual.properties
     - cp "${FILE_NETRC}" credentials/netrc
     - cp "${FILE_ENVIRONMENT}" credentials/environment
+    - cp "${FILE_CRONTAB}" cron/crontab-docker
 
     # login to the registry
     - crane auth login -u "$CI_REGISTRY_USER" -p "$CI_REGISTRY_PASSWORD" "$CI_REGISTRY"
