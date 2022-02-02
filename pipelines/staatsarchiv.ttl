@@ -38,7 +38,6 @@
   p:steps [
     p:stepList (
       <mergeInputs>
-      <gYear>
       <serialize>
     )
   ].
@@ -48,7 +47,6 @@
   p:steps [
     p:stepList (
       <mergeInputs>
-      <gYear>
       <serialize>
       <graph-store-put-curl>
     )
@@ -59,7 +57,6 @@
   p:steps [
     p:stepList (
       <mergeInputs>
-      <gYear>
       <serialize>
       <save>
     )
@@ -71,7 +68,6 @@
     p:stepList (
       <listTurtleFiles>
       <forEachTurtleFile>
-      <timestamp>
     )
   ].
 
@@ -84,6 +80,7 @@
     )
   ].
 
+# pipeline unused (would stream metadata to endpoint)
 <store> a p:Pipeline;
   p:variables <defaultVars>;
   p:steps [
@@ -154,6 +151,7 @@
   ];
   code:arguments ("${sourceGraph}"^^code:EcmaScriptTemplateLiteral).
 
+# unused and obsolete step, would stream data to endpoint, now done through curl
 <graph-store-put> a p:Step;
   code:implementedBy [ a code:EcmaScript;
     code:link <node:barnard59-graph-store#put>
@@ -195,53 +193,6 @@
     ];
   code:arguments ("scope.nt"^^code:EcmaScriptTemplateLiteral).
 
-<gYear> a p:Step ;
-  code:implementedBy [
-    code:link <node:barnard59-base#map> ;
-    a code:EcmaScript
-  ];
-  code:arguments ("""
-    quad => {
-      const rdf = require('rdf-ext')
-      const gYear = RegExp(/^\\d{4}$/)
-
-      if (quad.predicate.equals(rdf.namedNode('http://www.w3.org/2004/02/skos/core#prefLabel')) && gYear.test(quad.object.value)) {
-        return rdf.quad(quad.subject, rdf.namedNode('https://finance.ld.admin.ch/bundesbudget/dimension/year'), rdf.literal(quad.object.value, rdf.namedNode('http://www.w3.org/2001/XMLSchema#gYear')))
-      }
-  
-      return quad
-    }
-  """^^code:EcmaScript) .
-
-<fixQuads> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
-    ];
-    code:arguments ("""quad => {
-        const rdf = require('rdf-ext')
-        const moment = require('moment')
-        if (rdf.namedNode('http://schema.org/birthDate').equals(quad.predicate)) {
-            const date = moment.utc(quad.object.value, 'DDMMMYYYY:HH:mm:ss')
-            const object = rdf.literal(date.toISOString(), rdf.namedNode('http://www.w3.org/2001/XMLSchema#dateTime'))
-			      return rdf.quad(quad.subject, quad.predicate, object)
-        }
-        return quad
-    }"""^^code:EcmaScript).
-
-<timestamp> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
-    ];
-    code:arguments ("""quad => {
-        const rdf = require('rdf-ext')
-        const { DateTime } = require('luxon');
-        if (rdf.namedNode('http://purl.org/dc/terms/issued').equals(quad.predicate)) {
-            const object = rdf.literal(DateTime.now().toISO(), rdf.namedNode('http://www.w3.org/2001/XMLSchema#dateTime'))
-			      return rdf.quad(quad.subject, quad.predicate, object)
-        }
-        return quad
-    }"""^^code:EcmaScript).
-
 <forceTriple> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
         code:link <node:barnard59-base#map>
@@ -251,6 +202,7 @@
         return rdf.quad(quad.subject, quad.predicate, quad.object, rdf.defaultGraph)
     }"""^^code:EcmaScript).
 
+# unused step, replaced by shell script using curl
 <graph-store-put-curl> a p:Step;
   code:implementedBy [
     code:link <node:barnard59-shell>;
