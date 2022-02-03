@@ -43,10 +43,10 @@ RUN git init \
 WORKDIR /usr/src/app
 
 # Copy Configuration Files (from /credentials to whatever needed)
-COPY credentials/scope-virtual.properties ./credentials/scope-virtual.properties
-COPY credentials/netrc /root/.netrc
-COPY credentials/environment /etc/environment
-RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $line ; done }' >> /root/.bashrc
+#COPY credentials/scope-virtual.properties ./credentials/scope-virtual.properties
+#COPY credentials/netrc /root/.netrc
+#COPY credentials/environment /etc/environment
+#RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $line ; done }' >> /root/.bashrc
 
 # Copy Cron Jobs
 RUN mkdir -p ./cron
