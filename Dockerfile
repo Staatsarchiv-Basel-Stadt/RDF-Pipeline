@@ -1,4 +1,8 @@
-FROM node:14-buster
+FROM node:16-buster
+
+# Fix deb install
+ENV DEBIAN_FRONTEND noninteractive
+RUN echo 'debconf debconf/frontend select Noninteractive' | debconf-set-selections
 
 # Node ENV
 RUN mkdir -p /usr/src/app
@@ -7,6 +11,7 @@ RUN chmod 700 /root/.ssh
 
 # Configuration
 ARG git_branch="development"
+ARG STARDOG_VERSION="7.8.2"
 
 # Add Things Nice To Have
 RUN rm -f /etc/vim/vimrc \
@@ -19,7 +24,14 @@ RUN rm -f /etc/vim/vimrc \
   cron \
   tmux \
   netcat-openbsd \
+  curl \
   && rm -rf /var/lib/apt/lists/*
+
+# Install Stardog
+RUN curl http://packages.stardog.com/stardog.gpg.pub | apt-key add
+RUN echo "deb http://security.debian.org/debian-security stretch/updates main" >> /etc/apt/sources.list
+RUN echo "deb http://packages.stardog.com/deb/ stable main" >> /etc/apt/sources.list
+RUN apt-get update && apt-get install -y openjdk-8-jdk "stardog=${STARDOG_VERSION}"
 
 # Do GIT and Repository
 WORKDIR /opt/StABS-scope2RDF
@@ -32,8 +44,6 @@ WORKDIR /usr/src/app
 
 # Copy Configuration Files (from /credentials to whatever needed)
 COPY credentials/scope-virtual.properties ./credentials/scope-virtual.properties
-COPY credentials/ssh-config /root/.ssh/config
-COPY credentials/id_rsa* /root/.ssh/
 COPY credentials/netrc /root/.netrc
 COPY credentials/environment /etc/environment
 RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $line ; done }' >> /root/.bashrc

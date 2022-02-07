@@ -1,5 +1,5 @@
 // this repo should live in the docker container
-const gitRepo = '/opt/StABS-scope2RDF'
+const gitRepo = process.env.GIT_REPO || '/opt/StABS-scope2RDF'
 
 // all required imports
 const fs = require('fs')
@@ -10,14 +10,15 @@ const { Connection, virtualGraphs } = require('stardog')
 // all the configuration
 const config = {
   stardog: {
-    user: process.env.stardog_user || 'admin',
-    password: process.env.stardog_password || 'admin',
-    endpoint: process.env.stardog_endpoint || 'http://pdstavs13:5820'
+    user: process.env.SOURCE_ENDPOINT_USER || 'admin',
+    password: process.env.SOURCE_ENDPOINT_PASSWORD || 'admin',
+    endpoint: process.env.SOURCE_ENDPOINT_URL || 'http://localhost:5820'
   },
   git: {
     remote: process.env.git_remote || 'origin',
     branch: process.env.git_branch || 'development'
-  }
+  },
+  forceUpdate: process.env.FORCE_UPDATE === "true" || false,
 }
 
 // read virtual graph properties
@@ -62,7 +63,9 @@ simpleGit.exec(() => console.log(`[${date}] Starting pull…`))
     } else {
       console.log('  - Status: no change in repository')
 
-      // uncomment the following line to force the update of the virtual mapping
-      // await gitUpdate()
+      if (config.forceUpdate) {
+        console.log('    Update forced, because FORCE_UPDATE is set to "true"')
+        await gitUpdate()
+      }
     }
   })

@@ -1,52 +1,114 @@
-BASE <http://ld.staatsarchiv.bs.ch/> 
-PREFIX void: <http://rdfs.org/ns/void#> 
-PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> 
-PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-PREFIX owl: <http://www.w3.org/2002/07/owl#> 
-PREFIX xsd: <http://www.w3.org/2001/XMLSchema#> 
-PREFIX dcterms: <http://purl.org/dc/terms/> 
-PREFIX foaf: <http://xmlns.com/foaf/0.1/> 
-PREFIX wv: <http://vocab.org/waiver/terms/norms>       
-PREFIX sd: <http://www.w3.org/ns/sparql-service-description#> 
-PREFIX dcat: <http://www.w3.org/ns/dcat#> 
+BASE <https://ld.staatsarchiv.bs.ch/> 
+PREFIX cube: <https://cube.link/>
+PREFIX dcat: <http://www.w3.org/ns/dcat#>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX doap: <http://usefulinc.com/ns/doap#>
+PREFIX duv: <http://www.w3.org/ns/duv#>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX qudt: <http://qudt.org/schema/qudt#>
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
 PREFIX schema: <http://schema.org/>
+PREFIX sd: <http://www.w3.org/ns/sparql-service-description#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 PREFIX time: <http://www.w3.org/2006/time#>
-PREFIX doap: <http://usefulinc.com/ns/doap#> 
-PREFIX duv: <http://www.w3.org/ns/duv#> 
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX wd: <http://www.wikidata.org/entity/>
+PREFIX wv: <http://vocab.org/waiver/terms/norms>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
-<datasets> a void:DatasetDescription;
-    dcterms:title "Description of Staatsarchiv Basel-Stadt datasets"@en;
-    dcterms:creator <org/Staatsarchiv-BS>;
-    foaf:topic <dataset/Archivkatalog> .
+##
+## Dataset Descriptions
+##
+
+<https://ld.bs.ch/.well-known/void> a void:DatasetDescription;
+    foaf:topic <catalog/basel/archival-catalog> ;
+    schema:hasPart <catalog/basel/archival-catalog> 
+    .
+
+<.well-known/void> a void:DatasetDescription ;
+    rdfs:label "Datensätze des Staatsarchivs Basel-Stadt"@de ;
+    rdfs:label "Datasets of the State Archives of Basel-Stadt"@en ;
+    schema:name "Datensätze des Staatsarchivs Basel-Stadt"@de ;    
+    schema:name "Datasets of the State Archives of Basel-Stadt"@en ;
+    dcterms:title "Datensätze des Staatsarchivs Basel-Stadt"@de ;
+    dcterms:title "Datasets of the State Archives of Basel-Stadt"@en ;
+    dcterms:creator <org/StABS> ;
+    schema:hasPart <catalog/basel/archival-catalog> ;
+    foaf:primaryTopic <catalog/basel/archival-catalog> ;
+    .
+
 ##
 ## Organizations
 ##
 
-<org/Zazuko> a foaf:Organization, schema:Corporation;
-    rdfs:label "Zazuko GmbH";
-    foaf:homepage <http://www.zazuko.com/>
+<org/zazuko> a schema:Corporation ;
+    rdfs:label "Zazuko GmbH" ;
+    schema:name "Zazuko GmbH" ;
+    rdfs:seeAlso wd:Q93230157 ;
+    schema:url <https://zazuko.com>
     .
 
-<org/Staatsarchiv-BS> a foaf:Organization, schema:GovernmentOrganization;
-    rdfs:label "Staatsarchiv Basel-Stadt"@de;
-    foaf:homepage <http://www.staatsarchiv.bs.ch/>;
-    rdfs:seeAlso <https://www.wikidata.org/wiki/Q56219654> 
+<org/StABS> a schema:GovernmentOrganization ;
+    rdfs:label "Staatsarchiv Basel-Stadt"@de ;
+    rdfs:label "State Archives of Basel-Stadt"@en ;
+    schema:name "Staatsarchiv Basel-Stadt"@de ;
+    schema:name "State Archives of Basel-Stadt"@en ;
+    schema:url <https://www.staatsarchiv.bs.ch> ;
+    rdfs:seeAlso wd:Q56219654
     .
 
 ##
-## Datasets
+## Information systems (mainly software as source)
 ##
 
-<dataset/Archivkatalog> a void:Dataset, dcat:Dataset ;
-    foaf:homepage <http://data.admin.ch/>;
-    dcterms:title "Archivkatalog der Stadt Basel"@de;
-    dcterms:description "Dieser Datensatz enthält den öffentlichen Archivkatalog der Stadt Basel in RDF"@de;
-    dcterms:publisher <org/Staatsarchiv-BS>;
-    dcterms:creator <org/Staatsarchiv-BS> ;
-    dcterms:contributor <org/Zazuko> ;
-    dcterms:issued "%%DATEISSUED%%"^^xsd:date; # date of publication of the source
+<sys/scopeArchiv> a schema:SoftwareApplication ;
+    rdfs:label "scopeArchiv" ;
+    schema:name "scopeArchiv" ;
+    schema:description "scopeArchiv™ ist eine umfassende Archivsoftware für öffentliche und private Archive."@de ;
+    schema:url <https://www.scope.ch> ;
+    rdfs:seeAlso wd:Q2260520
+    .
+
+##
+## Catalog
+## 
+
+<catalog/basel/archival-catalog> a dcat:Catalog, schema:DataCatalog, void:Dataset  ;
+    rdfs:label "Archivkatalog des Staatsarchivs Basel-Stadt"@de ; 
+    foaf:homepage <https://www.staatsarchiv.bs.ch/kataloge/archivkatalog.html> ;
+    foaf:page <https://www.staatsarchiv.bs.ch> ;
+    foaf:page <https://de.wikipedia.org/wiki/Staatsarchiv_Basel-Stadt> ;
+    schema:name "Archivkatalog des Staatsarchivs Basel-Stadt"@de ;
+    schema:description "Dieser Datensatz enthält die frei zugänglichen Inhalte des Archivkatalogs des Staatsarchiv Basel-Stadt in RDF (Vokabular: Records in Context)"@de ;
+    dcterms:title "Archivkatalog des Staatsarchivs Basel-Stadt" @de ;
+    dcterms:description "Dieser Datensatz enthält die frei zugänglichen Inhalte des Archivkatalogs des Staatsarchiv Basel-Stadt in RDF (Vokabular: Records in Context)"@de ;
+    dcterms:contributor <org/zazuko> ;
+    dcterms:creator <org/StABS> ;
+    dcterms:publisher <org/StABS> ;
+    dcterms:source <sys/scopeArchiv> ;
+    dcterms:licence <https://creativecommons.org/publicdomain/zero/1.0/> ;
+    dcterms:created "1999"^^xsd:gYear ;
+    dcterms:issued "%%DATEISSUED%%"^^xsd:date ; # date of issuance, i.e. publication
+    dcterms:temporal [
+        a dcterms:PeriodOfTime ;
+        schema:startDate "1098"^^xsd:gYear ;
+        schema:endDate "2022"^^xsd:gYear
+    ] ;
+    dcterms:accrualPeriodicity <http://purl.org/cld/freq/daily> ;
+    dcterms:subject dbr:Records_in_Contexts ;
+    dcterms:subject dbr:Finding_aid ;
+    dcterms:subject dbr:Archival_catalog ;
+    dcterms:subject dbr:Metadata ;
+    doap:repository [
+        a doap:GitRepository ;
+        doap:browse <https://github.com/Staatsarchiv-Basel-Stadt/RDF-Pipeline> ;
+        doap:location "https://github.com/Staatsarchiv-Basel-Stadt/RDF-Pipeline.git" 
+    ] ;
+    void:sparqlEndpoint <https://ld.staatsarchiv.bs.ch/sparql> ;
+    void:vocabulary <https://www.ica.org/standards/RiC/ontology> ;
+    .
 #    dcterms:created "%%DATECREATED%%"^^xsd:date;
 #    dcterms:modified "%%DATEMODIFIED%%"^^xsd:date;
-    void:sparqlEndpoint <https://lindas-data.ch/sparql>;
-#    duv:hasUsage <dataset/meta-usage> ;
-.
