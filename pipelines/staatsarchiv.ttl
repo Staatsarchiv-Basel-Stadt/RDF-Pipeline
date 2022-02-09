@@ -38,7 +38,7 @@
   p:steps [
     p:stepList (
       <mergeInputs>
-      <fixQuads>
+      <fixDecimal>
       <serialize>
       <save>
     )
@@ -59,6 +59,7 @@
   p:steps [
     p:stepList (
       <mergeInputs>
+      <fixDecimal>
       <serialize>
       <save>
     )
@@ -139,7 +140,7 @@
   code:link <node:barnard59-base#concat.object> ] ;
   code:arguments     ( 
     <static>
-#    <getStore>
+    <getStore>
   ) .
 
 <setSinkGraph> a p:Step;
@@ -196,7 +197,7 @@
     ];
   code:arguments ("scope.nt"^^code:EcmaScriptTemplateLiteral).
 
-<fixDecimal> a p:Step ;
+<fixQuads> a p:Step ;
   code:implementedBy [ a code:EcmaScript ;
     code:link <node:barnard59-base#map>  
   ] ;
@@ -223,16 +224,14 @@
     }
   """^^code:EcmaScript) .
 
-<fixQuads> a p:Step;
+<fixDecimal> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
         code:link <node:barnard59-base#map>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
-        if (rdf.namedNode('http://schema.org/height').equals(quad.predicate)) {
-            const height = quad.object.import()
-            const object = rdf.literal(height.toString().replace(',', '.')), rdf.namedNode('http://www.w3.org/2001/XMLSchema#decimal'))
-			      return rdf.quad(quad.subject, quad.predicate, object)
+        if (rdf.namedNode('http://www.w3.org/2001/XMLSchema#decimal').equals(quad.object.datatype)) {
+            return rdf.quad(quad.subject, quad.predicate, rdf.literal(quad.object.value.replace(',', '.'), rdf.namedNode('http://www.w3.org/2001/XMLSchema#decimal')))
         }
         return quad
     }"""^^code:EcmaScript).
