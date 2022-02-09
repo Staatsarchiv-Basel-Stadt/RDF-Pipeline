@@ -33,12 +33,13 @@
     p:value "https://ld.staatsarchiv.bs.ch/graph/ais-metadata"
   ].
 
-<main> a p:Pipeline, p:Readable;
+<main> a p:Pipeline;
   p:variables <defaultVars>;
   p:steps [
     p:stepList (
       <mergeInputs>
       <serialize>
+      <save>
     )
   ].
 
@@ -137,7 +138,7 @@
   code:link <node:barnard59-base#concat.object> ] ;
   code:arguments     ( 
     <static>
-    <getStore>
+#    <getStore>
   ) .
 
 <setSinkGraph> a p:Step;
