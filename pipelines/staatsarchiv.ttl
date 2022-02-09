@@ -38,6 +38,7 @@
   p:steps [
     p:stepList (
       <mergeInputs>
+      <fixQuads>
       <serialize>
       <save>
     )
@@ -203,6 +204,38 @@
                     code:link <file:../lib/fix#fixDecimal>
                     ] )
   .
+
+<gYear> a p:Step ;
+  code:implementedBy [
+    code:link <node:barnard59-base#map> ;
+    a code:EcmaScript
+  ];
+  code:arguments ("""
+    quad => {
+      const rdf = require('rdf-ext')
+      const gYear = RegExp(/^\\d{4}$/)
+
+      if (quad.predicate.equals(rdf.namedNode('http://www.w3.org/2004/02/skos/core#prefLabel')) && gYear.test(quad.object.value)) {
+        return rdf.quad(quad.subject, rdf.namedNode('https://finance.ld.admin.ch/bundesbudget/dimension/year'), rdf.literal(quad.object.value, rdf.namedNode('http://www.w3.org/2001/XMLSchema#gYear')))
+      }
+  
+      return quad
+    }
+  """^^code:EcmaScript) .
+
+<fixQuads> a p:Step;
+	code:implementedBy [ a code:EcmaScript;
+        code:link <node:barnard59-base#map>
+    ];
+    code:arguments ("""quad => {
+        const rdf = require('rdf-ext')
+        if (rdf.namedNode('http://schema.org/height').equals(quad.predicate)) {
+            const height = quad.object.import()
+            const object = rdf.literal(height.toString().replace(',', '.')), rdf.namedNode('http://www.w3.org/2001/XMLSchema#decimal'))
+			      return rdf.quad(quad.subject, quad.predicate, object)
+        }
+        return quad
+    }"""^^code:EcmaScript).
 
 <timestamp> a p:Step;
 	code:implementedBy [ a code:EcmaScript;

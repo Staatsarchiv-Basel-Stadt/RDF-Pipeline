@@ -56,6 +56,7 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
     rdfs:label "State Archives of Basel-Stadt"@en ;
     schema:name "Staatsarchiv Basel-Stadt"@de ;
     schema:name "State Archives of Basel-Stadt"@en ;
+    schema:height "13,43"^^xsd:decimal ;
     schema:url <https://www.staatsarchiv.bs.ch> ;
     rdfs:seeAlso wd:Q56219654
     .
