@@ -6,7 +6,7 @@ FIRST=true
 
 mkdir -p input
 cd input
-split -l 50000 --additional-suffix=.nt ../scope.nt
+split -l 40000 --additional-suffix=.nt ../scope.nt
 cd ..
 
 for file in ./input/*
@@ -18,6 +18,7 @@ do
     echo "PUTing to "$SINK_ENDPOINT_URL
     FIRST=false
     curl -X PUT \
+      --noproxy "pdstasvogdp" \
       --fail \
       -n \
       -H Content-Type:application/n-triples \
@@ -27,6 +28,7 @@ do
   else
     echo "POSTing to "$SINK_ENDPOINT_URL
     curl -X POST \
+      --noproxy "pdstasvogdp" \
       --fail \
       -n \
       -H Content-Type:application/n-triples \
