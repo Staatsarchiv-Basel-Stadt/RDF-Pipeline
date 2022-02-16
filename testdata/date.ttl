@@ -1,0 +1,4008 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix dcterm:  <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico:    <https://www.ica.org/standards/RiC/ontology#> .
+
+<https://ld.staatsarchiv.bs.ch/Record/115072/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115447/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116663/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115667/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1912" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112958/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115304/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112220/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116668/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112693/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115691/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113959/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116630/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112705/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115476/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1925" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113921/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115309/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/120116/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1498-1727" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112987/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116635/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113926/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96962/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.24" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115118/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115443/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119418/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1844-" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112734/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112519/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117070/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/119638/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115663/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112954/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96967/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "k.A." .
+
+<https://ld.staatsarchiv.bs.ch/Record/115300/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115448/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113955/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115147/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112701/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115472/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115257/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112959/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119667/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115692/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96934/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903-" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115477/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112706/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113922/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115704/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116693/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113984/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113069/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115114/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112178/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1574" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112730/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113031/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112515/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115697/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113989/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112950/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96963/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.17" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115119/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115444/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113951/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115143/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115253/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118337/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114737/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112955/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96968/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.7.18" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119663/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115738/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113956/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1875" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115148/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112702/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115473/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115700/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113003/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113980/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115110/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115258/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112549/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119668/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112511/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115282/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112984/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114766/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115705/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116694/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119692/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1900 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113985/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1840 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115115/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112731/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117007/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.10.3" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112516/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115287/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114733/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118333/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112951/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96964/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.10" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112688/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116988/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.9.16" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113952/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115144/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115254/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118338/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1879-" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113061/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114738/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112545/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119664/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115739/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118362/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1907-" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114762/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116690/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113981/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115111/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112512/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115283/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114767/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115658/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116659/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115706/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119693/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1900 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113986/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112684/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115730/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117008/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.10.8" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115140/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115288/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113095/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118334/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112216/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1909" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114734/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112541/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112689/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114796/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119660/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115735/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115097/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116626/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112498/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113062/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1908" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117037/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112546/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118363/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1904" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115654/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114763/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115439/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119364/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1937" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116980/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117004/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.9.18" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113091/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117066/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/114768/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112212/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118330/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114730/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112685/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1754" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114792/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116985/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.9.16" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115093/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116622/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115468/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113913/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112494/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112217/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112542/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115688/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114797/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116627/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115098/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115325/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115650/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1913" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113918/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115435/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112499/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116651/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117062/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/115655/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112946/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96959/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.3.24 (ca.)-" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119365/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116656/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116981/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113947/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1901" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115464/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117067/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112490/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112213/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1761" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119659/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115684/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114793/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116623/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115094/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115321/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115469/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113914/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116685/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115106/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115431/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112495/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112722/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112507/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115326/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115651/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113919/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112942/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115436/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116652/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112727/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113943/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115135/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112199/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115460/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118329/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114729/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112947/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113100/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119655/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115680/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113948/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119390/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "18. Jh." .
+
+<https://ld.staatsarchiv.bs.ch/Record/115090/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115465/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113910/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114801/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116681/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115102/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113057/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112491/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112503/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115685/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115322/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116686/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113977/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115107/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115432/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112723/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112508/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115131/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115279/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112195/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113134/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118325/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119689/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1952" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112943/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96956/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.3.12" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119651/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112728/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115726/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113944/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96980/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.7.3" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115136/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115461/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/127363/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1847-1868" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117028/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.10.8" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112537/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1878" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113163/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119656/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118354/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114802/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116682/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115103/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113058/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113168/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112504/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113020/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118359/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115275/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112191/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1570 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114759/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119575/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1811-1838" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113130/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113978/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1847" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116976/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115722/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115132/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112196/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118326/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112208/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117024/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112533/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1877" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114788/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119652/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116618/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115727/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115089/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118350/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1904" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114750/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96981/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.7.10" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112538/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1878" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112500/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115271/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114755/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115646/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116647/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113974/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116972/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115276/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1902" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112192/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117058/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/117020/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112204/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119686/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1952" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116977/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114784/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115085/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116614/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112486/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112209/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112534/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114789/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116619/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115317/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114751/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115642/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115427/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116643/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113970/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1912" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115272/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117054/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/114756/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115647/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112938/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112200/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119357/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1890" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119682/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1830 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116648/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116973/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114780/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115081/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116610/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117059/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112482/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112205/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1844" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117021/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.10.8" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112530/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115676/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114785/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116615/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115086/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115313/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116677/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115423/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113015/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119618/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1895 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114752/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115318/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117050/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/97138/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115643/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112934/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115428/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116644/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112719/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115452/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1890" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112939/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112201/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119647/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116649/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114781/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115672/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119382/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1878" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96976/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115082/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116611/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115457/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116673/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/90641/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1749-1990" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112483/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115677/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115314/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/97134/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "k.A." .
+
+<https://ld.staatsarchiv.bs.ch/Record/113907/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116678/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112930/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113969/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115424/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116640/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112715/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113931/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112187/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117051/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/97139/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.8.20" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112935/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119643/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115718/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115128/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115453/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1890" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112529/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119648/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115673/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112964/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96977/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1912" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115310/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115458/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113965/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119720/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1815 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115420/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115157/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112711/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115482/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112183/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115267/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/97135/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/188027/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1832-1994" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112931/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119677/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1950" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112993/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112716/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113932/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115124/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112188/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1896" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117016/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1847" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113041/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1876" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112525/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115296/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119644/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115719/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118342/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112960/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96973/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "k.A." .
+
+<https://ld.staatsarchiv.bs.ch/Record/115129/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116670/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115153/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115263/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118347/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114747/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96978/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.7.3" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119673/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1615" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113966/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112712/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115483/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115710/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113990/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112184/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1622 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115120/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115268/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117012/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119678/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1944" .
+
+<https://ld.staatsarchiv.bs.ch/Record/188028/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "16. Jh.-1994" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113185/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112521/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1900" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115292/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116969/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/114776/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119640/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115077/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115715/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115125/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117017/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113042/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112526/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115297/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/189574/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1862" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96864/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.1.16" .
+
+<https://ld.staatsarchiv.bs.ch/Record/232818/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903-1930 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118343/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114743/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112698/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1858" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115419/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115154/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115264/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118348/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1904 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112180/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1574" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114748/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119674/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1949" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114772/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115073/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115711/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113991/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113076/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117013/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112522/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1900" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115293/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114777/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115668/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1912" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115078/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115305/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112694/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116631/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115740/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115150/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115260/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118344/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114744/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112699/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116636/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119670/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113927/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119639/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117071/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/114773/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115664/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1912" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115074/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115301/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115449/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116665/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112690/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115669/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115306/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115693/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114740/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112695/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116995/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.9.17" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96935/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903-" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115416/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116632/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112707/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115478/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113923/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113008/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112179/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1574" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115440/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112927/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115698/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116637/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119635/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1895 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113928/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115660/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115070/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115445/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119370/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "-1937" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116661/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113147/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117072/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112956/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96969/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.28" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115302/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1754" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116666/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1834" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112691/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113957/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115149/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112703/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115474/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115259/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1890-1900" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119669/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115694/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96936/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.1.16" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112985/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116633/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112708/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115479/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113924/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113009/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96960/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.10" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115116/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115441/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112732/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112517/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115699/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113143/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119636/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1895 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115661/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112952/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96965/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.24" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115446/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116662/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113953/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115145/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115470/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/89774/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1552-1687" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115255/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118339/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "-1890" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114739/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112957/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113110/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1910-1911" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119665/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115690/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113958/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115475/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1926" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112704/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115702/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113920/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116691/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113982/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115112/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115695/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115284/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112986/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115707/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113987/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96961/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.28" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115117/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115442/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112733/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115141/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112518/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1906" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115289/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118335/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114735/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112953/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96966/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.17" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96880/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.1.16" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119661/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115736/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113954/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115146/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112700/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115471/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115256/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113063/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117038/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112547/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118364/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115280/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114764/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115703/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116692/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113983/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115113/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113092/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115285/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114769/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115708/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118331/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114731/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113988/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112686/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115732/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113950/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115142/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115252/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117034/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/118336/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112218/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114736/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112543/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116628/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119662/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115099/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115737/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114760/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112548/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/122582/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1538-1998" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117001/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.9.18" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112510/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115281/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115656/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114765/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116657/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119691/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1952" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119703/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1958" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117068/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/115286/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118332/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112214/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1743" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114732/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112687/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114794/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115733/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115095/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116624/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113915/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112496/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1901" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112219/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113060/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112544/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114799/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116629/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118361/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115327/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115652/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114761/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115437/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116653/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113139/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115657/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112948/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112210/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113101/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116658/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113949/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114790/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115091/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116620/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115466/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113911/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117069/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112492/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112215/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1743" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112540/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115686/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114795/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116625/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115096/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115323/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113916/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116687/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115108/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115433/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/188181/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1832" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112497/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112724/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112509/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115328/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115653/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112944/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96957/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.3.12" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115438/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116654/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112729/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113945/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115137/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115462/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112949/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112211/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119657/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113164/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115682/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114791/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115467/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115092/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116621/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113912/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114803/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116683/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115104/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113059/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112493/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112720/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113021/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112505/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115324/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113131/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113917/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116688/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112940/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113979/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115109/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115434/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116650/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112725/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115133/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112197/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117061/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/118327/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1930 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112945/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96958/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.3.24" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119653/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115728/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113946/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96982/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115138/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115463/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115100/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112539/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119658/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115683/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113165/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112501/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118356/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115320/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114804/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113975/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1615" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115105/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115430/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112721/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115277/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112506/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112193/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1908" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113132/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118323/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "-1890" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112941/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119687/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1952" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116978/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.9.3" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112726/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115724/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115134/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112198/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118328/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117026/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/114728/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112535/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1878" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119654/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115729/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118352/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115139/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116680/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115101/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115273/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113080/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113166/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112502/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118357/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114757/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115648/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113190/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113976/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116974/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.8.26" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115130/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115278/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112194/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112206/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118324/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112531/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119688/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1952" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116979/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114786/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119650/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116616/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115087/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115725/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112488/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112536/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1878" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118353/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115319/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114753/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115644/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115429/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116645/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116970/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112190/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118358/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115274/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115649/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114758/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112202/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119684/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1951" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116975/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114782/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116612/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115083/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115721/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/90642/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1749-1909" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112484/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112207/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112532/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1876" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114787/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116617/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115088/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115315/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115640/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113908/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115425/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112489/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116641/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115270/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114754/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115645/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112936/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116646/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116971/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.8.26" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115454/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1871" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112203/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119649/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1931-1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114783/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115674/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119384/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1870 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116613/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115084/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115311/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115459/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116675/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115421/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112485/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119721/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1966" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115679/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115641/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115316/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1839" .
+
+<https://ld.staatsarchiv.bs.ch/Record/97136/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113909/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112932/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115426/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116642/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112717/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113933/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112189/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115450/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117053/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/112937/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119645/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112961/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96974/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.6.3" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115080/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119380/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1878" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115455/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116671/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112481/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115675/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/96979/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.7.3" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115312/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116676/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113967/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115422/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119722/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1904" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112713/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115484/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113014/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1914" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115121/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115269/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112185/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1898" .
+
+<https://ld.staatsarchiv.bs.ch/Record/97137/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.7.18" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113186/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112933/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119679/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1879-1920 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119641/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112718/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1617" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115716/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113934/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115126/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115451/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117018/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112527/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115298/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119646/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115671/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112962/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115456/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116672/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113963/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115155/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115480/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115265/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118349/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112181/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1614" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114749/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119613/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1642" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113968/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112714/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115712/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113930/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113992/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115122/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112186/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117014/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112523/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1900" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115294/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114778/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119642/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936-1939" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116608/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115717/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115079/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118340/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115127/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117019/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112528/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115299/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115261/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118345/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "-1899" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114745/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113964/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115156/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112710/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115481/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115266/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112182/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117010/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/188026/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1538-1998" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115290/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114774/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115075/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115713/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119375/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1936" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113993/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115123/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/120078/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1742-1856" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113040/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1642" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117015/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903.10.8" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112524/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115295/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114779/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116609/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1932" .
+
+<https://ld.staatsarchiv.bs.ch/Record/118341/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115307/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114741/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112696/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115417/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113960/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115742/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115152/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115262/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113119/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114746/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112928/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116638/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114770/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113929/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115071/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119371/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1934" .
+
+<https://ld.staatsarchiv.bs.ch/Record/117011/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112520/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1899" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115291/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114775/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1903" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116968/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "s.d." .
+
+<https://ld.staatsarchiv.bs.ch/Record/115076/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115303/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116667/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112692/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115308/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/79853/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "17. Jh.-20. Jh." .
+
+<https://ld.staatsarchiv.bs.ch/Record/114742/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112697/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119343/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1937.02" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115418/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116634/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112709/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/113925/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/112929/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/116639/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/119637/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "1895 (ca.)" .
+
+<https://ld.staatsarchiv.bs.ch/Record/114771/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
+
+<https://ld.staatsarchiv.bs.ch/Record/115662/Date>
+        rdf:type           rico:Date ;
+        rico:textualValue  "keine Angabe" .
