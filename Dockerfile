@@ -55,13 +55,15 @@ COPY cron/cron-mappingUpdate.sh ./cron/
 COPY cron/cron-materialize.sh ./cron/
 COPY cron/cron-publish.sh ./cron/
 
-# Copy Node Scripts
+# Copy Scripts and Data
 RUN  mkdir -p ./pipelines
+RUN  mkdir -p ./lib
 RUN  mkdir -p ./metadata
 RUN  mkdir -p ./testdata
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY pipelines/staatsarchiv.ttl ./pipelines/
+COPY lib/* ./lib/
 COPY metadata/* ./metadata/
 COPY testdata/* ./testdata/
 COPY shell ./shell
