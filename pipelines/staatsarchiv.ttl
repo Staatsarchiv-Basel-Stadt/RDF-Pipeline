@@ -43,6 +43,8 @@
     p:stepList (
       <mergeInputsLocal>
       <fixDecimal>
+      <transformQuads>
+      <flatten>
       <serialize>
       <save>
     )
@@ -254,6 +256,20 @@
       return quad
     }
   """^^code:EcmaScript) .
+
+# step to transform dates (?)
+<transformQuads> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+  code:link <node:barnard59-base#map>
+  ];
+  code:arguments ( [ a code:EcmaScript ;
+                       code:link <file:../lib/quads#transformQuads>
+                       ] ).
+
+<flatten> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-base#flatten>;
+  ].
 
 <fixDecimal> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
