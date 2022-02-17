@@ -1,0 +1,101 @@
+PREFIX dcterms: <http://purl.org/dc/terms/> 
+PREFIX owl: <http://www.w3.org/2002/07/owl#> 
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
+PREFIX ric-rst: <https://www.ica.org/standards/RiC/vocabularies/recordSetTypes#>
+PREFIX rico: <https://www.ica.org/standards/RiC/ontology#> 
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#> 
+PREFIX stabs-ext: <https://ld.staatsarchiv.bs.ch/vocabularies/ExtentTypes#>
+PREFIX stabs-idt: <https://ld.staatsarchiv.bs.ch/vocabularies/IdentifierTypes#>
+PREFIX stabs-rst: <https://ld.staatsarchiv.bs.ch/vocabularies/RecordSetTypes#>
+PREFIX stabs-tht: <https://ld.staatsarchiv.bs.ch/vocabularies/thesaurusTypes#>
+
+# RecordSetTypes des StABS
+# ------------------------
+# Definiert die im StABS verwendeten Verzeichnungsstufen gemäss ISAD(G) und internen Erschliessungsregeln als Erweiterung der verfügbaren rico:RecordSetType
+
+<https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes> a owl:NamedIndividual, skos:ConceptScheme ;
+	dcterms:creator "Staatsarchiv Basel-Stadt"@de ;
+	dcterms:title "Vokabular der im Staatsarchiv Basel-Stadt verwendeten Record Set Types"@de ;
+	rdfs:label "Record Set Types"@en ;
+	skos:definition "Vokabular lokal verwendeter Record Set Types"@de
+	.
+
+stabs-rst:Archiv a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Archiv"@de ;
+	rdfs:subClassOf ric-rst:Collection ;
+	skos:prefLabel "Archiv"@de ;
+	skos:definition  "Die Stufe Archiv besteht aus einer einzigen Verzeichnungseinheit, die den Gesamt­bestand des Archivs beschreibt. Die Ordnung erfolgt auf der Grundlage des Archivsprengels, der in gesetzlichen Erlassen, in Vereinbarungen oder in einem Sammelprofil geregelt ist. (Schweizerische Richtlinien für die Umsetzung von ISAD(G) "@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes>
+	.
+
+stabs-rst:Abteilung a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Abteilung"@de ;
+	rdfs:subClassOf ric-rst:Collection ;
+	skos:prefLabel "Abteilung"@de ;
+	skos:definition  "Die Stufe Abteilung dient der archivinternen Grobgliederung und wird verwendet, die obersten Gruppen wie Haupt-, Neben- oder Privatarchive zu bilden. Innerhalb dieser obersten Gliederung werden weiteren Abteilungen angesetzt, wie beispielsweise das Ältere Hauptarchiv oder das Neue Hauptarchiv. (Def. sinngemäss nach StABS, Handbuch Erschliessung) "@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes>
+	.	
+
+stabs-rst:Fonds a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Fonds"@de ;
+	rdfs:subClassOf ric-rst:Fonds ;
+	skos:prefLabel "Fonds"@de ;
+	skos:definition  "Die Stufe Fonds dient dazu, sämtliche Bestände einer Provenienzstelle zusammenzufassen. Im Neueren Hauptarchiv (alte Systematik) sowie im Neuen Hauptarchiv (neue Systematik) wird für jede Dienststelle ein Fonds gebildet. Bei privaten Aktenbildnern gilt die Definition sinngemäss. (Def. sinngemäss nach StABS, Handbuch Erschliessung) "@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes>
+	.
+
+stabs-rst:Bestand a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Bestand"@de ;
+	rdfs:subClassOf ric-rst:Series ;
+	skos:prefLabel "Bestand"@de ;
+	skos:definition  "Bestände werden bei Unterlagen von Dienststellen und juristischen Personen aufgrund bestehender Ordnungssysteme, physisch unterscheidbaren Ablagen, Zeitperioden oder nach den Aufgabengebieten und Produkten der Provenienzstelle gebildet. Bei natürlichen Personen und Familienarchiven können Bestände auch aufgrund von Generationen, Tätigkeitsgebieten oder Lebensabschnitten gebildet werden. (Def. sinngemäss nach StABS, Handbuch Erschliessung) "@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes>
+	.
+
+stabs-rst:Serie a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Serie"@de ;
+	rdfs:subClassOf ric-rst:Series ;
+	skos:prefLabel "Serie"@de ;
+	skos:definition  "Die Stufe Serie gliedert unterhalb des Bestands diesen hierarchisch in einem Aktenplan. Zusammengehörende Serien bilden eine Seriengruppe. (Def. sinngemäss nach StABS, Handbuch Erschliessung) "@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes>
+	.
+
+stabs-rst:Dossier a rico:RecordSetType , skos:Concept , owl:NamedIndividual ;
+	rdfs:label "Dossier"@de ;
+	rdfs:subClassOf ric-rst:File ;
+	skos:prefLabel "Dossier"@de ;
+	skos:definition  "Die Stufe Dossier erfasst physisch eindeutig unterscheidbare Einheiten innerhalb einer Serie bzw. eines Zugangs. Traditionellerweise und aufgrund archivfachlicher Standards werden Bild- und Planmaterial sowie audiovisuelle Unterlagen und e-Akten bis auf Dossierstufe erschlossen. (Def. sinngemäss nach StABS, Handbuch Erschliessung) "@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/recordSetTypes>
+	.
+
+# IdentifierTypes des StABS
+# -------------------------
+# Definiert die Typen der im StABS verwendeten Identifier (d.h. Signaturen und ev. weitere Identifier)
+
+<https://ld.staatsarchiv.bs.ch/vocabularies/IdentifierTypes> a owl:NamedIndividual, skos:ConceptScheme ;
+	dcterms:creator "Staatsarchiv Basel-Stadt"@de ;
+	dcterms:title "Vokabular der im Staatsarchiv Basel-Stadt verwendeten Typen von Identifikatoren"@de ;
+	rdfs:label "Identifier Types"@en ;
+	skos:definition "Vokabular lokal verwendeter Identifikatoren"@de
+	.
+
+stabs-idt:Alte-Signatur a rico:IdentifierType, skos:Concept, owl:NamedIndividual ;
+	rdfs:label "Alte Signatur"@de ;
+	skos:prefLabel "Alte Signatur"@de ;
+	skos:definition "Gibt allfällig vorhandene alte Signaturen an"@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/IdentifierTypes>
+	.
+
+stabs-idt:Fruehere-Signatur a rico:IdentifierType, skos:Concept, owl:NamedIndividual ;
+	rdfs:label "Frühere Signatur"@de ;
+	skos:prefLabel "Frühere Signatur"@de ;
+	skos:definition "Von der Provenienzstelle verwendete Signatur oder identifizierende Bezeichnung"@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/IdentifierTypes>
+	.
+
+stabs-idt:Fruehere-StABS-Signatur a rico:IdentifierType, skos:Concept, owl:NamedIndividual ;
+	rdfs:label "Frühere StABS-Signatur"@de ;
+	skos:prefLabel "Frühere StABS-Signatur"@de ;
+	skos:definition "Signatur, die früher im Staatsarchiv Basel-Stadt im Gebrauch war. Bei einer Mutation der Signatur wird im Archivinformationssystem die ursprüngliche Signatur automatisch hierher übertragen."@de ;
+	skos:inScheme <https://ld.staatsarchiv.bs.ch/vocabularies/IdentifierTypes>
+	.
