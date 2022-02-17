@@ -6,6 +6,7 @@ FIRST=true
 
 mkdir -p input
 cd input
+rm *
 split -l 40000 --additional-suffix=.nt ../scope.nt
 cd ..
 
