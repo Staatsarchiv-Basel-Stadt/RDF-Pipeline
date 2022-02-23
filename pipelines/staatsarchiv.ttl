@@ -23,7 +23,7 @@
     p:name "SINK_ENDPOINT_PASSWORD";
     p:value "admin"
   ], [ a p:Variable;
-    p:name "inputFilePattern";
+    p:name "metadata";
     p:value "metadata/*.ttl"
   ], [ a p:Variable;
     p:name "testdata";
@@ -66,6 +66,8 @@
     p:stepList (
       <mergeInputs>
       <fixDecimal>
+      <transformQuads>
+      <flatten>
       <serialize>
       <save>
     )
@@ -117,7 +119,7 @@
   ];
   code:arguments [
     code:name "pattern";
-    code:value "inputFilePattern"^^p:VariableName
+    code:value "metadata"^^p:VariableName
   ].
 
 <listTurtleFilesLocal> a p:Step;
