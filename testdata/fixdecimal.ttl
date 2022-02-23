@@ -1,0 +1,3004 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico:    <https://www.ica.org/standards/RiC/ontology#> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1099843/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/936267/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557447/Extent/volume-of-data>
+        rico:quantity  "387,44"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146224/Extent/volume-of-data>
+        rico:quantity  "2,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296828/Extent/volume-of-data>
+        rico:quantity  "142,57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297866/Extent/volume-of-data>
+        rico:quantity  "95,68"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296789/Extent/volume-of-data>
+        rico:quantity  "231,67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/126484/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223278/Extent/volume-of-data>
+        rico:quantity  "94,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90461/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331965/Extent/volume-of-data>
+        rico:quantity  "172,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146118/Extent/volume-of-data>
+        rico:quantity  "33,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/247334/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145364/Extent/volume-of-data>
+        rico:quantity  "754,08"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89982/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557558/Extent/volume-of-data>
+        rico:quantity  "86,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89839/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1174566/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331922/Extent/volume-of-data>
+        rico:quantity  "327,71"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/102542/Extent/linear-meters>
+        rico:quantity  "36,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145321/Extent/volume-of-data>
+        rico:quantity  "625,94"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1664301/Extent/volume-of-data>
+        rico:quantity  "124,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558051/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89791/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/136339/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89840/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90654/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296445/Extent/volume-of-data>
+        rico:quantity  "223,64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/453594/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119575/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148609/Extent/volume-of-data>
+        rico:quantity  "8,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/202843/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1231464/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145514/Extent/volume-of-data>
+        rico:quantity  "419,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132577/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89984/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/188010/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146171/Extent/volume-of-data>
+        rico:quantity  "32,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297852/Extent/volume-of-data>
+        rico:quantity  "6,15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89793/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145369/Extent/volume-of-data>
+        rico:quantity  "9,56"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558664/Extent/volume-of-data>
+        rico:quantity  "329,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146104/Extent/volume-of-data>
+        rico:quantity  "9,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1421855/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/307989/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1256927/Extent/linear-meters>
+        rico:quantity  "2,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1007217/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1428008/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/204631/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296773/Extent/volume-of-data>
+        rico:quantity  "294,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89986/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223262/Extent/volume-of-data>
+        rico:quantity  "57,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/410604/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/591546/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89795/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/79921/Extent/linear-meters>
+        rico:quantity  "26,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297402/Extent/volume-of-data>
+        rico:quantity  "6,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557542/Extent/volume-of-data>
+        rico:quantity  "56,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/452229/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119270/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332240/Extent/volume-of-data>
+        rico:quantity  "19,19"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555574/Extent/volume-of-data>
+        rico:quantity  "17,13"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/851746/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/250179/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/452230/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/189218/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/226243/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148554/Extent/volume-of-data>
+        rico:quantity  "301,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297855/Extent/volume-of-data>
+        rico:quantity  "318,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296778/Extent/volume-of-data>
+        rico:quantity  "2,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/289423/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223267/Extent/volume-of-data>
+        rico:quantity  "45,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/190608/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/120086/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296583/Extent/volume-of-data>
+        rico:quantity  "16,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145329/Extent/volume-of-data>
+        rico:quantity  "53,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90208/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119272/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/134490/Extent/linear-meters>
+        rico:quantity  "4,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/138419/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90400/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89968/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557547/Extent/volume-of-data>
+        rico:quantity  "30,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132035/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1194184/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145310/Extent/volume-of-data>
+        rico:quantity  "311,62"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555579/Extent/volume-of-data>
+        rico:quantity  "368,67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129318/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296434/Extent/volume-of-data>
+        rico:quantity  "289,57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132371/Extent/linear-meters>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90353/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331723/Extent/volume-of-data>
+        rico:quantity  "709,60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/120088/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119274/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90402/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331983/Extent/volume-of-data>
+        rico:quantity  "51,88"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297778/Extent/volume-of-data>
+        rico:quantity  "20,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/202926/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331916/Extent/volume-of-data>
+        rico:quantity  "243,21"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/79905/Extent/linear-meters>
+        rico:quantity  "8,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145315/Extent/volume-of-data>
+        rico:quantity  "746,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543324/Extent/volume-of-data>
+        rico:quantity  "89,87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296463/Extent/volume-of-data>
+        rico:quantity  "30,64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146247/Extent/volume-of-data>
+        rico:quantity  "5,78"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296699/Extent/volume-of-data>
+        rico:quantity  "313,55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145493/Extent/volume-of-data>
+        rico:quantity  "48,37"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332012/Extent/volume-of-data>
+        rico:quantity  "52,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1361477/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297395/Extent/volume-of-data>
+        rico:quantity  "131,27"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/859022/Extent/volume-of-data>
+        rico:quantity  "1330,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297846/Extent/volume-of-data>
+        rico:quantity  "125,71"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331988/Extent/volume-of-data>
+        rico:quantity  "556,89"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332248/Extent/volume-of-data>
+        rico:quantity  "278,27"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332166/Extent/volume-of-data>
+        rico:quantity  "226,36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558164/Extent/volume-of-data>
+        rico:quantity  "722,03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/256645/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543329/Extent/volume-of-data>
+        rico:quantity  "1,69"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1477346/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296830/Extent/volume-of-data>
+        rico:quantity  "971,11"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296791/Extent/volume-of-data>
+        rico:quantity  "34,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/622229/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200021/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296767/Extent/volume-of-data>
+        rico:quantity  "72,16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1031695/Extent/linear-meters>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1398841/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223256/Extent/volume-of-data>
+        rico:quantity  "45,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119449/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1151149/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297762/Extent/volume-of-data>
+        rico:quantity  "17,79"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1458415/Extent/volume-of-data>
+        rico:quantity  "4,47"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297738/Extent/volume-of-data>
+        rico:quantity  "20,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/86868/Extent/linear-meters>
+        rico:quantity  "2,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146493/Extent/volume-of-data>
+        rico:quantity  "14,06"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1088115/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145279/Extent/volume-of-data>
+        rico:quantity  "121,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557560/Extent/volume-of-data>
+        rico:quantity  "44,41"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119258/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119450/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1037650/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558169/Extent/volume-of-data>
+        rico:quantity  "30,83"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/381205/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119020/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146231/Extent/volume-of-data>
+        rico:quantity  "127,67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148611/Extent/volume-of-data>
+        rico:quantity  "43,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125397/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148548/Extent/volume-of-data>
+        rico:quantity  "8,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297849/Extent/volume-of-data>
+        rico:quantity  "750,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145453/Extent/volume-of-data>
+        rico:quantity  "62,71"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146125/Extent/volume-of-data>
+        rico:quantity  "589,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297767/Extent/volume-of-data>
+        rico:quantity  "118,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119452/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145347/Extent/volume-of-data>
+        rico:quantity  "25,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557604/Extent/volume-of-data>
+        rico:quantity  "46,16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1299461/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557565/Extent/volume-of-data>
+        rico:quantity  "1460,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200025/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145304/Extent/volume-of-data>
+        rico:quantity  "604,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1492042/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145972/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/562038/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296452/Extent/volume-of-data>
+        rico:quantity  "969,43"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145521/Extent/volume-of-data>
+        rico:quantity  "940,07"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296688/Extent/volume-of-data>
+        rico:quantity  "203,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145482/Extent/volume-of-data>
+        rico:quantity  "23,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558792/Extent/linear-meters>
+        rico:quantity  "2,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331717/Extent/volume-of-data>
+        rico:quantity  "1300,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332001/Extent/volume-of-data>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1025993/Extent/linear-meters>
+        rico:quantity  "4,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297384/Extent/volume-of-data>
+        rico:quantity  "328,97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/616096/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223247/Extent/volume-of-data>
+        rico:quantity  "12,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/259141/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1021491/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331934/Extent/volume-of-data>
+        rico:quantity  "95,55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543424/Extent/volume-of-data>
+        rico:quantity  "134,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90008/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558153/Extent/volume-of-data>
+        rico:quantity  "21,24"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296457/Extent/volume-of-data>
+        rico:quantity  "735,65"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558794/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296780/Extent/volume-of-data>
+        rico:quantity  "13,75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145526/Extent/volume-of-data>
+        rico:quantity  "0,83"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332006/Extent/volume-of-data>
+        rico:quantity  "328,57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/204031/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/545351/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1621425/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557592/Extent/volume-of-data>
+        rico:quantity  "2100,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146222/Extent/volume-of-data>
+        rico:quantity  "1090,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297751/Extent/volume-of-data>
+        rico:quantity  "187,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297389/Extent/volume-of-data>
+        rico:quantity  "25,26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/869955/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145331/Extent/volume-of-data>
+        rico:quantity  "164,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90392/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/940770/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146482/Extent/volume-of-data>
+        rico:quantity  "194,51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/122871/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1150123/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/202821/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558676/Extent/volume-of-data>
+        rico:quantity  "629,74"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/741279/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90058/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558158/Extent/volume-of-data>
+        rico:quantity  "253,85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543347/Extent/volume-of-data>
+        rico:quantity  "156,52"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1712773/Extent/volume-of-data>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297862/Extent/volume-of-data>
+        rico:quantity  "669,31"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296785/Extent/volume-of-data>
+        rico:quantity  "527,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332377/Extent/volume-of-data>
+        rico:quantity  "676,74"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1011381/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331961/Extent/volume-of-data>
+        rico:quantity  "11,61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543312/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557597/Extent/volume-of-data>
+        rico:quantity  "186,21"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/890452/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296590/Extent/volume-of-data>
+        rico:quantity  "17,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297756/Extent/volume-of-data>
+        rico:quantity  "37,74"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145336/Extent/volume-of-data>
+        rico:quantity  "300,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146487/Extent/volume-of-data>
+        rico:quantity  "33,92"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/79897/Extent/linear-meters>
+        rico:quantity  "5,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/450037/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129340/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296829/Extent/volume-of-data>
+        rico:quantity  "139,36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297867/Extent/volume-of-data>
+        rico:quantity  "452,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331730/Extent/volume-of-data>
+        rico:quantity  "863,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89944/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331990/Extent/volume-of-data>
+        rico:quantity  "13,97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223279/Extent/volume-of-data>
+        rico:quantity  "9,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146119/Extent/volume-of-data>
+        rico:quantity  "501,37"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145365/Extent/volume-of-data>
+        rico:quantity  "556,65"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223260/Extent/volume-of-data>
+        rico:quantity  "301,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/512046/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558660/Extent/volume-of-data>
+        rico:quantity  "34,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331923/Extent/volume-of-data>
+        rico:quantity  "50,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/637446/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129342/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89897/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/356821/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/186904/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/861339/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132299/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146254/Extent/volume-of-data>
+        rico:quantity  "85,28"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146172/Extent/volume-of-data>
+        rico:quantity  "241,41"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297853/Extent/volume-of-data>
+        rico:quantity  "6,16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/851774/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297829/Extent/volume-of-data>
+        rico:quantity  "410,59"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/241058/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129344/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558665/Extent/volume-of-data>
+        rico:quantity  "340,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146105/Extent/volume-of-data>
+        rico:quantity  "11,51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/211743/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558171/Extent/volume-of-data>
+        rico:quantity  "9,97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148569/Extent/volume-of-data>
+        rico:quantity  "45,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1183660/Extent/linear-meters>
+        rico:quantity  "5,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148550/Extent/volume-of-data>
+        rico:quantity  "26,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296774/Extent/volume-of-data>
+        rico:quantity  "385,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332366/Extent/volume-of-data>
+        rico:quantity  "407,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125705/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/136257/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1430804/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/203151/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557543/Extent/volume-of-data>
+        rico:quantity  "17,55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/188693/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119041/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332241/Extent/volume-of-data>
+        rico:quantity  "385,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555575/Extent/volume-of-data>
+        rico:quantity  "4,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132761/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558176/Extent/volume-of-data>
+        rico:quantity  "863,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125707/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297856/Extent/volume-of-data>
+        rico:quantity  "233,15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296779/Extent/volume-of-data>
+        rico:quantity  "2,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145436/Extent/volume-of-data>
+        rico:quantity  "51,61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90409/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90601/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297774/Extent/volume-of-data>
+        rico:quantity  "0,01"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1725979/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90410/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/227554/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89978/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557548/Extent/volume-of-data>
+        rico:quantity  "232,29"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89787/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/126051/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1430951/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/739853/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296435/Extent/volume-of-data>
+        rico:quantity  "297,15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89836/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146243/Extent/volume-of-data>
+        rico:quantity  "663,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90124/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331724/Extent/volume-of-data>
+        rico:quantity  "117,85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200001/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297367/Extent/volume-of-data>
+        rico:quantity  "317,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90412/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558697/Extent/volume-of-data>
+        rico:quantity  "270,26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/116417/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296589/Extent/volume-of-data>
+        rico:quantity  "14,32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89933/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/137637/Extent/linear-meters>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296570/Extent/volume-of-data>
+        rico:quantity  "100,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89789/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332162/Extent/volume-of-data>
+        rico:quantity  "36,05"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296546/Extent/volume-of-data>
+        rico:quantity  "103,41"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89981/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558160/Extent/volume-of-data>
+        rico:quantity  "6,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145316/Extent/volume-of-data>
+        rico:quantity  "345,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89838/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/134217/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90126/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/242728/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296464/Extent/volume-of-data>
+        rico:quantity  "36,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296763/Extent/volume-of-data>
+        rico:quantity  "831,49"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/127593/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145533/Extent/volume-of-data>
+        rico:quantity  "79,61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132027/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297396/Extent/volume-of-data>
+        rico:quantity  "142,75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557575/Extent/volume-of-data>
+        rico:quantity  "614,55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1226385/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296681/Extent/volume-of-data>
+        rico:quantity  "196,25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331989/Extent/volume-of-data>
+        rico:quantity  "328,58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297847/Extent/volume-of-data>
+        rico:quantity  "413,59"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332249/Extent/volume-of-data>
+        rico:quantity  "353,85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555603/Extent/volume-of-data>
+        rico:quantity  "238,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1432262/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296575/Extent/volume-of-data>
+        rico:quantity  "24,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558165/Extent/volume-of-data>
+        rico:quantity  "944,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296831/Extent/volume-of-data>
+        rico:quantity  "21,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1256926/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/131878/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/211828/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296792/Extent/volume-of-data>
+        rico:quantity  "34,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296768/Extent/volume-of-data>
+        rico:quantity  "73,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/204630/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145538/Extent/volume-of-data>
+        rico:quantity  "193,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223281/Extent/volume-of-data>
+        rico:quantity  "115,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/126562/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/138462/Extent/linear-meters>
+        rico:quantity  "5,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/997787/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297763/Extent/volume-of-data>
+        rico:quantity  "17,78"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297739/Extent/volume-of-data>
+        rico:quantity  "20,59"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557600/Extent/volume-of-data>
+        rico:quantity  "69,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90060/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557561/Extent/volume-of-data>
+        rico:quantity  "37,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555608/Extent/volume-of-data>
+        rico:quantity  "53,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1147916/Extent/volume-of-data>
+        rico:quantity  "164,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/206465/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146232/Extent/volume-of-data>
+        rico:quantity  "136,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132032/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296836/Extent/volume-of-data>
+        rico:quantity  "116,05"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1256497/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200417/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89774/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296578/Extent/volume-of-data>
+        rico:quantity  "11,03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89823/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297768/Extent/volume-of-data>
+        rico:quantity  "13,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145372/Extent/volume-of-data>
+        rico:quantity  "368,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/289422/Extent/linear-meters>
+        rico:quantity  "5,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/190607/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1030696/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/469815/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557566/Extent/volume-of-data>
+        rico:quantity  "329,67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331930/Extent/volume-of-data>
+        rico:quantity  "15,23"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/134537/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/618944/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119271/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555598/Extent/volume-of-data>
+        rico:quantity  "158,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/121721/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296453/Extent/volume-of-data>
+        rico:quantity  "988,29"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1147451/Extent/volume-of-data>
+        rico:quantity  "391,12"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296689/Extent/volume-of-data>
+        rico:quantity  "194,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1139127/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145483/Extent/volume-of-data>
+        rico:quantity  "11,54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/215069/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/227161/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331718/Extent/volume-of-data>
+        rico:quantity  "425,14"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89825/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297385/Extent/volume-of-data>
+        rico:quantity  "360,58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90399/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1083620/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296670/Extent/volume-of-data>
+        rico:quantity  "0,01"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90591/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119012/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332199/Extent/volume-of-data>
+        rico:quantity  "30,47"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1431422/Extent/volume-of-data>
+        rico:quantity  "5616,94"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146112/Extent/volume-of-data>
+        rico:quantity  "94,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543425/Extent/volume-of-data>
+        rico:quantity  "2,03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332180/Extent/volume-of-data>
+        rico:quantity  "207,49"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/204423/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558154/Extent/volume-of-data>
+        rico:quantity  "30,91"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/79904/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/881570/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296458/Extent/volume-of-data>
+        rico:quantity  "116,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296781/Extent/volume-of-data>
+        rico:quantity  "13,07"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296757/Extent/volume-of-data>
+        rico:quantity  "166,75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332373/Extent/volume-of-data>
+        rico:quantity  "6,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90593/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145488/Extent/volume-of-data>
+        rico:quantity  "448,15"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223270/Extent/volume-of-data>
+        rico:quantity  "91,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/136327/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146223/Extent/volume-of-data>
+        rico:quantity  "132,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557569/Extent/volume-of-data>
+        rico:quantity  "1020,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296675/Extent/volume-of-data>
+        rico:quantity  "327,86"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145332/Extent/volume-of-data>
+        rico:quantity  "56,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1163716/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557526/Extent/volume-of-data>
+        rico:quantity  "225,25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296569/Extent/volume-of-data>
+        rico:quantity  "101,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145104/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/881572/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119255/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119016/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297863/Extent/volume-of-data>
+        rico:quantity  "3,36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296786/Extent/volume-of-data>
+        rico:quantity  "568,78"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/253537/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/991774/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223275/Extent/volume-of-data>
+        rico:quantity  "21,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297820/Extent/volume-of-data>
+        rico:quantity  "344,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557598/Extent/volume-of-data>
+        rico:quantity  "45,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297757/Extent/volume-of-data>
+        rico:quantity  "332,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145361/Extent/volume-of-data>
+        rico:quantity  "410,37"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145337/Extent/volume-of-data>
+        rico:quantity  "104,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/134906/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119448/Extent/linear-meters>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/241494/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119018/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1411539/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296442/Extent/volume-of-data>
+        rico:quantity  "195,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148155/Extent/volume-of-data>
+        rico:quantity  "36,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297868/Extent/volume-of-data>
+        rico:quantity  "510,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331731/Extent/volume-of-data>
+        rico:quantity  "298,53"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/546570/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297413/Extent/volume-of-data>
+        rico:quantity  "126,71"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129973/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331991/Extent/volume-of-data>
+        rico:quantity  "600,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1631916/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296635/Extent/volume-of-data>
+        rico:quantity  "8,51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1459980/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145366/Extent/volume-of-data>
+        rico:quantity  "201,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558700/Extent/volume-of-data>
+        rico:quantity  "309,92"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331924/Extent/volume-of-data>
+        rico:quantity  "13,74"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/741272/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558661/Extent/volume-of-data>
+        rico:quantity  "37,16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146101/Extent/volume-of-data>
+        rico:quantity  "11,51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119259/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296553/Extent/volume-of-data>
+        rico:quantity  "306,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/562228/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89860/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146255/Extent/volume-of-data>
+        rico:quantity  "658,01"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296746/Extent/volume-of-data>
+        rico:quantity  "437,01"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/243475/Extent/linear-meters>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/114080/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/135539/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/854726/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/412093/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/512058/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/203158/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1112374/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558690/Extent/volume-of-data>
+        rico:quantity  "702,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558666/Extent/volume-of-data>
+        rico:quantity  "52,13"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1016364/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/224282/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/214956/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558172/Extent/volume-of-data>
+        rico:quantity  "469,62"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/513838/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/188702/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331734/Extent/volume-of-data>
+        rico:quantity  "79,62"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296775/Extent/volume-of-data>
+        rico:quantity  "540,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/635605/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223264/Extent/volume-of-data>
+        rico:quantity  "45,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297770/Extent/volume-of-data>
+        rico:quantity  "269,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/940768/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1273090/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145350/Extent/volume-of-data>
+        rico:quantity  "163,92"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/220931/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145326/Extent/volume-of-data>
+        rico:quantity  "3,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146477/Extent/volume-of-data>
+        rico:quantity  "253,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1399504/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1147448/Extent/volume-of-data>
+        rico:quantity  "44,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/218914/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/936226/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/545543/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297857/Extent/volume-of-data>
+        rico:quantity  "124,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331720/Extent/volume-of-data>
+        rico:quantity  "879,21"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145437/Extent/volume-of-data>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223269/Extent/volume-of-data>
+        rico:quantity  "91,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558693/Extent/volume-of-data>
+        rico:quantity  "52,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146109/Extent/volume-of-data>
+        rico:quantity  "11,86"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331913/Extent/volume-of-data>
+        rico:quantity  "187,74"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89941/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145312/Extent/volume-of-data>
+        rico:quantity  "81,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129338/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/443342/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296460/Extent/volume-of-data>
+        rico:quantity  "13,13"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/513247/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146244/Extent/volume-of-data>
+        rico:quantity  "390,92"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145490/Extent/volume-of-data>
+        rico:quantity  "28,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297093/Extent/volume-of-data>
+        rico:quantity  "1,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1563793/Extent/volume-of-data>
+        rico:quantity  "1377,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331725/Extent/volume-of-data>
+        rico:quantity  "2,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297392/Extent/volume-of-data>
+        rico:quantity  "4,47"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297368/Extent/volume-of-data>
+        rico:quantity  "468,69"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558698/Extent/volume-of-data>
+        rico:quantity  "389,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331985/Extent/volume-of-data>
+        rico:quantity  "904,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89943/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/933170/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558655/Extent/volume-of-data>
+        rico:quantity  "204,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331918/Extent/volume-of-data>
+        rico:quantity  "30,71"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296571/Extent/volume-of-data>
+        rico:quantity  "11,86"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543393/Extent/volume-of-data>
+        rico:quantity  "324,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332163/Extent/volume-of-data>
+        rico:quantity  "21,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558161/Extent/volume-of-data>
+        rico:quantity  "336,36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/135574/Extent/linear-meters>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/192369/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/449011/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543350/Extent/volume-of-data>
+        rico:quantity  "2,05"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543326/Extent/volume-of-data>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129341/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89896/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332380/Extent/volume-of-data>
+        rico:quantity  "43,56"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132037/Extent/linear-meters>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/138469/Extent/linear-meters>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/748180/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332014/Extent/volume-of-data>
+        rico:quantity  "160,64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557576/Extent/volume-of-data>
+        rico:quantity  "1400,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1473554/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1135224/Extent/linear-meters>
+        rico:quantity  "8,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/136684/Extent/linear-meters>
+        rico:quantity  "10,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1138453/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119276/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558166/Extent/volume-of-data>
+        rico:quantity  "465,79"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557451/Extent/volume-of-data>
+        rico:quantity  "7,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1067106/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331728/Extent/volume-of-data>
+        rico:quantity  "66,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/323367/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297870/Extent/volume-of-data>
+        rico:quantity  "262,67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200041/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296769/Extent/volume-of-data>
+        rico:quantity  "75,08"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332385/Extent/volume-of-data>
+        rico:quantity  "629,27"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89973/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223258/Extent/volume-of-data>
+        rico:quantity  "351,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1058027/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129323/Extent/linear-meters>
+        rico:quantity  "6,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557601/Extent/volume-of-data>
+        rico:quantity  "212,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/211217/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/907118/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332236/Extent/volume-of-data>
+        rico:quantity  "43,97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119040/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1139230/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296837/Extent/volume-of-data>
+        rico:quantity  "113,83"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/381034/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200091/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1041571/Extent/linear-meters>
+        rico:quantity  "9,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558687/Extent/volume-of-data>
+        rico:quantity  "633,98"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297769/Extent/volume-of-data>
+        rico:quantity  "14,05"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89833/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296579/Extent/volume-of-data>
+        rico:quantity  "77,64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90408/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145349/Extent/volume-of-data>
+        rico:quantity  "40,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90600/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1271583/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331931/Extent/volume-of-data>
+        rico:quantity  "26,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1182006/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145330/Extent/volume-of-data>
+        rico:quantity  "118,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558150/Extent/volume-of-data>
+        rico:quantity  "671,96"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/188694/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89977/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/881577/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/241663/Extent/linear-meters>
+        rico:quantity  "43,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296454/Extent/volume-of-data>
+        rico:quantity  "539,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1147452/Extent/volume-of-data>
+        rico:quantity  "186,61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145523/Extent/volume-of-data>
+        rico:quantity  "22,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145484/Extent/volume-of-data>
+        rico:quantity  "816,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332003/Extent/volume-of-data>
+        rico:quantity  "325,59"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331719/Extent/volume-of-data>
+        rico:quantity  "142,07"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/400981/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297386/Extent/volume-of-data>
+        rico:quantity  "454,66"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/137922/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119022/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/235335/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/120097/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146113/Extent/volume-of-data>
+        rico:quantity  "94,49"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/116416/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558673/Extent/volume-of-data>
+        rico:quantity  "1160,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89979/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331936/Extent/volume-of-data>
+        rico:quantity  "10,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543426/Extent/volume-of-data>
+        rico:quantity  "89,27"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558155/Extent/volume-of-data>
+        rico:quantity  "1400,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119454/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543344/Extent/volume-of-data>
+        rico:quantity  "989,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296459/Extent/volume-of-data>
+        rico:quantity  "120,61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296758/Extent/volume-of-data>
+        rico:quantity  "204,53"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332374/Extent/volume-of-data>
+        rico:quantity  "274,28"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/137924/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145528/Extent/volume-of-data>
+        rico:quantity  "90,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119263/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145489/Extent/volume-of-data>
+        rico:quantity  "63,57"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332008/Extent/volume-of-data>
+        rico:quantity  "182,03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/624213/Extent/linear-meters>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200049/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297753/Extent/volume-of-data>
+        rico:quantity  "36,82"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/191777/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296676/Extent/volume-of-data>
+        rico:quantity  "289,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/187281/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145333/Extent/volume-of-data>
+        rico:quantity  "172,97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1219185/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297411/Extent/volume-of-data>
+        rico:quantity  "35,23"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/122891/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558678/Extent/volume-of-data>
+        rico:quantity  "209,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/758406/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1037321/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125977/Extent/linear-meters>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/189212/Extent/linear-meters>
+        rico:quantity  "0,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1037944/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296826/Extent/volume-of-data>
+        rico:quantity  "1540,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119265/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297864/Extent/volume-of-data>
+        rico:quantity  "4,18"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148563/Extent/volume-of-data>
+        rico:quantity  "5,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/126943/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1514332/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296787/Extent/volume-of-data>
+        rico:quantity  "200,52"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557599/Extent/volume-of-data>
+        rico:quantity  "240,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223276/Extent/volume-of-data>
+        rico:quantity  "24,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331963/Extent/volume-of-data>
+        rico:quantity  "177,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297821/Extent/volume-of-data>
+        rico:quantity  "290,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146116/Extent/volume-of-data>
+        rico:quantity  "438,51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297758/Extent/volume-of-data>
+        rico:quantity  "230,53"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125405/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146489/Extent/volume-of-data>
+        rico:quantity  "79,98"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119267/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1690287/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90394/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296443/Extent/volume-of-data>
+        rico:quantity  "209,24"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/190604/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297869/Extent/volume-of-data>
+        rico:quantity  "414,87"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331732/Extent/volume-of-data>
+        rico:quantity  "251,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/413161/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/932849/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297850/Extent/volume-of-data>
+        rico:quantity  "242,54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296636/Extent/volume-of-data>
+        rico:quantity  "10,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90587/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558701/Extent/volume-of-data>
+        rico:quantity  "410,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89869/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296554/Extent/volume-of-data>
+        rico:quantity  "332,20"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90396/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1430793/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132989/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/190606/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296448/Extent/volume-of-data>
+        rico:quantity  "1160,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1147446/Extent/volume-of-data>
+        rico:quantity  "40,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89966/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146256/Extent/volume-of-data>
+        rico:quantity  "159,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296747/Extent/volume-of-data>
+        rico:quantity  "448,32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/922998/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145478/Extent/volume-of-data>
+        rico:quantity  "80,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/392561/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/138348/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90398/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558691/Extent/volume-of-data>
+        rico:quantity  "1010,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558667/Extent/volume-of-data>
+        rico:quantity  "50,29"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555572/Extent/volume-of-data>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/222316/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558149/Extent/volume-of-data>
+        rico:quantity  "641,89"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/202875/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1504847/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331735/Extent/volume-of-data>
+        rico:quantity  "2,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119873/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148552/Extent/volume-of-data>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296776/Extent/volume-of-data>
+        rico:quantity  "2,91"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1181203/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332368/Extent/volume-of-data>
+        rico:quantity  "537,62"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125964/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119443/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1195197/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223265/Extent/volume-of-data>
+        rico:quantity  "45,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297771/Extent/volume-of-data>
+        rico:quantity  "289,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/251413/Extent/linear-meters>
+        rico:quantity  "12,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/610180/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119252/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/499590/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145327/Extent/volume-of-data>
+        rico:quantity  "368,73"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146478/Extent/volume-of-data>
+        rico:quantity  "765,22"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557545/Extent/volume-of-data>
+        rico:quantity  "32,50"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332243/Extent/volume-of-data>
+        rico:quantity  "9,16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555577/Extent/volume-of-data>
+        rico:quantity  "4,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558178/Extent/volume-of-data>
+        rico:quantity  "292,25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297882/Extent/volume-of-data>
+        rico:quantity  "100,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/740925/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331721/Extent/volume-of-data>
+        rico:quantity  "20,13"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119254/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331981/Extent/volume-of-data>
+        rico:quantity  "283,54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558694/Extent/volume-of-data>
+        rico:quantity  "409,61"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/554873/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1542882/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132256/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/116435/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/376937/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129970/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145313/Extent/volume-of-data>
+        rico:quantity  "175,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119447/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555602/Extent/volume-of-data>
+        rico:quantity  "1070,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296437/Extent/volume-of-data>
+        rico:quantity  "185,91"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119256/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89856/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146245/Extent/volume-of-data>
+        rico:quantity  "9,88"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332010/Extent/volume-of-data>
+        rico:quantity  "377,64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145491/Extent/volume-of-data>
+        rico:quantity  "11,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145506/Extent/volume-of-data>
+        rico:quantity  "454,07"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297094/Extent/volume-of-data>
+        rico:quantity  "366,91"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331726/Extent/volume-of-data>
+        rico:quantity  "209,11"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/120597/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89905/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297408/Extent/volume-of-data>
+        rico:quantity  "6,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297393/Extent/volume-of-data>
+        rico:quantity  "443,34"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297844/Extent/volume-of-data>
+        rico:quantity  "256,55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/202668/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/128050/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146913/Extent/volume-of-data>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558680/Extent/volume-of-data>
+        rico:quantity  "36,43"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558656/Extent/volume-of-data>
+        rico:quantity  "152,19"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331919/Extent/volume-of-data>
+        rico:quantity  "131,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296572/Extent/volume-of-data>
+        rico:quantity  "13,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543394/Extent/volume-of-data>
+        rico:quantity  "161,19"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296548/Extent/volume-of-data>
+        rico:quantity  "56,26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558162/Extent/volume-of-data>
+        rico:quantity  "1340,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89858/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/738288/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543351/Extent/volume-of-data>
+        rico:quantity  "835,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296765/Extent/volume-of-data>
+        rico:quantity  "804,77"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332015/Extent/volume-of-data>
+        rico:quantity  "530,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297760/Extent/volume-of-data>
+        rico:quantity  "438,19"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145340/Extent/volume-of-data>
+        rico:quantity  "418,83"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146491/Extent/volume-of-data>
+        rico:quantity  "148,69"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145277/Extent/volume-of-data>
+        rico:quantity  "20,63"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/257065/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558167/Extent/volume-of-data>
+        rico:quantity  "939,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1421395/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331729/Extent/volume-of-data>
+        rico:quantity  "22,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89935/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1058132/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1039560/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296833/Extent/volume-of-data>
+        rico:quantity  "22,65"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296794/Extent/volume-of-data>
+        rico:quantity  "264,45"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1542963/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332386/Extent/volume-of-data>
+        rico:quantity  "513,53"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89983/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1598465/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223259/Extent/volume-of-data>
+        rico:quantity  "492,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297765/Extent/volume-of-data>
+        rico:quantity  "360,60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/267398/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/453451/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145345/Extent/volume-of-data>
+        rico:quantity  "121,60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557602/Extent/volume-of-data>
+        rico:quantity  "114,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557539/Extent/volume-of-data>
+        rico:quantity  "17,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/126966/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89937/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/80084/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296450/Extent/volume-of-data>
+        rico:quantity  "655,21"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89985/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/268698/Extent/volume-of-data>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145480/Extent/volume-of-data>
+        rico:quantity  "11,51"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/546171/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297382/Extent/volume-of-data>
+        rico:quantity  "207,25"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/127741/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558688/Extent/volume-of-data>
+        rico:quantity  "1140,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1087518/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1537745/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145374/Extent/volume-of-data>
+        rico:quantity  "118,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89939/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90466/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558151/Extent/volume-of-data>
+        rico:quantity  "397,31"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89987/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296455/Extent/volume-of-data>
+        rico:quantity  "547,49"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1026365/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296754/Extent/volume-of-data>
+        rico:quantity  "393,06"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332370/Extent/volume-of-data>
+        rico:quantity  "243,44"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129337/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/950576/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145485/Extent/volume-of-data>
+        rico:quantity  "461,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1707930/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/513246/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297387/Extent/volume-of-data>
+        rico:quantity  "1090,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/137932/Extent/linear-meters>
+        rico:quantity  "12,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146480/Extent/volume-of-data>
+        rico:quantity  "464,19"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90468/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558674/Extent/volume-of-data>
+        rico:quantity  "605,83"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/377557/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543427/Extent/volume-of-data>
+        rico:quantity  "45,89"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558156/Extent/volume-of-data>
+        rico:quantity  "239,95"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/637613/Extent/linear-meters>
+        rico:quantity  "10,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89798/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/410607/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129339/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543345/Extent/volume-of-data>
+        rico:quantity  "1,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/135121/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332375/Extent/volume-of-data>
+        rico:quantity  "131,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1322334/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145529/Extent/volume-of-data>
+        rico:quantity  "631,81"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90401/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132993/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297754/Extent/volume-of-data>
+        rico:quantity  "38,33"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1086249/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146485/Extent/volume-of-data>
+        rico:quantity  "1,55"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297412/Extent/volume-of-data>
+        rico:quantity  "53,32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/626105/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557528/Extent/volume-of-data>
+        rico:quantity  "39,29"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1430703/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89827/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557446/Extent/volume-of-data>
+        rico:quantity  "6,64"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129320/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1254313/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119275/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/188688/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296827/Extent/volume-of-data>
+        rico:quantity  "921,41"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297865/Extent/volume-of-data>
+        rico:quantity  "96,08"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296788/Extent/volume-of-data>
+        rico:quantity  "228,03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/132038/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1430417/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146117/Extent/volume-of-data>
+        rico:quantity  "200,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1265153/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/307545/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89972/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331921/Extent/volume-of-data>
+        rico:quantity  "12,44"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/740852/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89829/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557557/Extent/volume-of-data>
+        rico:quantity  "136,32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297740/Extent/volume-of-data>
+        rico:quantity  "673,77"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90595/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1144257/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145320/Extent/volume-of-data>
+        rico:quantity  "584,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125798/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119277/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1434720/Extent/volume-of-data>
+        rico:quantity  "2333,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89830/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/863796/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296444/Extent/volume-of-data>
+        rico:quantity  "213,37"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/95393/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146252/Extent/volume-of-data>
+        rico:quantity  "33,92"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331733/Extent/volume-of-data>
+        rico:quantity  "827,99"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297415/Extent/volume-of-data>
+        rico:quantity  "51,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297851/Extent/volume-of-data>
+        rico:quantity  "235,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331950/Extent/volume-of-data>
+        rico:quantity  "1410,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90597/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145368/Extent/volume-of-data>
+        rico:quantity  "7,24"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1022041/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558702/Extent/volume-of-data>
+        rico:quantity  "986,32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146103/Extent/volume-of-data>
+        rico:quantity  "138,54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/137631/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90071/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1084927/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/200044/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296449/Extent/volume-of-data>
+        rico:quantity  "1200,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296772/Extent/volume-of-data>
+        rico:quantity  "304,28"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/636922/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146257/Extent/volume-of-data>
+        rico:quantity  "151,34"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332364/Extent/volume-of-data>
+        rico:quantity  "62,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/91947/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223261/Extent/volume-of-data>
+        rico:quantity  "18,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/127779/Extent/linear-meters>
+        rico:quantity  "124,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90599/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89785/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146214/Extent/volume-of-data>
+        rico:quantity  "91,28"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146175/Extent/volume-of-data>
+        rico:quantity  "414,89"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90073/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1191852/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297401/Extent/volume-of-data>
+        rico:quantity  "6,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119260/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119021/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555573/Extent/volume-of-data>
+        rico:quantity  "23,26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90457/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/118727/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1069184/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/134623/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297854/Extent/volume-of-data>
+        rico:quantity  "240,81"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296777/Extent/volume-of-data>
+        rico:quantity  "2,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332369/Extent/volume-of-data>
+        rico:quantity  "1110,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/124627/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/136287/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1414172/Extent/linear-meters>
+        rico:quantity  "1,90"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296582/Extent/volume-of-data>
+        rico:quantity  "10,04"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119262/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89862/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119023/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145328/Extent/volume-of-data>
+        rico:quantity  "192,42"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1253910/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557570/Extent/volume-of-data>
+        rico:quantity  "133,71"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332244/Extent/volume-of-data>
+        rico:quantity  "289,46"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/984439/Extent/linear-meters>
+        rico:quantity  "4,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555578/Extent/volume-of-data>
+        rico:quantity  "1520,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1098186/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148146/Extent/volume-of-data>
+        rico:quantity  "14,26"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119455/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/232805/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297883/Extent/volume-of-data>
+        rico:quantity  "383,98"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/511719/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/618841/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331722/Extent/volume-of-data>
+        rico:quantity  "226,72"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1148917/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/233482/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/858370/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297840/Extent/volume-of-data>
+        rico:quantity  "70,85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1159469/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89961/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332160/Extent/volume-of-data>
+        rico:quantity  "13,60"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/119457/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1539745/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/136701/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129311/Extent/linear-meters>
+        rico:quantity  "5,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296438/Extent/volume-of-data>
+        rico:quantity  "169,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1149261/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146246/Extent/volume-of-data>
+        rico:quantity  "521,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296737/Extent/volume-of-data>
+        rico:quantity  "0,01"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90393/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297095/Extent/volume-of-data>
+        rico:quantity  "360,47"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/120847/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331727/Extent/volume-of-data>
+        rico:quantity  "861,97"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/902979/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297845/Extent/volume-of-data>
+        rico:quantity  "253,54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89963/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146914/Extent/volume-of-data>
+        rico:quantity  "100,78"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/848738/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558657/Extent/volume-of-data>
+        rico:quantity  "319,48"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543395/Extent/volume-of-data>
+        rico:quantity  "70,35"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296549/Extent/volume-of-data>
+        rico:quantity  "0,01"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129313/Extent/linear-meters>
+        rico:quantity  "12,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558163/Extent/volume-of-data>
+        rico:quantity  "4330,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89868/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/217905/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/734945/Extent/linear-meters>
+        rico:quantity  "44,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1157570/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543352/Extent/volume-of-data>
+        rico:quantity  "514,08"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90395/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543328/Extent/volume-of-data>
+        rico:quantity  "29,41"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296790/Extent/volume-of-data>
+        rico:quantity  "236,39"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/192438/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296766/Extent/volume-of-data>
+        rico:quantity  "66,02"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/228218/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/79898/Extent/linear-meters>
+        rico:quantity  "5,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1212969/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/898192/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297761/Extent/volume-of-data>
+        rico:quantity  "1009,88"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/394872/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90588/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/204036/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558686/Extent/volume-of-data>
+        rico:quantity  "172,54"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555606/Extent/volume-of-data>
+        rico:quantity  "210,38"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/90397/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558168/Extent/volume-of-data>
+        rico:quantity  "54,75"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/629714/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146230/Extent/volume-of-data>
+        rico:quantity  "78,67"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/186925/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296834/Extent/volume-of-data>
+        rico:quantity  "21,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296795/Extent/volume-of-data>
+        rico:quantity  "276,40"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1012158/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297848/Extent/volume-of-data>
+        rico:quantity  "1140,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332387/Extent/volume-of-data>
+        rico:quantity  "388,33"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296576/Extent/volume-of-data>
+        rico:quantity  "26,36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297766/Extent/volume-of-data>
+        rico:quantity  "107,03"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125963/Extent/linear-meters>
+        rico:quantity  "8,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145370/Extent/volume-of-data>
+        rico:quantity  "329,08"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/129343/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557603/Extent/volume-of-data>
+        rico:quantity  "108,76"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1530213/Extent/linear-meters>
+        rico:quantity  "3,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1222682/Extent/linear-meters>
+        rico:quantity  "4,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332238/Extent/volume-of-data>
+        rico:quantity  "308,58"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296451/Extent/volume-of-data>
+        rico:quantity  "643,36"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1147425/Extent/volume-of-data>
+        rico:quantity  "582,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1479223/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297877/Extent/volume-of-data>
+        rico:quantity  "9,16"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331716/Extent/volume-of-data>
+        rico:quantity  "1009,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1091140/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/740924/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1401122/Extent/volume-of-data>
+        rico:quantity  "1784,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89853/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/902678/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558670/Extent/volume-of-data>
+        rico:quantity  "211,34"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1146110/Extent/volume-of-data>
+        rico:quantity  "94,49"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/125706/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/507644/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296456/Extent/volume-of-data>
+        rico:quantity  "754,28"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/203582/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296755/Extent/volume-of-data>
+        rico:quantity  "482,32"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145525/Extent/volume-of-data>
+        rico:quantity  "68,05"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/740926/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145486/Extent/volume-of-data>
+        rico:quantity  "292,70"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/203631/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/127849/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557591/Extent/volume-of-data>
+        rico:quantity  "2020,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297388/Extent/volume-of-data>
+        rico:quantity  "52,44"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/981229/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/819487/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1555580/Extent/volume-of-data>
+        rico:quantity  "606,62"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89999/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1543428/Extent/volume-of-data>
+        rico:quantity  "57,83"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1558157/Extent/volume-of-data>
+        rico:quantity  "236,56"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/905192/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1409546/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297861/Extent/volume-of-data>
+        rico:quantity  "560,52"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1296784/Extent/volume-of-data>
+        rico:quantity  "329,17"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/584696/Extent/linear-meters>
+        rico:quantity  "0,30"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1331960/Extent/volume-of-data>
+        rico:quantity  "31,66"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1223249/Extent/volume-of-data>
+        rico:quantity  "4,80"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/127926/Extent/linear-meters>
+        rico:quantity  "12,00"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1297755/Extent/volume-of-data>
+        rico:quantity  "36,93"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1145335/Extent/volume-of-data>
+        rico:quantity  "22,52"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1557529/Extent/volume-of-data>
+        rico:quantity  "11,24"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/89980/Extent/linear-meters>
+        rico:quantity  "0,10"^^<http://www.w3.org/2001/XMLSchema#decimal> .
+
+<https://ld.staatsarchiv.bs.ch/Record/1332251/Extent/volume-of-data>
+        rico:quantity  "888,85"^^<http://www.w3.org/2001/XMLSchema#decimal> .
