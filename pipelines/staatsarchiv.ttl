@@ -26,19 +26,27 @@
     p:name "inputFilePattern";
     p:value "metadata/*.ttl"
   ], [ a p:Variable;
+    p:name "testdata";
+    p:value "testdata/*.ttl"
+  ], [ a p:Variable;
     p:name "sourceGraph";
     p:value "https://ld.staatsarchiv.bs.ch/graph/source"
-  ], [ a p:Variable;
+  ],
+  [ a p:Variable;
     p:name "sinkGraph";
     p:value "https://ld.staatsarchiv.bs.ch/graph/ais-metadata"
   ].
 
-<main> a p:Pipeline, p:Readable;
+<main> a p:Pipeline;
   p:variables <defaultVars>;
   p:steps [
     p:stepList (
-      <mergeInputs>
+      <mergeInputsLocal>
+      <fixDecimal>
+      <transformQuads>
+      <flatten>
       <serialize>
+      <save>
     )
   ].
 
@@ -73,6 +81,16 @@
     )
   ].
 
+<getLocal> a p:Pipeline, p:ReadableObjectMode;
+  p:variables <defaultVars>;
+  p:steps [
+    p:stepList (
+      <listTurtleFilesLocal>
+      <forEachTurtleFile>
+      <timestamp>
+    )
+  ].
+
 <getStore> a p:Pipeline, p:ReadableObjectMode;
   p:variables <defaultVars>;
   p:steps [
@@ -100,6 +118,15 @@
   code:arguments [
     code:name "pattern";
     code:value "inputFilePattern"^^p:VariableName
+  ].
+
+<listTurtleFilesLocal> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-base#glob>
+  ];
+  code:arguments [
+    code:name "pattern";
+    code:value "testdata"^^p:VariableName
   ].
 
 <forEachTurtleFile> a p:Step;
@@ -139,6 +166,14 @@
   code:arguments     ( 
     <static>
     <getStore>
+  ) .
+
+<mergeInputsLocal> a p:Step ;
+  code:implementedBy [ a code:EcmaScript ;
+  code:link <node:barnard59-base#concat.object> ] ;
+  code:arguments     ( 
+    <static>
+    <getLocal>
   ) .
 
 <setSinkGraph> a p:Step;
@@ -195,6 +230,47 @@
     ];
   code:arguments ("scope.nt"^^code:EcmaScriptTemplateLiteral).
 
+<fixQuads> a p:Step ;
+  code:implementedBy [ a code:EcmaScript ;
+    code:link <node:barnard59-base#map>  
+  ] ;
+  code:arguments ( [ a code:EcmaScript ;
+                    code:link <file:../lib/fix#fixDecimal>
+                    ] )
+  .
+
+<gYear> a p:Step ;
+  code:implementedBy [
+    code:link <node:barnard59-base#map> ;
+    a code:EcmaScript
+  ];
+  code:arguments ("""
+    quad => {
+      const rdf = require('rdf-ext')
+      const gYear = RegExp(/^\\d{4}$/)
+
+      if (quad.predicate.equals(rdf.namedNode('http://www.w3.org/2004/02/skos/core#prefLabel')) && gYear.test(quad.object.value)) {
+        return rdf.quad(quad.subject, rdf.namedNode('https://finance.ld.admin.ch/bundesbudget/dimension/year'), rdf.literal(quad.object.value, rdf.namedNode('http://www.w3.org/2001/XMLSchema#gYear')))
+      }
+  
+      return quad
+    }
+  """^^code:EcmaScript) .
+
+# step to transform dates (?)
+<transformQuads> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+  code:link <node:barnard59-base#map>
+  ];
+  code:arguments ( [ a code:EcmaScript ;
+                       code:link <file:../lib/quads#transformQuads>
+                       ] ).
+
+<flatten> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+    code:link <node:barnard59-base#flatten>;
+  ].
+
 <fixDecimal> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
         code:link <node:barnard59-base#map>
@@ -205,8 +281,7 @@
             return rdf.quad(quad.subject, quad.predicate, rdf.literal(quad.object.value.replace(',', '.'), rdf.namedNode('http://www.w3.org/2001/XMLSchema#decimal')))
         }
         return quad
-    }"""^^code:EcmaScript)
-    .
+    }"""^^code:EcmaScript).
 
 <timestamp> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
