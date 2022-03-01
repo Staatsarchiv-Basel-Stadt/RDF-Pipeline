@@ -42,6 +42,7 @@
   p:steps [
     p:stepList (
       <mergeInputsLocal>
+      #<transformLiterals>
       <fixDecimal>
       <transformQuads>
       <flatten>
@@ -282,6 +283,14 @@
         }
         return quad
     }"""^^code:EcmaScript).
+
+<transformLiterals> a p:Step;
+  code:implementedBy [ a code:EcmaScript;
+  code:link <node:barnard59-base#map>
+  ];
+  code:arguments ( [ a code:EcmaScript ;
+                       code:link <file:../lib/quads#transformLiterals>
+                       ] ).
 
 <timestamp> a p:Step;
 	code:implementedBy [ a code:EcmaScript;
