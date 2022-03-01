@@ -15,26 +15,6 @@
         rdf:type            rico:Date ;
         rico:expressedDate  "1843" .
 
-<https://ld.staatsarchiv.bs.ch/Record/127373/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1750-1969" .
-
-<https://ld.staatsarchiv.bs.ch/Record/125966/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1802-2018" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119267/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1636-1660" .
-
-<https://ld.staatsarchiv.bs.ch/Record/96123/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1858-2001" .
-
-<https://ld.staatsarchiv.bs.ch/Record/127421/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1858-1936" .
-
 <https://ld.staatsarchiv.bs.ch/Record/89823/Date>
         rdf:type            rico:Date ;
         rico:expressedDate  "1804" .
@@ -43,37 +23,6 @@
         rdf:type            rico:Date ;
         rico:expressedDate  "1886-1995" .
 
-<https://ld.staatsarchiv.bs.ch/Record/132013/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1357-1975" .
-
-<https://ld.staatsarchiv.bs.ch/Record/89933/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1793-1797" .
-
-<https://ld.staatsarchiv.bs.ch/Record/90588/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1477-1498" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120584/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1807-1857" .
-
-<https://ld.staatsarchiv.bs.ch/Record/131822/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1893-1896" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119824/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1829" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120116/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1498-1727" .
-
-<https://ld.staatsarchiv.bs.ch/Record/132343/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1822-1946" .
 
 <https://ld.staatsarchiv.bs.ch/Record/120589/Date>
         rdf:type            rico:Date ;
@@ -1335,121 +1284,9 @@
         rdf:type            rico:Date ;
         rico:expressedDate  "1940 (ca.)-1951" .
 
-<https://ld.staatsarchiv.bs.ch/Record/132352/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1895-1993" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120598/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1785-1845" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120560/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1861-1938" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119838/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1891-2000" .
-
-<https://ld.staatsarchiv.bs.ch/Record/132572/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1851-1980" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120080/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1751-1760" .
-
-<https://ld.staatsarchiv.bs.ch/Record/136282/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1917-1975" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119862/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1752" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119272/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1708" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120565/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1771-1977" .
-
-<https://ld.staatsarchiv.bs.ch/Record/127801/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1921 (ca.)" .
-
-<https://ld.staatsarchiv.bs.ch/Record/90206/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1428-1957" .
-
-<https://ld.staatsarchiv.bs.ch/Record/90641/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1749-1990" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119867/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1569" .
-
-<https://ld.staatsarchiv.bs.ch/Record/203574/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1923-2003" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119277/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1906-1936" .
-
-<https://ld.staatsarchiv.bs.ch/Record/89833/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1537-1551" .
-
-<https://ld.staatsarchiv.bs.ch/Record/127806/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1786-1816" .
-
-<https://ld.staatsarchiv.bs.ch/Record/129913/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1889-1958" .
-
 <https://ld.staatsarchiv.bs.ch/Record/79909/Date>
         rdf:type            rico:Date ;
         rico:expressedDate  "1760 (ca.)-2000 (ca.)" .
-
-<https://ld.staatsarchiv.bs.ch/Record/132023/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1863-1956" .
-
-<https://ld.staatsarchiv.bs.ch/Record/89943/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1796-1830" .
-
-<https://ld.staatsarchiv.bs.ch/Record/136323/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1758-2006" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120594/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1733-1863" .
-
-<https://ld.staatsarchiv.bs.ch/Record/119024/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1661-1866" .
-
-<https://ld.staatsarchiv.bs.ch/Record/126024/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1933-1992" .
-
-<https://ld.staatsarchiv.bs.ch/Record/90345/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1583-1997" .
-
-<https://ld.staatsarchiv.bs.ch/Record/120126/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1806-1815" .
-
-<https://ld.staatsarchiv.bs.ch/Record/89862/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1565-1796" .
 
 <https://ld.staatsarchiv.bs.ch/Record/132028/Date>
         rdf:type            rico:Date ;
@@ -3583,17 +3420,13 @@
         rdf:type            rico:Date ;
         rico:expressedDate  "1821" .
 
-<https://ld.staatsarchiv.bs.ch/Record/127800/Date>
+<https://ld.staatsarchiv.bs.ch/Record/100711/Date>
         rdf:type            rico:Date ;
-        rico:expressedDate  "1834-1869" .
+        rico:expressedDate  "1959-1984", "1965-1970", "1983-1984" .
 
-<https://ld.staatsarchiv.bs.ch/Record/136355/Date>
+<https://ld.staatsarchiv.bs.ch/Record/100716/Date>
         rdf:type            rico:Date ;
-        rico:expressedDate  "1849-1987" .
-
-<https://ld.staatsarchiv.bs.ch/Record/127382/Date>
-        rdf:type            rico:Date ;
-        rico:expressedDate  "1882-1931" .
+        rico:expressedDate  "1946-1983", "1946-1950", "1961", "1972-1983" .
 
 <https://ld.staatsarchiv.bs.ch/Record/121264/Date>
         rdf:type            rico:Date ;

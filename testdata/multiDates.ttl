@@ -1,0 +1,26 @@
+@prefix dc:      <http://purl.org/dc/elements/1.1/> .
+@prefix dct:     <http://purl.org/dc/terms/> .
+@prefix dcterm:  <http://purl.org/dc/terms/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl:     <http://www.w3.org/2002/07/owl#> .
+@prefix rdf:     <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:    <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rico:    <https://www.ica.org/standards/RiC/ontology#> .
+
+<https://ld.staatsarchiv.bs.ch/Record/100711/Date>
+        rdf:type            rico:Date ;
+        rico:expressedDate  "1959-1984
+
+1965-1970
+
+1983-1984" .
+
+<https://ld.staatsarchiv.bs.ch/Record/100716/Date>
+        rdf:type            rico:Date ;
+        rico:expressedDate  "1946-1983
+
+1946-1950
+
+1961
+
+1972-1983" .
