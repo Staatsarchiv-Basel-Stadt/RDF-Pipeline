@@ -66,8 +66,8 @@
     p:stepList (
       <mergeInputs>
       <fixDecimal>
-      <transformQuads>
-      <flatten>
+      #<transformQuads>
+      #<flatten>
       <serialize>
       <save>
     )
