@@ -25,19 +25,17 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 
 <https://ld.bs.ch/.well-known/void> a void:DatasetDescription;
     foaf:topic <catalog/basel/archival-catalog> ;
-    schema:hasPart <catalog/basel/archival-catalog> 
+    schema:hasPart <catalog/basel/archival-catalog>
     .
 
-<.well-known/void> a void:DatasetDescription ;
-    rdfs:label "Datensätze des Staatsarchivs Basel-Stadt"@de ;
-    rdfs:label "Datasets of the State Archives of Basel-Stadt"@en ;
-    schema:name "Datensätze des Staatsarchivs Basel-Stadt"@de ;    
-    schema:name "Datasets of the State Archives of Basel-Stadt"@en ;
-    dcterms:title "Datensätze des Staatsarchivs Basel-Stadt"@de ;
-    dcterms:title "Datasets of the State Archives of Basel-Stadt"@en ;
+<.well-known/void> a void:DatasetDescription, schema:DataCatalog ;
+    schema:name "Beschreibung des Datensätze des Staatsarchivs Basel-Stadt"@de ,
+                "Description of datasets of the State Archives of Basel-Stadt"@en ;
+    dcterms:title "Beschreibung des Datensätze des Staatsarchivs Basel-Stadt"@de, 
+                  "Description of datasets of the State Archives of Basel-Stadt"@en ;
     dcterms:creator <org/StABS> ;
     schema:hasPart <catalog/basel/archival-catalog> ;
-    foaf:primaryTopic <catalog/basel/archival-catalog> ;
+    foaf:primaryTopic <catalog/basel/archival-catalog>
     .
 
 ##
@@ -45,17 +43,16 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ##
 
 <org/zazuko> a schema:Corporation ;
-    rdfs:label "Zazuko GmbH" ;
-    schema:name "Zazuko GmbH" ;
-    rdfs:seeAlso wd:Q93230157 ;
-    schema:url <https://zazuko.com>
+    schema:name "Zazuko GmbH"@de, "Zazuko GmbH"@en ;
+    dcterms:title "Zazuko GmbH"@de, "Zazuko GmbH"@en ;
+    schema:url <https://zazuko.com> ;
+    owl:sameAs <https://ld.admin.ch/org/zazuko> ;
+    rdfs:seeAlso wd:Q93230157
     .
 
 <org/StABS> a schema:GovernmentOrganization ;
-    rdfs:label "Staatsarchiv Basel-Stadt"@de ;
-    rdfs:label "State Archives of Basel-Stadt"@en ;
-    schema:name "Staatsarchiv Basel-Stadt"@de ;
-    schema:name "State Archives of Basel-Stadt"@en ;
+    schema:name "Staatsarchiv Basel-Stadt"@de , "State Archives of Basel-Stadt"@en ;
+    dcterms:title "Staatsarchiv Basel-Stadt"@de , "State Archives of Basel-Stadt"@en ;
     schema:url <https://www.staatsarchiv.bs.ch> ;
     rdfs:seeAlso wd:Q56219654
     .
@@ -65,25 +62,25 @@ PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
 ##
 
 <sys/scopeArchiv> a schema:SoftwareApplication ;
-    rdfs:label "scopeArchiv" ;
     schema:name "scopeArchiv" ;
+    dcterms:title "scopeArchiv" ;
     schema:description "scopeArchiv™ ist eine umfassende Archivsoftware für öffentliche und private Archive."@de ;
+    dcterms:description "scopeArchiv™ ist eine umfassende Archivsoftware für öffentliche und private Archive."@de ;
     schema:url <https://www.scope.ch> ;
     rdfs:seeAlso wd:Q2260520
     .
 
 ##
-## Catalog
+## Dataset
 ## 
 
-<catalog/basel/archival-catalog> a dcat:Catalog, schema:DataCatalog, void:Dataset  ;
-    rdfs:label "Archivkatalog des Staatsarchivs Basel-Stadt"@de ; 
+<catalog/basel/archival-catalog> a schema:Dataset, void:Dataset  ;
     foaf:homepage <https://www.staatsarchiv.bs.ch/kataloge/archivkatalog.html> ;
     foaf:page <https://www.staatsarchiv.bs.ch> ;
     foaf:page <https://de.wikipedia.org/wiki/Staatsarchiv_Basel-Stadt> ;
-    schema:name "Archivkatalog des Staatsarchivs Basel-Stadt"@de ;
+    schema:name "Offene Daten des Archivkatalogs des Staatsarchivs Basel-Stadt"@de ;
     schema:description "Dieser Datensatz enthält die frei zugänglichen Inhalte des Archivkatalogs des Staatsarchiv Basel-Stadt in RDF (Vokabular: Records in Context)"@de ;
-    dcterms:title "Archivkatalog des Staatsarchivs Basel-Stadt" @de ;
+    dcterms:title "Offene Daten des Archivkatalogs des Staatsarchivs Basel-Stadt" @de ;
     dcterms:description "Dieser Datensatz enthält die frei zugänglichen Inhalte des Archivkatalogs des Staatsarchiv Basel-Stadt in RDF (Vokabular: Records in Context)"@de ;
     dcterms:contributor <org/zazuko> ;
     dcterms:creator <org/StABS> ;
