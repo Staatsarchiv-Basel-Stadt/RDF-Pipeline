@@ -9,9 +9,10 @@
     "stabs:file": "barnard59 run -v --pipeline=urn:pipeline:stabs/mainFile --format=text/turtle  --variable=SOURCE_ENDPOINT_URL=$SOURCE_ENDPOINT_URL --variable=SOURCE_ENDPOINT_USER=$SOURCE_ENDPOINT_USER --variable=SOURCE_ENDPOINT_PASSWORD=$SOURCE_ENDPOINT_PASSWORD pipelines/staatsarchiv.ttl",
     "stabs:store": "barnard59 run -v --pipeline=urn:pipeline:stabs/mainStore --format=text/turtle  --variable=SOURCE_ENDPOINT_URL=$SOURCE_ENDPOINT_URL --variable=SOURCE_ENDPOINT_USER=$SOURCE_ENDPOINT_USER --variable=SOURCE_ENDPOINT_PASSWORD=$SOURCE_ENDPOINT_PASSWORD --variable=SINK_ENDPOINT_URL=$SINK_ENDPOINT_URL pipelines/staatsarchiv.ttl",
     "mappingUpdate": "node shell/mappingUpdate.js",
-    "materialize": "node shell/materialize.js"
+    "materialize": "node shell/materialize.js",
+    "updateSource": "node shell/updateSource.js"
   },
-  "author": "Adrian Gschwend",
+  "author": "Adrian Gschwend, Oliver Schihin",
   "license": "MIT",
   "dependencies": {
     "@rdfjs/namespace": "^1.1.0",
