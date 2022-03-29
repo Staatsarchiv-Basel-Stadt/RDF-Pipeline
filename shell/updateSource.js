@@ -1,38 +1,31 @@
-/* Update source graph
-/  -------------------
-/  fix errors in date graphs
-*/
+// all required imports
+const fs = require('fs')
+const { Connection, query } = require('stardog')
+const queries = process.env.SPARQL_REPO || '/opt/StABS-sparqls'
 
-const fetch = require('node-fetch')
 
-const stardogUser = process.env.SOURCE_ENDPOINT_USER
-const stardogPassword = process.env.SOURCE_ENDPOINT_PASSWORD
-const database = process.env.SOURCE_ENDPOINT_DATABASE
 
-// update to choose only first date value
-const updateDate1 = `
-PREFIX rico: <https://www.ica.org/standards/RiC/ontology#>
-
-WITH <https://ld.staatsarchiv.bs.ch/graph/source>
-DELETE {?s rico:expressedDate ?o}
-INSERT {?s rico:expressedDate ?1Date}
-WHERE { 
-  ?s rico:expressedDate ?o .
-  filter regex(?o, '\r\n\r\n')
-  BIND (strbefore(?o, '\r\n\r\n') as ?1Date)
-}
-`
-
-function checkStatus (res) {
-  if (res.ok) { // res.status >= 200 && res.status < 300
-    console.log(`Update request successfully executed, got ${res.status}: ${res.statusText}`)
-    return res
-  } else {
-    console.log(`Could not update execute request, got ${res.status}: ${res.statusText}`)
+// configuration for stardog connection
+const config = {
+  stardog: {
+    user: process.env.SOURCE_ENDPOINT_USER || 'admin',
+    password: process.env.SOURCE_ENDPOINT_PASSWORD || 'admin',
+    endpoint: process.env.SOURCE_CONNECTIONSTRING || 'http://localhost:5820',
+    database: process.env.SOURCE_ENDPOINT_DATABASE || 'ais-dev'
   }
 }
 
-// do update query
-fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=${updateDate1}`)
-  .then(checkStatus)
-  .catch((err) => console.error(err))
+// read query from file content
+const queryData = fs.readFileSync(`${queries}/fixMultiDate.rq`, 'utf8')
+
+// create connection to Stardog
+const conn = new Connection({
+  username: config.stardog.user,
+  password: config.stardog.password,
+  endpoint: config.stardog.endpoint
+})
+
+query.execute(conn, config.stardog.database, queryData, 'application/sparql-results+json')
+  .then(({ status, statusText }) => {
+    console.log('Update query status: ', status, statusText)
+  });
