@@ -40,6 +40,10 @@ RUN git init \
   && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git \
   && git pull origin "${git_branch}"
 
+# Prepare for StABS SPARQL queries
+WORKDIR /opt/StABS-sparqls
+
+# Switch to main app directory
 WORKDIR /usr/src/app
 
 # Copy Configuration Files (from /credentials to whatever needed)
@@ -67,8 +71,9 @@ COPY lib/* ./lib/
 COPY metadata/* ./metadata/
 COPY testdata/* ./testdata/
 COPY shell ./shell
+COPY StABS-sparqls/* /opt/StABS-sparqls/
 
-WORKDIR /opt/StABS-scope2RDF
+#WORKDIR /opt/StABS-scope2RDF
 
 # Set Cron (Note that time is set to UTC!)
 #RUN cp /usr/share/zoneinfo/UTC /etc/localtime
