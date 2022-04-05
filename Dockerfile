@@ -13,7 +13,7 @@ RUN chmod 700 /root/.ssh
 ARG git_branch="development"
 ARG STARDOG_VERSION="7.8.2"
 
-# Add Things Nice To Have
+# Add things nice to have
 RUN rm -f /etc/vim/vimrc \
   && apt-get update \
   && apt-get install -y \
@@ -27,7 +27,7 @@ RUN rm -f /etc/vim/vimrc \
   curl \
   && rm -rf /var/lib/apt/lists/*
 
-# Install Stardog
+# Install stardog
 RUN curl http://packages.stardog.com/stardog.gpg.pub | apt-key add
 RUN echo "deb http://security.debian.org/debian-security stretch/updates main" >> /etc/apt/sources.list
 RUN echo "deb http://packages.stardog.com/deb/ stable main" >> /etc/apt/sources.list
@@ -43,41 +43,38 @@ RUN git init \
 # Switch to main app directory
 WORKDIR /usr/src/app
 
-# Copy Configuration Files (from /credentials to whatever needed)
+# Copy configuration files (from /credentials to whatever needed)
 COPY credentials/scope-virtual.properties ./credentials/scope-virtual.properties
 COPY credentials/netrc /root/.netrc
 COPY credentials/environment /etc/environment
 RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $line ; done }' >> /root/.bashrc
 
-# Copy Cron Jobs
+# Copy cron jobs
 RUN mkdir -p ./cron
 COPY cron/crontab-docker ./cron/
 COPY cron/cron-mappingUpdate.sh ./cron/
 COPY cron/cron-materialize.sh ./cron/
 COPY cron/cron-publish.sh ./cron/
 
-# Copy Scripts and Data
+# Copy scripts and data
 RUN  mkdir -p ./pipelines
 RUN  mkdir -p ./lib
 RUN  mkdir -p ./metadata
 RUN  mkdir -p ./testdata
 RUN  mkdir -p ./sparql
+
+# Install packages
 COPY package.json package-lock.json ./
 RUN  npm ci
+
+# Copy or link scripts and data
 COPY pipelines/staatsarchiv.ttl ./pipelines/
 COPY lib/* ./lib/
 COPY metadata/* ./metadata/
 COPY testdata/* ./testdata/
 COPY shell ./shell
-RUN  ln -s /opt/StABS-scope2RDF/sparql/* ./sparql 
+RUN  ln -s /opt/StABS-scope2RDF/sparql/*.rq ./sparql 
 
-#WORKDIR /opt/StABS-scope2RDF
-
-# Set Cron (Note that time is set to UTC!)
-#RUN cp /usr/share/zoneinfo/UTC /etc/localtime
-
-# Logs
-#RUN touch /var/log/cron.log
 # cron will log to stdout, as well as the cronjobs itself so no local logs that fill up
 CMD crontab /usr/src/app/cron/crontab-docker \
   && cron \
