@@ -40,9 +40,6 @@ RUN git init \
   && git remote add origin https://github.com/Staatsarchiv-Basel-Stadt/StABS-scope2RDF.git \
   && git pull origin "${git_branch}"
 
-# Prepare for StABS SPARQL queries
-WORKDIR /opt/StABS-sparqls
-
 # Switch to main app directory
 WORKDIR /usr/src/app
 
@@ -64,14 +61,15 @@ RUN  mkdir -p ./pipelines
 RUN  mkdir -p ./lib
 RUN  mkdir -p ./metadata
 RUN  mkdir -p ./testdata
+RUN  mkdir -p ./sparql
 COPY package.json package-lock.json ./
-RUN npm ci
+RUN  npm ci
 COPY pipelines/staatsarchiv.ttl ./pipelines/
 COPY lib/* ./lib/
 COPY metadata/* ./metadata/
 COPY testdata/* ./testdata/
 COPY shell ./shell
-COPY StABS-sparqls/* /opt/StABS-sparqls/
+RUN  ln -s /opt/StABS-scope2RDF/sparql/* ./sparql 
 
 #WORKDIR /opt/StABS-scope2RDF
 
