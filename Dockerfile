@@ -70,10 +70,10 @@ RUN  npm ci
 # Copy or link scripts and data
 COPY pipelines/staatsarchiv.ttl ./pipelines/
 COPY lib/* ./lib/
-COPY metadata/* ./metadata/
 COPY testdata/* ./testdata/
 COPY shell ./shell
-RUN  ln -s /opt/StABS-scope2RDF/sparql/*.rq ./sparql 
+RUN  ln -s /opt/StABS-scope2RDF/sparql/*.rq ./sparql
+RUN  ln -s /opt/StABS-scope2RDF/metadata/*.ttl ./metadata
 
 # cron will log to stdout, as well as the cronjobs itself so no local logs that fill up
 CMD crontab /usr/src/app/cron/crontab-docker \
