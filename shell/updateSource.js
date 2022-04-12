@@ -1,7 +1,7 @@
 // all required imports
 const fs = require('fs')
 const { Connection, query } = require('stardog')
-const queries = process.env.SPARQL_REPO || '/opt/StABS-sparqls'
+const queries = process.env.SPARQL_REPO || '/usr/src/app/sparql'
 
 
 
