@@ -3,8 +3,6 @@ const fs = require('fs')
 const { Connection, query } = require('stardog')
 const queries = process.env.SPARQL_REPO || '/usr/src/app/sparql'
 
-
-
 // configuration for stardog connection
 const config = {
   stardog: {
@@ -15,8 +13,9 @@ const config = {
   }
 }
 
-// read query from file content
-const queryData = fs.readFileSync(`${queries}/fixMultiDate.rq`, 'utf8')
+// read queries from file content
+const fixMultiDate = fs.readFileSync(`${queries}/fixMultiDate.rq`, 'utf8')
+const createInstantiation = fs.readFileSync(`${queries}/createInstantiation.rq`, 'utf8')
 
 // create connection to Stardog
 const conn = new Connection({
@@ -25,7 +24,14 @@ const conn = new Connection({
   endpoint: config.stardog.endpoint
 })
 
-query.execute(conn, config.stardog.database, queryData, 'application/sparql-results+json')
+// update 'fixMultiDate'
+query.execute(conn, config.stardog.database, fixMultiDate, 'application/sparql-results+json')
   .then(({ status, statusText }) => {
-    console.log('Update query status: ', status, statusText)
+    console.log('Update query status for fixMultiDate: ', status, statusText)
+  });
+
+// update 'createInstantiation'
+query.execute(conn, config.stardog.database, createInstantiation, 'application/sparql-results+json')
+  .then(({ status, statusText }) => {
+    console.log('Update query status for createInstantiation: ', status, statusText)
   });
