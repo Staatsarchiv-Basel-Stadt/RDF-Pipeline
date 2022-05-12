@@ -1,4 +1,4 @@
-5 21 * * 1-5 /usr/src/app/cron/cron-mappingUpdate.sh > /proc/1/fd/1 2>/proc/1/fd/2
-10 21 * * 1-5 /usr/src/app/cron/cron-materialize.sh > /proc/1/fd/1 2>/proc/1/fd/2
-50 21 * * 1-5 /usr/src/app/cron/cron-updateSource.sh > /proc/1/fd/1 2>/proc/1/fd/2
-50 22 * * 1-5 /usr/src/app/cron/cron-publish.sh > /proc/1/fd/1 2>/proc/1/fd/2
+5 21 * * 0-5 /usr/src/app/cron/cron-mappingUpdate.sh > /proc/1/fd/1 2>/proc/1/fd/2
+10 21 * * 0-5 /usr/src/app/cron/cron-materialize.sh > /proc/1/fd/1 2>/proc/1/fd/2
+50 21 * * 0-5 /usr/src/app/cron/cron-updateSource.sh > /proc/1/fd/1 2>/proc/1/fd/2
+50 22 * * 0-5 /usr/src/app/cron/cron-publish.sh > /proc/1/fd/1 2>/proc/1/fd/2
