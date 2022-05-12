@@ -51,6 +51,7 @@ RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $l
 
 # Copy cron jobs
 RUN mkdir -p ./cron
+COPY cron/crontab-docker ./cron/
 COPY cron/*.sh ./cron/
 
 # Copy scripts and data
