@@ -1,0 +1,3 @@
+20 20 * * * /usr/src/app/cron/cron-mappingUpdate.sh > /proc/1/fd/1 2>/proc/1/fd/2
+0 22 * * 1-5 /usr/src/app/cron/cron-materialize.sh > /proc/1/fd/1 2>/proc/1/fd/2
+15 1 * * * /usr/src/app/cron/cron-publish.sh > /proc/1/fd/1 2>/proc/1/fd/2
