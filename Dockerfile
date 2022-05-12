@@ -52,9 +52,7 @@ RUN echo 'bootstrapenv () { for line in $( cat /etc/environment ) ; do export $l
 # Copy cron jobs
 RUN mkdir -p ./cron
 COPY cron/crontab-docker ./cron/
-COPY cron/cron-mappingUpdate.sh ./cron/
-COPY cron/cron-materialize.sh ./cron/
-COPY cron/cron-publish.sh ./cron/
+COPY cron/*.sh ./cron/
 
 # Copy scripts and data
 RUN  mkdir -p ./pipelines
