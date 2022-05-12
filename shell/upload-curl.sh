@@ -39,6 +39,3 @@ do
   fi 
 
 done;
-
-#rm -rf input
-
