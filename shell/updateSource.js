@@ -16,6 +16,7 @@ const config = {
 // read queries from file content
 const fixMultiDate = fs.readFileSync(`${queries}/fixMultiDate.rq`, 'utf8')
 const createInstantiation = fs.readFileSync(`${queries}/createInstantiation.rq`, 'utf8')
+const deleteTriples = fs.readFileSync(`${queries}/deleteTriples.rq`, 'utf8')
 
 // create connection to Stardog
 const conn = new Connection({
@@ -34,4 +35,10 @@ query.execute(conn, config.stardog.database, fixMultiDate, 'application/sparql-r
 query.execute(conn, config.stardog.database, createInstantiation, 'application/sparql-results+json')
   .then(({ status, statusText }) => {
     console.log('Update query status for createInstantiation: ', status, statusText)
+  });
+
+// delete stuff 'deleteTriples'
+query.execute(conn, config.stardog.database, deleteTriples, 'application/sparql-results+json')
+  .then(({ status, statusText }) => {
+    console.log('Delete query status for deleteTriples: ', status, statusText)
   });
