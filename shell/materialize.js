@@ -8,7 +8,7 @@ const database = process.env.SOURCE_ENDPOINT_DATABASE
 
 const metadata = `
 INSERT  { GRAPH <https://ld.staatsarchiv.bs.ch/graph/source> {
-  <https://ld.staatsarchiv.bs.ch/catalog/basel/archival-catalog> <http://purl.org/dc/terms/issued> ?issued .
+  <https://ld.bs.ch/set/archival-catalog> <http://purl.org/dc/terms/issued> ?issued .
 }}  WHERE {
   BIND( NOW() as ?issued)
 }
@@ -24,8 +24,8 @@ function checkStatus (res) {
 }
 
 // According to UPDATE spec: The COPY operation is a shortcut for inserting all data from an input graph into a destination graph. Data from the input graph is not affected, but data from the destination graph, if any, is removed before insertion.
-fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
+fetch(`http://${stardogUser}:${stardogPassword}@${SOURCE_HOSTNAME}:${SOURCE_HOSTPORT}/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
   .then(checkStatus)
-  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@pdstasvogdp:8081/${database}/update?query=${metadata}`))
+  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@${SOURCE_HOSTNAME}:${SOURCE_HOSTPORT}/${database}/update?query=${metadata}`))
   .then(checkStatus)
   .catch((err) => console.error(err))
