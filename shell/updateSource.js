@@ -1,7 +1,9 @@
 // all required imports
-const fs = require('fs')
-const { Connection, query } = require('stardog')
+import { readFileSync } from 'fs'
+import Stardog from 'stardog'
 const queries = process.env.SPARQL_REPO || '/usr/src/app/sparql'
+
+const { Connection, query } = Stardog;
 
 // configuration for stardog connection
 const config = {
@@ -14,9 +16,9 @@ const config = {
 }
 
 // read queries from file content
-const fixMultiDate = fs.readFileSync(`${queries}/fixMultiDate.rq`, 'utf8')
-const createInstantiation = fs.readFileSync(`${queries}/createInstantiation.rq`, 'utf8')
-const deleteTriples = fs.readFileSync(`${queries}/deleteTriples.rq`, 'utf8')
+const fixMultiDate = readFileSync(`${queries}/fixMultiDate.rq`, 'utf8')
+const createInstantiation = readFileSync(`${queries}/createInstantiation.rq`, 'utf8')
+const deleteTriples = readFileSync(`${queries}/deleteTriples.rq`, 'utf8')
 
 // create connection to Stardog
 const conn = new Connection({

@@ -1,11 +1,14 @@
+// all required imports
+import { readFileSync } from 'fs'
+import propertiesReader from 'properties-reader'
+import SimpleGit from 'simple-git'
+import Stardog from 'stardog'
+
+const { Connection, virtualGraphs } = Stardog;
+
 // this repo should live in the docker container
 const gitRepo = process.env.GIT_REPO || '/opt/StABS-scope2RDF'
-
-// all required imports
-const fs = require('fs')
-const propertiesReader = require('properties-reader')
-const simpleGit = require('simple-git')(gitRepo)
-const { Connection, virtualGraphs } = require('stardog')
+const simpleGit = SimpleGit(gitRepo)
 
 // all the configuration
 const config = {
@@ -26,7 +29,7 @@ const virtualGraphPropertiesReader = propertiesReader(`${process.cwd()}/credenti
 const virtualGraphProperties = virtualGraphPropertiesReader.getAllProperties()
 
 // try to read mapping file content
-const mappingsData = fs.readFileSync(`${gitRepo}/src-gen/mapping-stabs.r2rml.ttl`, 'utf8')
+const mappingsData = readFileSync(`${gitRepo}/src-gen/mapping-stabs.r2rml.ttl`, 'utf8')
 
 // create connection to Stardog
 const conn = new Connection({

@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "stabs:local": "barnard59 run -v --pipeline=urn:pipeline:stabs/main --format=text/turtle pipelines/staatsarchiv.ttl",
     "stabs:stdout": "barnard59 run -v --pipeline=urn:pipeline:stabs/main --format=text/turtle  --variable=SOURCE_ENDPOINT_URL=$SOURCE_ENDPOINT_URL --variable=SOURCE_ENDPOINT_USER=$SOURCE_ENDPOINT_USER --variable=SOURCE_ENDPOINT_PASSWORD=$SOURCE_ENDPOINT_PASSWORD pipelines/staatsarchiv.ttl",
@@ -34,7 +35,7 @@
     "shelljs-plugin-ssh": "^1.2.2",
     "simple-git": "^3.10.0",
     "ssh2": "^1.11.0",
-    "stardog": "^3.2.0",
+    "stardog": "^4.1.0",
     "unzipper": "^0.10.11"
   },
   "devDependencies": {
