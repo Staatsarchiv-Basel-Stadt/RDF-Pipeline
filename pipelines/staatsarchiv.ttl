@@ -114,8 +114,8 @@
   ].
 
 <listTurtleFiles> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-base#glob>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/glob.js#default>
   ];
   code:arguments [
     code:name "pattern";
@@ -123,8 +123,8 @@
   ].
 
 <listTurtleFilesLocal> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-base#glob>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/glob.js#default>
   ];
   code:arguments [
     code:name "pattern";
@@ -132,8 +132,8 @@
   ].
 
 <forEachTurtleFile> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-core#forEach>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/forEach.js#default>
   ];
   code:arguments (<readTurtle> "filename").
 
@@ -152,13 +152,13 @@
   code:arguments ("filename"^^p:VariableName).
 
 <parseTurtle> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
+  code:implementedBy [ a code:EcmaScriptModule;
     code:link <node:barnard59-formats/n3.js#parse>
   ];
   code:arguments (<parseMetadata>).
 
 <serialize> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
+  code:implementedBy [ a code:EcmaScriptModule;
     code:link <node:barnard59-formats/ntriples.js#serialize>
   ].
 
@@ -264,13 +264,13 @@
   code:implementedBy [ a code:EcmaScriptModule;
   code:link <node:barnard59-base/map.js#default>
   ];
-  code:arguments ( [ a code:EcmaScript ;
-                       code:link <file:../lib/quads#transformQuads>
+  code:arguments ( [ a code:EcmaScriptModule ;
+                       code:link <file:../lib/quads.js#default>
                        ] ).
 
 <flatten> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-base#flatten>;
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/flatten.js#default>;
   ].
 
 <fixDecimal> a p:Step;
