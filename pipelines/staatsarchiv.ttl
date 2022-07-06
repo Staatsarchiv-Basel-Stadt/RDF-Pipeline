@@ -179,21 +179,21 @@
   ) .
 
 <setSinkGraph> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-rdf/setGraph.js>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-rdf/setGraph.js#default>
   ];
   code:arguments ("${sinkGraph}"^^code:EcmaScriptTemplateLiteral).
 
 <setSourceGraph> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-rdf/setGraph.js>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-rdf/setGraph.js#default>
   ];
   code:arguments ("${sourceGraph}"^^code:EcmaScriptTemplateLiteral).
 
 # unused and obsolete step, would stream data to endpoint, now done through curl
 <graph-store-put> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-graph-store#put>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-graph-store/put.js#default>
   ];
   code:arguments [
     code:name "endpoint";
@@ -236,7 +236,7 @@
   code:implementedBy [ a code:EcmaScriptModule ;
     code:link <node:barnard59-base/map.js#default>
   ] ;
-  code:arguments ( [ a code:EcmaScript ;
+  code:arguments ( [ a code:EcmaScriptModule ;
                     code:link <file:../lib/fix#fixDecimal>
                     ] )
   .
