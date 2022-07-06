@@ -3,7 +3,7 @@ import { readFileSync } from 'fs'
 import Stardog from 'stardog'
 const queries = process.env.SPARQL_REPO || '/usr/src/app/sparql'
 
-const { Connection, query } = Stardog;
+const { Connection, query } = Stardog
 
 // configuration for stardog connection
 const config = {
@@ -31,16 +31,16 @@ const conn = new Connection({
 query.execute(conn, config.stardog.database, fixMultiDate, 'application/sparql-results+json')
   .then(({ status, statusText }) => {
     console.log('Update query status for fixMultiDate: ', status, statusText)
-  });
+  })
 
 // update 'createInstantiation'
 query.execute(conn, config.stardog.database, createInstantiation, 'application/sparql-results+json')
   .then(({ status, statusText }) => {
     console.log('Update query status for createInstantiation: ', status, statusText)
-  });
+  })
 
 // delete stuff 'deleteTriples'
 query.execute(conn, config.stardog.database, deleteTriples, 'application/sparql-results+json')
   .then(({ status, statusText }) => {
     console.log('Delete query status for deleteTriples: ', status, statusText)
-  });
+  })

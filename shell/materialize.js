@@ -24,6 +24,8 @@ const checkStatus = (res) => {
   }
 }
 
+// TODO: 'btoa' is deprecated, replace it
+// eslint-disable-next-line no-undef
 const basicAuth = btoa(`${stardogUser}:${stardogPassword}`)
 const headers = new Headers({
   Authorization: `Basic ${basicAuth}`

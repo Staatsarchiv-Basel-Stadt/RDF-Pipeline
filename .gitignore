@@ -3,3 +3,4 @@ credentials
 .DS_Store
 docker-compose.yml
 .project
+scope.nt

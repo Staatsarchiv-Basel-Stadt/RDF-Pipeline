@@ -4,7 +4,7 @@ import propertiesReader from 'properties-reader'
 import SimpleGit from 'simple-git'
 import Stardog from 'stardog'
 
-const { Connection, virtualGraphs } = Stardog;
+const { Connection, virtualGraphs } = Stardog
 
 // this repo should live in the docker container
 const gitRepo = process.env.GIT_REPO || '/opt/StABS-scope2RDF'
@@ -21,7 +21,7 @@ const config = {
     remote: process.env.git_remote || 'origin',
     branch: process.env.git_branch || 'development'
   },
-  forceUpdate: process.env.FORCE_UPDATE === "true" || false,
+  forceUpdate: process.env.FORCE_UPDATE === 'true' || false
 }
 
 // read virtual graph properties

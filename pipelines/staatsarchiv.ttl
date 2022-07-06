@@ -114,8 +114,8 @@
   ].
 
 <listTurtleFiles> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-base#glob>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/glob.js#default>
   ];
   code:arguments [
     code:name "pattern";
@@ -123,8 +123,8 @@
   ].
 
 <listTurtleFilesLocal> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-base#glob>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/glob.js#default>
   ];
   code:arguments [
     code:name "pattern";
@@ -132,8 +132,8 @@
   ].
 
 <forEachTurtleFile> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-core#forEach>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/forEach.js#default>
   ];
   code:arguments (<readTurtle> "filename").
 
@@ -152,48 +152,48 @@
   code:arguments ("filename"^^p:VariableName).
 
 <parseTurtle> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
+  code:implementedBy [ a code:EcmaScriptModule;
     code:link <node:barnard59-formats/n3.js#parse>
   ];
   code:arguments (<parseMetadata>).
 
 <serialize> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
+  code:implementedBy [ a code:EcmaScriptModule;
     code:link <node:barnard59-formats/ntriples.js#serialize>
   ].
 
 <mergeInputs> a p:Step ;
-  code:implementedBy [ a code:EcmaScript ;
-  code:link <node:barnard59-base#concat.object> ] ;
-  code:arguments     ( 
+  code:implementedBy [ a code:EcmaScriptModule ;
+  code:link <node:barnard59-base/concat.js#default> ] ;
+  code:arguments     (
     <static>
     <getStore>
   ) .
 
 <mergeInputsLocal> a p:Step ;
-  code:implementedBy [ a code:EcmaScript ;
-  code:link <node:barnard59-base#concat.object> ] ;
-  code:arguments     ( 
+  code:implementedBy [ a code:EcmaScriptModule ;
+  code:link <node:barnard59-base/concat.js#default> ] ;
+  code:arguments     (
     <static>
     <getLocal>
   ) .
 
 <setSinkGraph> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-rdf/setGraph.js>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-rdf/setGraph.js#default>
   ];
   code:arguments ("${sinkGraph}"^^code:EcmaScriptTemplateLiteral).
 
 <setSourceGraph> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-rdf/setGraph.js>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-rdf/setGraph.js#default>
   ];
   code:arguments ("${sourceGraph}"^^code:EcmaScriptTemplateLiteral).
 
 # unused and obsolete step, would stream data to endpoint, now done through curl
 <graph-store-put> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-graph-store#put>
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-graph-store/put.js#default>
   ];
   code:arguments [
     code:name "endpoint";
@@ -233,18 +233,18 @@
   code:arguments ("scope.nt"^^code:EcmaScriptTemplateLiteral).
 
 <fixQuads> a p:Step ;
-  code:implementedBy [ a code:EcmaScript ;
-    code:link <node:barnard59-base#map>  
+  code:implementedBy [ a code:EcmaScriptModule ;
+    code:link <node:barnard59-base/map.js#default>
   ] ;
-  code:arguments ( [ a code:EcmaScript ;
+  code:arguments ( [ a code:EcmaScriptModule ;
                     code:link <file:../lib/fix#fixDecimal>
                     ] )
   .
 
 <gYear> a p:Step ;
   code:implementedBy [
-    code:link <node:barnard59-base#map> ;
-    a code:EcmaScript
+    code:link <node:barnard59-base/map.js#default> ;
+    a code:EcmaScriptModule
   ];
   code:arguments ("""
     quad => {
@@ -254,28 +254,28 @@
       if (quad.predicate.equals(rdf.namedNode('http://www.w3.org/2004/02/skos/core#prefLabel')) && gYear.test(quad.object.value)) {
         return rdf.quad(quad.subject, rdf.namedNode('https://finance.ld.admin.ch/bundesbudget/dimension/year'), rdf.literal(quad.object.value, rdf.namedNode('http://www.w3.org/2001/XMLSchema#gYear')))
       }
-  
+
       return quad
     }
   """^^code:EcmaScript) .
 
 # step to transform dates (?)
 <transformQuads> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-  code:link <node:barnard59-base#map>
+  code:implementedBy [ a code:EcmaScriptModule;
+  code:link <node:barnard59-base/map.js#default>
   ];
-  code:arguments ( [ a code:EcmaScript ;
-                       code:link <file:../lib/quads#transformQuads>
+  code:arguments ( [ a code:EcmaScriptModule ;
+                       code:link <file:../lib/quads.js#default>
                        ] ).
 
 <flatten> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-    code:link <node:barnard59-base#flatten>;
+  code:implementedBy [ a code:EcmaScriptModule;
+    code:link <node:barnard59-base/flatten.js#default>;
   ].
 
 <fixDecimal> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
+	code:implementedBy [ a code:EcmaScriptModule;
+        code:link <node:barnard59-base/map.js#default>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
@@ -286,8 +286,8 @@
     }"""^^code:EcmaScript).
 
 <timestamp> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
+	code:implementedBy [ a code:EcmaScriptModule;
+        code:link <node:barnard59-base/map.js#default>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
@@ -300,8 +300,8 @@
     }"""^^code:EcmaScript).
 
 <forceTriple> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
+	code:implementedBy [ a code:EcmaScriptModule;
+        code:link <node:barnard59-base/map.js#default>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
