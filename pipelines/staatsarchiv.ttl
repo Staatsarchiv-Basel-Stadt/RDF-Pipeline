@@ -163,17 +163,17 @@
   ].
 
 <mergeInputs> a p:Step ;
-  code:implementedBy [ a code:EcmaScript ;
-  code:link <node:barnard59-base#concat.object> ] ;
-  code:arguments     ( 
+  code:implementedBy [ a code:EcmaScriptModule ;
+  code:link <node:barnard59-base/concat.js#default> ] ;
+  code:arguments     (
     <static>
     <getStore>
   ) .
 
 <mergeInputsLocal> a p:Step ;
-  code:implementedBy [ a code:EcmaScript ;
-  code:link <node:barnard59-base#concat.object> ] ;
-  code:arguments     ( 
+  code:implementedBy [ a code:EcmaScriptModule ;
+  code:link <node:barnard59-base/concat.js#default> ] ;
+  code:arguments     (
     <static>
     <getLocal>
   ) .
@@ -234,7 +234,7 @@
 
 <fixQuads> a p:Step ;
   code:implementedBy [ a code:EcmaScript ;
-    code:link <node:barnard59-base#map>  
+    code:link <node:barnard59-base#map>
   ] ;
   code:arguments ( [ a code:EcmaScript ;
                     code:link <file:../lib/fix#fixDecimal>
@@ -254,7 +254,7 @@
       if (quad.predicate.equals(rdf.namedNode('http://www.w3.org/2004/02/skos/core#prefLabel')) && gYear.test(quad.object.value)) {
         return rdf.quad(quad.subject, rdf.namedNode('https://finance.ld.admin.ch/bundesbudget/dimension/year'), rdf.literal(quad.object.value, rdf.namedNode('http://www.w3.org/2001/XMLSchema#gYear')))
       }
-  
+
       return quad
     }
   """^^code:EcmaScript) .
