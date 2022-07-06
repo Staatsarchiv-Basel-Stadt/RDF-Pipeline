@@ -233,8 +233,8 @@
   code:arguments ("scope.nt"^^code:EcmaScriptTemplateLiteral).
 
 <fixQuads> a p:Step ;
-  code:implementedBy [ a code:EcmaScript ;
-    code:link <node:barnard59-base#map>
+  code:implementedBy [ a code:EcmaScriptModule ;
+    code:link <node:barnard59-base/map.js#default>
   ] ;
   code:arguments ( [ a code:EcmaScript ;
                     code:link <file:../lib/fix#fixDecimal>
@@ -243,8 +243,8 @@
 
 <gYear> a p:Step ;
   code:implementedBy [
-    code:link <node:barnard59-base#map> ;
-    a code:EcmaScript
+    code:link <node:barnard59-base/map.js#default> ;
+    a code:EcmaScriptModule
   ];
   code:arguments ("""
     quad => {
@@ -261,8 +261,8 @@
 
 # step to transform dates (?)
 <transformQuads> a p:Step;
-  code:implementedBy [ a code:EcmaScript;
-  code:link <node:barnard59-base#map>
+  code:implementedBy [ a code:EcmaScriptModule;
+  code:link <node:barnard59-base/map.js#default>
   ];
   code:arguments ( [ a code:EcmaScript ;
                        code:link <file:../lib/quads#transformQuads>
@@ -274,8 +274,8 @@
   ].
 
 <fixDecimal> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
+	code:implementedBy [ a code:EcmaScriptModule;
+        code:link <node:barnard59-base/map.js#default>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
@@ -286,8 +286,8 @@
     }"""^^code:EcmaScript).
 
 <timestamp> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
+	code:implementedBy [ a code:EcmaScriptModule;
+        code:link <node:barnard59-base/map.js#default>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
@@ -300,8 +300,8 @@
     }"""^^code:EcmaScript).
 
 <forceTriple> a p:Step;
-	code:implementedBy [ a code:EcmaScript;
-        code:link <node:barnard59-base#map>
+	code:implementedBy [ a code:EcmaScriptModule;
+        code:link <node:barnard59-base/map.js#default>
     ];
     code:arguments ("""quad => {
         const rdf = require('rdf-ext')
