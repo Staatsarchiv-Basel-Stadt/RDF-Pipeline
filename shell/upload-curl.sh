@@ -36,6 +36,6 @@ do
       -T $file \
       -G $SINK_ENDPOINT_URL \
       --data-urlencode graph=https://ld.staatsarchiv.bs.ch/graph/ais-metadata
-  fi 
+  fi
 
 done;
