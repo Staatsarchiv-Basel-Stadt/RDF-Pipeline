@@ -63,7 +63,7 @@ RUN  mkdir -p ./sparql
 
 # Install packages
 COPY package.json package-lock.json ./
-RUN  npm ci
+RUN  npm --no-audit ci
 
 # Copy or link scripts and data
 COPY pipelines/staatsarchiv.ttl ./pipelines/
