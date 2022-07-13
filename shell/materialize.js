@@ -4,6 +4,8 @@ const fetch = require('node-fetch')
 const stardogUser = process.env.SOURCE_ENDPOINT_USER
 const stardogPassword = process.env.SOURCE_ENDPOINT_PASSWORD
 const database = process.env.SOURCE_ENDPOINT_DATABASE
+const source_hostName = process.env.SOURCE_HOSTNAME
+const source_hostPort = process.env.SOURCE_HOSTPORT
 
 
 const metadata = `
@@ -24,8 +26,8 @@ function checkStatus (res) {
 }
 
 // According to UPDATE spec: The COPY operation is a shortcut for inserting all data from an input graph into a destination graph. Data from the input graph is not affected, but data from the destination graph, if any, is removed before insertion.
-fetch(`http://${stardogUser}:${stardogPassword}@${SOURCE_HOSTNAME}:${SOURCE_HOSTPORT}/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
+fetch(`http://${stardogUser}:${stardogPassword}@${source_hostName}:${source_hostPort}/${database}/update?query=COPY <virtual://scope-virtual> TO <https://ld.staatsarchiv.bs.ch/graph/source>`)
   .then(checkStatus)
-  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@${SOURCE_HOSTNAME}:${SOURCE_HOSTPORT}/${database}/update?query=${metadata}`))
+  .then(() => fetch(`http://${stardogUser}:${stardogPassword}@${source_hostName}:${source_hostPort}/${database}/update?query=${metadata}`))
   .then(checkStatus)
   .catch((err) => console.error(err))
