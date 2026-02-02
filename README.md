@@ -1,3 +1,7 @@
+# ARCHIVIERT FEBRUAR 2026
+
+Funktional seit 2023 abgelöst von [LOD-Pipeline](https://github.com/Staatsarchiv-Basel-Stadt/LOD-Pipeline)
+
 # Staatsarchiv-BS Linked Data
 
 This repository builds a docker-container for Staatsarchiv Basel Stadt.
