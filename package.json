@@ -34,7 +34,7 @@
     "shelljs-plugin-ssh": "^1.2.2",
     "simple-git": "^3.4.0",
     "ssh2": "^1.4.0",
-    "stardog": "^3.2.0",
+    "stardog": "^3.7.0",
     "unzipper": "^0.9.15"
   },
   "devDependencies": {
